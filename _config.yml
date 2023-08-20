@@ -27,6 +27,7 @@ color_scheme: myscheme
 search_enabled: true
 heading_anchors: true
 permalink: pretty
+enable_copy_code_button: true
 aux_links:
   # Kevin Lin:
   #   - 'https://kevinl.info'
