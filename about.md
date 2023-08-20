@@ -4,6 +4,7 @@ title: About
 description: >-
     Course policies and information.
 nav_exclude: true
+search_exclude: true
 ---
 
 # About
