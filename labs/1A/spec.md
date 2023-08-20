@@ -9,6 +9,7 @@ nav_exclude: true
 
 Welcome to your first CS 1 lab! In this lab we will be completing setup steps needed so that you can use your personal computer for coursework. In the end, you will run your first Java program and submit the code for grading.
 
+{: .note }
 Going through setup can be tricky! Please make sure to carefully read each section to ensure steps aren't being skipped. If there are error messages or if the outcome of a step does not match what it says here, please don't hesitate to flag down a TA/IA for help.
 
 ## Table of contents
@@ -25,7 +26,10 @@ We will use the [Sublime Text](https://www.sublimetext.com/) text editor in this
 
 ## Terminal setup
 
-Next you will need a terimal. Like in the movies, programmers can use the terminal to issue typed-out commands to the computer. There are many powerful commands, including some with the ability to permanently delete entire folders from your computer, mess with settings, or install and execute unwanted malware. Thus, do not run commands found on the internet without fully understanding them first!
+Next you will need a terimal. Like in the movies, programmers can use the terminal to issue typed-out commands to the computer.
+
+{: .warning }
+There are many powerful commands, including some with the ability to permanently delete entire folders from your computer, mess with settings, or install and execute unwanted malware. Thus, do not run commands found on the internet without fully understanding them first!
 
 ### Mac users
 
@@ -54,42 +58,35 @@ We will use GitBash.
 
 ### Mac users
 
-1. To install Java, we will need to install [Homebrew](https://brew.sh/) first. Run the following command in your terminal to install it. When prompted, enter your computer password and hit enter to authorize the installation.\
-\
+1. To install Java, we will need to install [Homebrew](https://brew.sh/) first. Run the following command in your terminal to install it. When prompted, enter your computer password and hit enter to authorize the installation.
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 \
-The result should look similar to this:\
-\
+The result should look similar to this:
 ![](homebrew-install.png)
 
-2. There is a suggestion at the bottom of that output to run the following; this will let what you just installed be accessible with just the word `brew` by putting the installation location into the list of PATHs to check.\
-\
+2. There is a suggestion at the bottom of that output to run the following; this will let what you just installed be accessible with just the word `brew` by putting the installation location into the list of PATHs to check.
 ```shell
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-3. Now we can install Java; run the following and there should a long output of successful installations.\
-\
+3. Now we can install Java; run the following and there should a long output of successful installations.
 ```shell
 brew install java
 ```
 
-4. Next, the following will create a link for your computer to know to find the Java installation in the Homebrew location, where by default it looks in the `Library` directory. You will need to type your password and hit Enter, and there will not be any further output.\
-\
+4. Next, the following will create a link for your computer to know to find the Java installation in the Homebrew location, where by default it looks in the `Library` directory. You will need to type your password and hit Enter, and there will not be any further output.
 ```shell
 sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 ```
 
-5. Finally, test that Java installed properly by typing:\
-\
+5. Finally, test that Java installed properly by typing:
 ```shell
 java -version
 ```
 \
-You should see an output like:\
-\
+You should see an output like:
 ![](java-version.png)
 
 ### Windows users
@@ -98,16 +95,13 @@ You should see an output like:\
 
 2. Run the installer.\
 \
-**Important:** The installer will give you the following four options:\
-\
+**Important:** The installer will give you the following four options:
 ![](openJDK_install_1.png)\
 \
-You should click the small red Xs and change it from “Entire feature will be unavailable” to “Will be installed on local hard drive” as shown below:\
-\
+You should click the small red Xs and change it from “Entire feature will be unavailable” to “Will be installed on local hard drive” as shown below:
 ![](openJDK_install_2.png)\
 \
-When you’ve done this, it should look like the following:\
-\
+When you’ve done this, it should look like the following:
 ![](openJDK_install_3.png)\
 \
 Click next until everything is installed.
@@ -146,14 +140,12 @@ The path to the `lab1A` directory should be visible before your cursor in the te
 
 6. All Java programs need to be **COMPILED** before being **RUN**.\
 \
-Compile the program:\
-
+Compile the program:
 ```shell
 javac Main.java
-```\
+```
 \
-Run the program (note that there is no `.java` here!):\
-\
+Run the program (note that there is no `.java` here!):
 ```shell
 java Main
 ```
