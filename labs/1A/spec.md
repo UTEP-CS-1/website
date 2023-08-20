@@ -54,7 +54,8 @@ We will use GitBash.
 
 ### Mac users
 
-1. To install Java, we will need to install [Homebrew](https://brew.sh/) first. Run the following command in your terminal to install it. When prompted, enter your computer password and hit enter to authorize the installation.
+1. To install Java, we will need to install [Homebrew](https://brew.sh/) first. Run the following command in your terminal to install it. When prompted, enter your computer password and hit enter to authorize the installation.\
+\
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -63,22 +64,26 @@ The result should look similar to this:\
 \
 ![](homebrew-install.png)
 
-2. There is a suggestion at the bottom of that output to run the following; this will let what you just installed be accessible with just the word `brew` by putting the installation location into the list of PATHs to check.
+2. There is a suggestion at the bottom of that output to run the following; this will let what you just installed be accessible with just the word `brew` by putting the installation location into the list of PATHs to check.\
+\
 ```shell
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-3. Now we can install Java; run the following and there should a long output of successful installations.
+3. Now we can install Java; run the following and there should a long output of successful installations.\
+\
 ```shell
 brew install java
 ```
 
-4. Next, the following will create a link for your computer to know to find the Java installation in the Homebrew location, where by default it looks in the `Library` directory. You will need to type your password and hit Enter, and there will not be any further output.
+4. Next, the following will create a link for your computer to know to find the Java installation in the Homebrew location, where by default it looks in the `Library` directory. You will need to type your password and hit Enter, and there will not be any further output.\
+\
 ```shell
 sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 ```
 
-5. Finally, test that Java installed properly by typing:
+5. Finally, test that Java installed properly by typing:\
+\
 ```shell
 java -version
 ```
@@ -139,14 +144,16 @@ class Main {
 The path to the `lab1A` directory should be visible before your cursor in the terminal window that opens.\
 ![](terminal-location.png)
 
-6. All Java programs need to be **COMPILED** before being **RUN**.
+6. All Java programs need to be **COMPILED** before being **RUN**.\
 \
-Compile the program:
+Compile the program:\
+
 ```shell
 javac Main.java
-```
-
-Run the program (note that there is no `.java` here!):
+```\
+\
+Run the program (note that there is no `.java` here!):\
+\
 ```shell
 java Main
 ```
