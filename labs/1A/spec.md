@@ -128,8 +128,7 @@ class Main {
 
 5. Open the terminal such that it is at the `lab1A` directory. This can be done by opening your `cs1` folder and right-clicking (or Ctrl + click) on the `lab1A` folder and selecting...
 	- on Mac, select `New Terminal at Folder`.
-	- on Windows, select `Git Bash Here`.\
-\
+	- on Windows, select `Git Bash Here`.
 The path to the `lab1A` directory should be visible before your cursor in the terminal window that opens.\
 ![](terminal-location.png)
 
