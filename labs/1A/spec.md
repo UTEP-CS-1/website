@@ -39,16 +39,13 @@ Macs come with terminal already. Open spotlight search (Cmd + Space) and type "T
 
 We will use GitBash.
 
-1. Download the [Git for Windows installer](http://git-scm.com/download/).\
-\
+1. Download the [Git for Windows installer](http://git-scm.com/download/).
 ![](git_download.png)
 
-2. Run the installer and click Next until reaching the "Select Components" screen. Uncheck/check the options to match what is shown below.\
-\
+2. Run the installer and click Next until reaching the "Select Components" screen. Uncheck/check the options to match what is shown below.
 ![](git_install_components.png)
 
-3. Click Next on the next few screens until reaching "Adjust your PATH environment". Select the middle, recommended option as shown below.\
-\
+3. Click Next on the next few screens until reaching "Adjust your PATH environment". Select the middle, recommended option as shown below.
 ![](git_path_install.png)
 
 4. Click Next for the remaining screens and finish the installation.
@@ -62,7 +59,6 @@ We will use GitBash.
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-\
 The result should look similar to this:
 ![](homebrew-install.png)
 
@@ -85,7 +81,6 @@ sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/Java
 ```shell
 java -version
 ```
-\
 You should see an output like:
 ![](java-version.png)
 
@@ -96,14 +91,11 @@ You should see an output like:
 2. Run the installer.\
 \
 **Important:** The installer will give you the following four options:
-![](openJDK_install_1.png)\
-\
+![](openJDK_install_1.png)
 You should click the small red Xs and change it from “Entire feature will be unavailable” to “Will be installed on local hard drive” as shown below:
-![](openJDK_install_2.png)\
-\
+![](openJDK_install_2.png)
 When you’ve done this, it should look like the following:
-![](openJDK_install_3.png)\
-\
+![](openJDK_install_3.png)
 Click next until everything is installed.
 
 3. Check that it is installed properly by running the following in your terminal:
@@ -144,7 +136,6 @@ Compile the program:
 ```shell
 javac Main.java
 ```
-\
 Run the program (note that there is no `.java` here!):
 ```shell
 java Main
