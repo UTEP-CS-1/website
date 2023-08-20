@@ -1,5 +1,6 @@
 ---
 title: Lab 1A
+nav_exclude: true
 ---
 
 # Lab 1A: Setup and Hello World!
