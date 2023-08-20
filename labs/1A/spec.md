@@ -91,11 +91,14 @@ You should see an output like:
 2. Run the installer.\
 \
 **Important:** The installer will give you the following four options:
-![](openJDK_install_1.png)
+![](openJDK_install_1.png)\
+\
 You should click the small red Xs and change it from “Entire feature will be unavailable” to “Will be installed on local hard drive” as shown below:
-![](openJDK_install_2.png)
+![](openJDK_install_2.png)\
+\
 When you’ve done this, it should look like the following:
-![](openJDK_install_3.png)
+![](openJDK_install_3.png)\
+\
 Click next until everything is installed.
 
 3. Check that it is installed properly by running the following in your terminal:
