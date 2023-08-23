@@ -58,42 +58,20 @@ We will use GitBash.
 
 ### Mac users
 
-1. To install Java, we will need to install [Homebrew](https://brew.sh/) first. Run the following command in your terminal to install it. When prompted, enter your computer password and hit enter to authorize the installation.
-	
-	```shell
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-	```
+1. Follow the instructions on the [Oracle website](https://docs.oracle.com/en/java/javase/20/install/installation-jdk-macos.html#GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F) for "Installing the JDK on macOS".
 
-	The result should look similar to this:
-	
-	![](homebrew-install.png)
+	On the download screen, select `JDK 20` and `macOS`, and then download the `x64 DMG Installer`.
 
-2. There is a suggestion at the bottom of that output to run the following; this will let what you just installed be accessible with just the word `brew` by putting the installation location into the list of PATHs to check.
-	
-	```shell
-	eval "$(/opt/homebrew/bin/brew shellenv)"
-	```
+	![](mac-java-download.png)
 
-3. Now we can install Java; run the following and there should a long output of successful installations.
-	
-	```shell
-	brew install java
-	```
-
-4. Next, the following will create a link for your computer to know to find the Java installation in the Homebrew location, where by default it looks in the `Library` directory. You will need to type your password and hit Enter, and there will not be any further output.
-
-	```shell
-	sudo ln -sfn $(brew --prefix)/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-	```
-
-5. Finally, test that Java installed properly by typing:
+2. Finally, test that Java installed properly by typing:
 
 	```shell
 	java -version
 	```
 
-	You should see an output like:
-
+	You should see an output similar to:
+	 
 	![](java-version.png)
 
 ### Windows users
@@ -169,4 +147,4 @@ We will now compile and run your first Java program! By tradition, we will creat
 ## Submission setup on GradeScope
 
 ---
-_Setup instructions adapted from [UC Berkeley CS 61B data structures course, lab 1, Spring 23](https://sp23.datastructur.es/materials/lab/lab01/)._
+_Some setup instructions adapted from [UC Berkeley CS 61B data structures course, lab 1, Spring 23](https://sp23.datastructur.es/materials/lab/lab01/)._
