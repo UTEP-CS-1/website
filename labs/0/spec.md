@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lab 1A
+title: Lab 0
 nav_exclude: true
 ---
 
-# Lab 1A: Setup and Hello World!
+# Lab 0: Setup and Hello World!
 {:.no_toc}
 
 Welcome to your first CS 1 lab! In this lab we will be completing setup steps needed so that you can use your personal computer for coursework. In the end, you will run your first Java program and submit the code for grading.
@@ -105,9 +105,9 @@ We will use GitBash.
 
 We will now compile and run your first Java program! By tradition, we will create a program that displays "hello world" to the screen.
 
-1. Create a folder on your computer for your coursework (call it `cs1`). Create another folder inside of it called `lab1A`.
+1. Create a folder on your computer for your coursework (call it `cs1`). Create another folder inside of it called `lab0`.
 
-2. Create a new file inside the `lab1A` folder called `Main.java`.
+2. Create a new file inside the `lab0` folder called `Main.java`.
 
 3. Open this file in Sublime.
 
@@ -121,12 +121,12 @@ We will now compile and run your first Java program! By tradition, we will creat
 	}
 	```
 
-5. Open the terminal such that it is at the `lab1A` directory. This can be done by opening your `cs1` folder and right-clicking (or Ctrl + click) on the `lab1A` folder and selecting...
+5. Open the terminal such that it is at the `lab0` directory. This can be done by opening your `cs1` folder and right-clicking (or Ctrl + click) on the `lab0` folder and selecting...
 
 	- on Mac, select `New Terminal at Folder`.
 	- on Windows, select `Git Bash Here`.
 
-	The path to the `lab1A` directory should be visible before your cursor in the terminal window that opens.
+	The path to the `lab0` directory should be visible before your cursor in the terminal window that opens.
 
 	![](terminal-location.png)
 
