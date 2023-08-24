@@ -144,7 +144,19 @@ We will now compile and run your first Java program! By tradition, we will creat
 	java Main
 	```
 
-## Submission setup on GradeScope
+## Submission setup on Gradescope
+
+Lab assignments will be submitted on Gradescope. Navigate to [gradescope.com](https://www.gradescope.com/) and "Log In" using your UTEP school credentials.
+
+![](gradescope-login.png)
+
+You should be automatically enrolled into a course corresponding to the lab section you are enrolled in on Blackboard.
+
+Open up the "Lab 0" assignment and submit by uploading your `Main.java` file. The autograder will automatically trigger and test your code, and should give you full credit if everything was done correctly. If not, you may resubmit until you receive full credit prior to the deadline set on Gradescope.
+
+![](gradescope-success.png)
+
+Congratulations! You have completed your first lab assignment!
 
 ---
 _Some setup instructions adapted from [UC Berkeley CS 61B data structures course, lab 1, Spring 23](https://sp23.datastructur.es/materials/lab/lab01/)._
