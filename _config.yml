@@ -17,8 +17,8 @@ title: UTEP CS 1
 tagline: Intro to computer science course page at UTEP.
 description: Intro to computer science course page. The University of Texas at El Paso. Fall 2023.
 author: Matthew Sit
-baseurl: '/Classes/cs1101/dmmejia2' # the subpath of your site, e.g. /blog
-url: 'https://cssrvlab01.utep.edu' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'https://utepcs1.org' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
