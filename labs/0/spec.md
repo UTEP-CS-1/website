@@ -144,6 +144,8 @@ We will now compile and run your first Java program! By tradition, we will creat
 	java Main
 	```
 
+	You should see `hello world` displayed as a result.
+
 ## Submission setup on Gradescope
 
 Lab assignments will be submitted on Gradescope. Navigate to [gradescope.com](https://www.gradescope.com/) and "Log In" using your UTEP school credentials.
