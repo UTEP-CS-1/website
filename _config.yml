@@ -68,3 +68,14 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  note:
+    title: Note
+    color: purple
+  important:
+    title: Important
+    color: yellow
