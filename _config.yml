@@ -83,4 +83,6 @@ callouts:
     title: Tip
     color: green
 callouts_level: loud
+callouts_opacity: 0.7
+
 
