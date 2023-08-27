@@ -75,7 +75,7 @@ callouts:
     color: red
   note:
     title: Note
-    color: purple
+    color: green
   important:
     title: Important
     color: yellow
