@@ -2,6 +2,7 @@
 layout: page
 title: Lab 1
 nav_exclude: true
+search_exclude: true
 ---
 
 # Lab 1: Variables and data types
