@@ -27,9 +27,9 @@ Learning objectives:
 
 ## Before you begin
 
-Download the starter code, and place it under `cs1` under a new `lab1` directory. Open the file in Sublime.
+Download the starter code zip file, unzip it, and place the contents in `cs1` under a new `lab1` directory. Open it in Sublime.
 
-<a href="../MusicReview.java" download class="btn btn-green">Download starter code</a>
+<a href="../skeleton.zip" download class="btn btn-green">Download starter code</a>
 
 Your submission will be scored based upon:
 - The code compiles and runs.
