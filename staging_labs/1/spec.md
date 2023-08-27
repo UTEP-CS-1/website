@@ -29,7 +29,7 @@ Learning objectives:
 
 Download the starter code zip file, unzip it, and place the contents in `cs1` under a new `lab1` directory. Open it in Sublime.
 
-[Download starter code](https://github.com/UTEP-CS-1/website/raw/main/{{page.subpath}}/skeleton.zip){: .btn .btn-green }
+[Download starter code](https://github.com/UTEP-CS-1/website/raw/main/{{page.relative_url}}/../skeleton.zip){: .btn .btn-green }
 
 Your submission will be scored based upon:
 - The code compiles and runs.
