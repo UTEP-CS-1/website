@@ -122,12 +122,12 @@ Scanner scanner = new Scanner(System.in);
 System.out.print("Is the next concert expensive? (type true or false): ");
 boolean isExpensive = scanner.nextBoolean();
 
-System.out.print("Are my friends going to the concert? (type true or false): ");
-boolean areFriendsGoing = scanner.nextBoolean();
-
 System.out.print("Will the concert be worth it? (type true or false): ");
 boolean worthIt = scanner.nextBoolean();
-// boolean variables isExpensive, areFriendsGoing, and worthIt
+
+System.out.print("Are my friends going to the concert? (type true or false): ");
+boolean areFriendsGoing = scanner.nextBoolean();
+// boolean variables isExpensive, worthIt, and areFriendsGoing 
 // are now initialized with values entered by the user from the command line.
 ```
 
