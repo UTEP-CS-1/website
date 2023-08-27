@@ -29,7 +29,7 @@ Learning objectives:
 
 Download the starter code, and place it under `cs1` under a new `lab1` directory. Open the file in Sublime.
 
-[Download starter code](MusicReview.java){: .btn .btn-green }
+<a href="MusicReview.java" download class="btn btn-green">Download starter code</a>
 
 Your submission will be scored based upon:
 - The code compiles and runs.
