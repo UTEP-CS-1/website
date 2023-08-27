@@ -29,7 +29,7 @@ Learning objectives:
 
 Download the starter code zip file, unzip it, and place the contents in `cs1` under a new `lab1` directory. Open it in Sublime.
 
-<a href="../skeleton.zip" download class="btn btn-green">Download starter code</a>
+[Download starter code](skeleton.zip){: .btn .btn-green }
 
 Your submission will be scored based upon:
 - The code compiles and runs.
