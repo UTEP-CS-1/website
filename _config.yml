@@ -79,3 +79,5 @@ callouts:
   important:
     title: Important
     color: yellow
+callouts_level: quiet
+
