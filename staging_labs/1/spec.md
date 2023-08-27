@@ -28,6 +28,7 @@ Learning objectives:
 ## Before you begin
 
 Download the starter code, and place it under `cs1` under a new `lab1` directory. Open the file in Sublime.
+
 [Download starter code](MusicReview.java){: .btn .btn-green }
 
 Your submission will be scored based upon:
@@ -56,7 +57,7 @@ Observe that:
 Change the code so that the variable is initialized to your own name.
 
 Compile and run the program and you should see this line in the output:
-```shell
+```text
 Hi, my name is Paydirt Pete.
 ```
 (except with your name.)
@@ -73,7 +74,7 @@ Following the example, declare two more string variables, initialized with value
 Replace the two `"FIXME"` in the print statement to use the two variables.
 
 Compile and run the program and you should see this line in the output:
-```shell
+```text
 I love listening to 7 rings by Ariana Grande.
 ```
 (except with your chosen song and artist.)
@@ -97,7 +98,7 @@ Comments are denoted by starting a line with `//`.
 Replace the `"FIXME"` in the print statements to use the variables.
 
 Compile and run the program and you should see these lines in the output:
-```shell
+```text
 The song was released in year 2019.
 On Spotify, the song has been played 2060555864 times.
 A vinyl copy might sell for $9.99!
@@ -139,7 +140,7 @@ Write the boolean expression according to the following logic:
 - Regarding (2), my friends are going when `areFriendsGoing` is `true`.
 
 For example, when all three input variables are `true`, the result should be `true` because it is worth it and my friends are going.
-```shell
+```text
 Three questions to determine if I will go to the next concert...
 Is the next concert expensive? (type true or false): true
 Will the concert be worth it? (type true or false): true
@@ -148,12 +149,12 @@ Will I go to the next concert? The answer is true.
 ```
 
 {: .tip }
-There are 8 possible combinations of inputs. Check your work by creating a table in which you determine the expected result for each set of inputs, then testing your program to ensure that the outputs are correct.
-| **isExpensive** | **worthIt** | **areFriendsGoing** | **willAttendConcertResult** |
-|-----------------|-------------|---------------------|-----------------------------|
+> There are 8 possible combinations of inputs. Check your work by creating a table in which you determine the expected result for each set of inputs, then testing your program to ensure that the outputs are correct.
+
+> | isExpensive     | worthIt     | areFriendsGoing     | willAttendConcertResult     |
+|:----------------|:------------|:--------------------|:----------------------------|
 | T               | T           | T                   | T                           |
 | ...             | ...         | ...                 | ...                         |
-|                 |             |                     |                             |
 
 ## Q4: One final touch
 
@@ -163,7 +164,7 @@ Do not declare a new variable; update the pre-existing variable.
 
 Replace the `"FIXME"` in the print statements to use the variable.
 
-```shell
+```text
 On Spotify, the song has been played 2060555864 times.
 ...
 Oops, I just played the song again! Make that 2060555865 times.
