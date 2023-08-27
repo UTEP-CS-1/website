@@ -75,9 +75,12 @@ callouts:
     color: red
   note:
     title: Note
-    color: green
+    color: purple
   important:
     title: Important
     color: yellow
+  tip:
+    title: Tip
+    color: green
 callouts_level: loud
 
