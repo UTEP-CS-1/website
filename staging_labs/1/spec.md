@@ -173,4 +173,4 @@ Oops, I just played the song again! Make that 2060555865 times.
 
 ## Submit to Gradescope
 
-Upload your submission to the Lab 1 assignment on Gradescope. The autograder will run some simple checks and award up to 0.4/1 total possible points for this assignment. The remaining 0.6 points will be awarded upon additional review by a course staff member. The autograder's checks are NOT comprehensive; receiving 0.4 from it does not necessarily mean all your code is correct--treat it as a basic sanity check. You may resubmit as many times as you like prior to the deadline set on Gradescope.
+Upload your submission to the Lab 1 assignment on Gradescope. The autograder will run some simple checks to guide you towards the right track. However, these preliminary checks are not comprehensive; making all the test cases turn green does not imply that your code is 100% correct. You may resubmit as many times as you like prior to the deadline posted on Gradescope to improve your submission. After the deadline, your active submission will be further graded by a course staff member and/or additional autograder test cases.
