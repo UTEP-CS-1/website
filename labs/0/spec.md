@@ -60,11 +60,16 @@ We will use GitBash.
 
 1. Follow the instructions on the [Oracle website](https://docs.oracle.com/en/java/javase/20/install/installation-jdk-macos.html#GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F) for "Installing the JDK on macOS".
 
-	On the download screen, select `JDK 20` and `macOS`, and then download the `x64 DMG Installer`.
+	On the download screen, select `JDK 20` and `macOS`. And then for Macs with...
+	- M1 or M2 processors, download the `ARM64 DMG Installer`.
+	- Intel processors, download the `x64 DMG Installer`.
+
+	{: .tip }
+	If you're not sure which processor you have, you can find out in the Apple menu in the top left corner > About This Mac. See this [Apple help article](https://support.apple.com/en-us/HT211814) for more details.
 
 	![](mac-java-download.png)
 
-2. Finally, test that Java installed properly by typing:
+2. Finally, test that Java installed properly by running the following in your terminal:
 
 	```shell
 	java -version
