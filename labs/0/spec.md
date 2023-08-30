@@ -165,5 +165,15 @@ Open up the "Lab 0" assignment and submit by uploading your `Main.java` file. Th
 
 Congratulations! You have completed your first lab assignment!
 
+## Grading criteria
+
+| **Criteria**    | **Pts**   |
+|-----------------|-----------|
+| Autograder test | 100       |
+| **_Total_**     | **_100_** |
+
+The deadline is as posted on Gradescope.
+Assignments will be accepted up to three days late (72 hours) and will have scores reduced by 10% for each day (24 hours) of tardiness.
+
 ---
 _Some setup instructions adapted from [UC Berkeley CS 61B data structures course, lab 1, Spring 23](https://sp23.datastructur.es/materials/lab/lab01/)._

@@ -152,8 +152,8 @@ Will I go to the next concert? The answer is true.
 {: .tip }
 > There are 8 possible combinations of inputs. Check your work by creating a table in which you determine the expected result for each set of inputs, then testing your program to ensure that the outputs are correct.
 
-> | isExpensive     | worthIt     | areFriendsGoing     | willAttendConcertResult     |
-|:----------------|:------------|:--------------------|:----------------------------|
+> | isExpensive   | worthIt     | areFriendsGoing     | willAttendConcertResult     |
+|:---------------:|:-----------:|:-------------------:|:---------------------------:|
 | T               | T           | T                   | T                           |
 | ...             | ...         | ...                 | ...                         |
 
@@ -174,3 +174,18 @@ Oops, I just played the song again! Make that 2060555865 times.
 ## Submit to Gradescope
 
 Upload your submission to the Lab 1 assignment on Gradescope. The autograder will run some simple checks to guide you towards the right track. However, these preliminary checks are not comprehensive; making all the test cases turn green does not imply that your code is 100% correct. You may resubmit as many times as you like prior to the deadline posted on Gradescope to improve your submission. After the deadline, your active submission will be further graded by a course staff member and/or additional autograder test cases.
+
+## Grading criteria
+
+| **Criteria**                            | **Pts**   |
+|-----------------------------------------|-----------|
+| Released autograder tests               | 40        |
+| Q1 code correctness (additional review) | 5         |
+| Q2                                      | 20        |
+| Q3                                      | 15        |
+| Q4                                      | 5         |
+| Code style and formatting               | 15        |
+| **_Total_**                             | **_100_** |
+
+The deadline is as posted on Gradescope.
+Assignments will be accepted up to three days late (72 hours) and will have scores reduced by 10% for each day (24 hours) of tardiness.
