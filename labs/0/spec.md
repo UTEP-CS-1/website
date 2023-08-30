@@ -81,7 +81,7 @@ We will use GitBash.
 
 ### Windows users
 
-1. Download the pre-built Java from [Adoptium](https://adoptium.net/temurin/releases/?version=20) (version 20). Select the downloadable for `Windows`, `x64`, `.msi`.
+1. Download the pre-built Java from [Adoptium](https://adoptium.net/temurin/releases/?version=20) (version 20). Select the downloadable for `Windows`, `x64`, `JDK`, `.msi`.
 
 2. Run the installer.
 
@@ -98,13 +98,13 @@ We will use GitBash.
 	
 	Click next until everything is installed.
 
-3. Check that it is installed properly by running the following in your terminal:
+3. Check that it is installed properly by running the following in your terminal (open the terminal by finding Git Bash in your Windows start menu):
 
 	```shell
 	javac --version
 	```
 
-	You should see a message indicating javac version `20.0.2+9` or higher.
+	You should see a message indicating javac version `20.0.2` or `20.0.2+9` or higher.
 
 ## Hello World
 
