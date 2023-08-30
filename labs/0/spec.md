@@ -168,8 +168,8 @@ Congratulations! You have completed your first lab assignment!
 ## Grading criteria
 
 | **Criteria**    | **Pts**   |
-|-----------------|-----------|
-| Autograder test | 100       |
+|:----------------|----------:|
+| Autograder test |       100 |
 | **_Total_**     | **_100_** |
 
 The deadline is as posted on Gradescope.

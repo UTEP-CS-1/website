@@ -177,14 +177,14 @@ Upload your submission to the Lab 1 assignment on Gradescope. The autograder wil
 
 ## Grading criteria
 
-| **Criteria**                            | **Pts**   |
-|-----------------------------------------|-----------|
-| Released autograder tests               | 40        |
-| Q1 code correctness (additional review) | 5         |
-| Q2                                      | 20        |
-| Q3                                      | 15        |
-| Q4                                      | 5         |
-| Code style and formatting               | 15        |
+| **Criteria**                            |   **Pts** |
+|:----------------------------------------|----------:|
+| Released autograder tests               |        40 |
+| Q1 code correctness (additional review) |         5 |
+| Q2                                      |        20 |
+| Q3                                      |        15 |
+| Q4                                      |         5 |
+| Code style and formatting               |        15 |
 | **_Total_**                             | **_100_** |
 
 The deadline is as posted on Gradescope.
