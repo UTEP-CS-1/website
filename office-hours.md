@@ -6,6 +6,8 @@ description: The weekly office hours schedule.
 
 # Office Hours
 
+We offer 100 hours of office hours every week!
+
 - Dr. Mejia's office hours meet in his office located at CCSB 3.1018.
 - Matt's office hours location is TBA.
 - TA office hours meet at CCSB 1.0706 (unless noted as virtual).
