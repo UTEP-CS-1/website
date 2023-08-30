@@ -29,10 +29,11 @@ heading_anchors: true
 permalink: pretty
 enable_copy_code_button: true
 aux_links:
-  # Kevin Lin:
-  #   - 'https://kevinl.info'
-  # Just the Class on GitHub:
-  #   - 'https://github.com/kevinlin1/just-the-class'
+  Blackboard:
+    - 'https://blackboardlearn.utep.edu/ultra/course'
+  Gradescope:
+    - 'https://www.gradescope.com/'
+aux_links_new_tab: true
 footer_content:
 
 # Collections for website data
