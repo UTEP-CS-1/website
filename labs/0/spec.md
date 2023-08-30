@@ -129,7 +129,7 @@ We will now compile and run your first Java program! By tradition, we will creat
 5. Open the terminal such that it is at the `lab0` directory. This can be done by opening your `cs1` folder and right-clicking (or Ctrl + click) on the `lab0` folder and selecting...
 
 	- on Mac, select `New Terminal at Folder`.
-	- on Windows, select `Git Bash Here`.
+	- on Windows, select `Git Bash Here` (you may need to select `Show more options` to see this option).
 
 	The path to the `lab0` directory should be visible before your cursor in the terminal window that opens.
 
