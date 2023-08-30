@@ -34,7 +34,7 @@ aux_links:
   Gradescope:
     - 'https://www.gradescope.com/'
 aux_links_new_tab: true
-footer_content: "&copy 2023, The University of Texas at El Paso and Google LLC."
+footer_content:
 
 # Collections for website data
 collections:
