@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Staff
+title: Google Virtual TA Bios
 description: A listing of all the course staff members.
 nav_exclude: true
 search_exclude: true
 ---
 
-# Staff
+# Google Virtual TA Bios
 
-Staff information is stored in the `_staffers` directory and rendered according to the layout file, `_layouts/staffer.html`.
+<!-- Staff information is stored in the `_staffers` directory and rendered according to the layout file, `_layouts/staffer.html`. -->
 
-## Instructors
+<!-- ## Instructors
 
 {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 {% for staffer in instructors %}
@@ -23,6 +23,13 @@ Staff information is stored in the `_staffers` directory and rendered according 
 ## Teaching Assistants
 
 {% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
+{% endif %} -->
+
+{% assign googlers = site.staffers | where: 'role', 'Googler' %}
+
+{% for staffer in googlers %}
 {{ staffer }}
 {% endfor %}
 {% endif %}
