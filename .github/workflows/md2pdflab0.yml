@@ -1,6 +1,6 @@
 # .github/workflows/convert-to-pdf.yml
 
-name: lab0
+name: lab
 # This workflow is triggered on pushes to the repository.
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - main
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
-      - 'labs/0/**'
+      - 'labs/**'
 
 jobs:
   converttopdf:
@@ -18,11 +18,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: labs/0
-          output_dir: pdfs
-          images_dir: .
-          # for example <img src="./images/file-name.png">
-          image_import: .
+          input_path: labs/0/spec.md
+          output_dir: labs/0
+          images_dir: labs/0
           # Default is true, can set to false to only get PDF files
           build_html: false
       - uses: actions/upload-artifact@v3
