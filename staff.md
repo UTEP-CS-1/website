@@ -32,4 +32,3 @@ search_exclude: true
 {% for staffer in googlers %}
 {{ staffer }}
 {% endfor %}
-{% endif %}
