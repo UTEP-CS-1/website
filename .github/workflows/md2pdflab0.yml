@@ -8,7 +8,7 @@ on:
       - main
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
-      - 'lab0/**'
+      - 'labs/0/**'
 
 jobs:
   converttopdf:
@@ -18,9 +18,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: lab0
+          input_dir: labs/0
           output_dir: pdfs
-          images_dir: lab0
+          images_dir: labs/0
           # for example <img src="./images/file-name.png">
           image_import: .
           # Default is true, can set to false to only get PDF files
