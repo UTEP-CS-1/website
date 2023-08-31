@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Google Virtual TA Bios
-description: A listing of all the course staff members.
+description: Biographies for the virtual Google TAs.
 nav_exclude: true
-search_exclude: true
 ---
 
 # Google Virtual TA Bios
