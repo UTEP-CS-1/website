@@ -51,7 +51,7 @@ System.out.println("Hi, my name is " + myName + ".");
 ```
 
 Observe that:
-- A string variable is declared and initialized to be `"Paydirt Pete"`.
+- A string variable is initialized to be `"Paydirt Pete"`.
 - It is given a descriptive name called `myName` since it represents the name of the author of the printed text. This variable name is written in camel case.
 - The variable's value is concatenated with some hard-coded strings and printed out.
 
@@ -68,7 +68,7 @@ The program may appear to hang after printing "Is the next concert expensive? (t
 
 ## Q1: Your turn with string variables
 
-Following the example, declare two more string variables, initialized with values of your choice.
+Following the example, initialize two more string variables with values of your choice.
 - The first should represent the name of a song.
 - The second should represent the name of the artist who wrote that song.
 
@@ -82,10 +82,9 @@ I love listening to 7 rings by Ariana Grande.
 
 ## Q2: Variable variable types
 
-Declare 4 more variables and initialize them with values of your choice. However, there are some additional
-restrictions for the purposes of this exercise:
-1. The String and double variable types may NOT be declared in this question.
-2. Each of the 4 variables must be declared with a UNIQUE type (i.e. each variable type may only be used once).
+Initialize 4 more variables with values of your choice. However, there are some additional restrictions for the purposes of this exercise:
+1. The String variable type may NOT be used in this question.
+2. Each of the 4 variables must be a UNIQUE type (i.e. each variable type may only be used once).
 
 The 4 variables should represent, respectively:
 1. The year that the song was released.
@@ -93,7 +92,7 @@ The 4 variables should represent, respectively:
 3. A hypothetical cost of a vinyl copy, which must cost a few dollars and a non-zero amount of cents.
 4. Your overall tier rating for the artist's songs in general. A tier rating is one of the following: `S`, `A`, `B`, `C`, `D`, or `F`.
 
-Add a comment above each variable declaration line, briefly justifying why you chose that variable type.
+Add a comment above each of the 4 lines where you initialized a variable, briefly justifying why you chose that variable type.
 Comments are denoted by starting a line with `//`.
 
 Replace the `"FIXME"` in the print statements to use the variables.
@@ -112,7 +111,7 @@ Overall, this artist's songs should be considered S tier.
 Several lines of code are provided. It creates a `Scanner` that will be able to collect
 user input from the terminal through `System.in` (i.e. system input). Three times, it prints
 a prompt and then collects the `nextBoolean()` by waiting for the user to type either `true` or `false` and hitting Enter.
-A boolean variable is declared and initialize to save the user's entered value.
+A boolean variable is initialized to save the user's entered value.
 
 ```java
 // This is provided code for receiving input from the command line.
@@ -159,9 +158,9 @@ Will I go to the next concert? The answer is true.
 
 ## Q4: One final touch
 
-Reassign the value of the song play count variable you declared in Q2 to be 1 higher than it was before.
+Reassign the value of the song play count variable you initialized in Q2 to be 1 higher than it was before.
 Write this line of code such that if next week you went back to update the original initialization value of the variable in Q2, no change would be necessary on this line for it to still correctly increment that revised initialization value by 1.
-Do not declare a new variable; update the pre-existing variable.
+Do not initialize a new variable; update the pre-existing variable.
 
 Replace the `"FIXME"` in the print statements to use the variable.
 
