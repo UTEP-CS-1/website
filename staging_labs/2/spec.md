@@ -36,7 +36,7 @@ Your submission will be scored based upon:
 
 Please start with the worksheet first. When you get to Q2 on the worksheet, a copy of the code is available in the starter code zip file above and is called `BurgerShop.java`.
 
-## Coding exercise: Miner food recommendation service
+## Coding exercise: Miners food recommendation service
 
 Nothing keeps you going as a student better than some food, whether it is before, between, or after classes! But sometimes it can be hard to decide where to go for food. To solve this problem, today we will create a recommendation service to help our fellow Miners decide where to eat! All they have to do is answer a few questions, and our code will tell them which food option is the best for them!
 
@@ -52,9 +52,9 @@ For example:
     - `A < 10` and `B` is `false`. (`C` and `D` any answer.)
     - `A >= 10`, `C` is `false`, and `D` is `false`. (`B` any answer.)
 
-Open `RestaurantWeekNested.java` and add nested `if` statements to implement this logic. Exactly one restaurant name should be outputted each time the program is run, based upon the answers received from the user input on the terminal.
+Open `MinersFoodRecommendationServiceNested.java` and add nested `if` statements to implement this logic. Exactly one restaurant name should be outputted each time the program is run, based upon the answers received from the user input on the terminal.
 
-Once that's done, open `RestaurantWeekFlattened.java` and implement the same logic, but you may only replace the underlined blanks in the starter code; you may not add additional `if` statements or clauses. Ensure that the boolean conditions you fill-in do not perform any redundant checks.
+Once that's done, open `MinersFoodRecommendationServiceFlattened.java` and implement the same logic, but you may only replace where it says `/*FIXME*/` in the starter code; you may not add additional `if` statements or clauses or any other lines of code. Ensure that the boolean conditions you fill-in do not perform any redundant checks.
 
 An example of a redundant check that you should avoid would be:
 ```java
