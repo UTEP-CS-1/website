@@ -52,9 +52,13 @@ For example:
     - `A < 10` and `B` is `false`. (`C` and `D` any answer.)
     - `A >= 10`, `C` is `false`, and `D` is `false`. (`B` any answer.)
 
-Open `MinersFoodRecommendationServiceNested.java` and add nested `if` statements to implement this logic. Exactly one restaurant name should be outputted each time the program is run, based upon the answers received from the user input on the terminal.
+Open `MinersFoodRecommendationService.java` and add nested `if` statements to implement this logic. Exactly one restaurant name should be outputted each time the program is run, based upon the answers received from the user input on the terminal. Do not use any compound boolean expressions (such as `X && Y` or `X || Y`).
 
-Once that's done, open `MinersFoodRecommendationServiceFlattened.java` and implement the same logic, but you may only replace where it says `/*FIXME*/` in the starter code; you may not add additional `if` statements or clauses or any other lines of code. Ensure that the boolean conditions you fill-in do not perform any redundant checks.
+### Optional challenge
+
+_This question is an optional challenge. You can still receive full credit on the lab assignment if you skip it, but if you are finished early, you should give it a try! Not worth extra credit._ 
+
+Open `Challenge.java` and implement the same logic, but you may only replace where it says `/*FIXME*/` in the starter code; you may not add additional `if` statements or clauses or any other lines of code. Ensure that the boolean conditions you fill-in do not perform any redundant checks. You will need to use compound boolean expressions.
 
 An example of a redundant check that you should avoid would be:
 ```java
@@ -71,15 +75,22 @@ if (x) {
 
 Turn in your completed worksheet to your TA before the end of your lab session.
 
-Upload all the code files to the Lab 2 assignment on Gradescope (submit multiple files by compressing them into a zip file). The autograder will run some simple checks to guide you towards the right track. However, these preliminary checks may not be comprehensive; making all the test cases turn green does not imply that your code is 100% correct. You may resubmit as many times as you like prior to the deadline posted on Gradescope to improve your submission. After the deadline, your active submission will be further graded by a course staff member and/or additional autograder test cases.
+Upload your code file(s) to the Lab 2 assignment on Gradescope.
+
+- `MinersFoodRecommendationService.java` is required.
+- You may additionally submit `Challenge.java` for feedback on what you have if you chose to attempt it. (You can drag and drop a second file on the upload screen.)
+- `BurgerShop.java` does not need to be submitted.
+
+The autograder will run some simple checks to guide you towards the right track. However, these preliminary checks may not be comprehensive; making all the test cases turn green does not imply that your code is 100% correct. You may resubmit as many times as you like prior to the deadline posted on Gradescope to improve your submission. After the deadline, your active submission will be further graded by a course staff member and/or additional autograder test cases.
 
 ## Grading criteria
 
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
-| Worksheet                                |        45 |
-| Coding exercise correctness              |        45 |
+| Worksheet                                |        60 |
+| Coding exercise correctness              |        30 |
 | Coding exercise code style and formatting|        10 |
+| Optional challenge                       |         0 |
 | **_Total_**                              | **_100_** |
 
 The deadline is as posted on Gradescope.
