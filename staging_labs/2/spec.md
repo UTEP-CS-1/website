@@ -88,8 +88,8 @@ The autograder will run some simple checks to guide you towards the right track.
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
 | Worksheet                                |        60 |
-| Coding exercise correctness              |        30 |
-| Coding exercise code style and formatting|        10 |
+| Coding exercise correctness              |        24 |
+| Coding exercise code style and formatting|        16 |
 | Optional challenge                       |         0 |
 | **_Total_**                              | **_100_** |
 
