@@ -56,7 +56,8 @@ Open `MinersFoodRecommendationService.java` and add nested `if` statements to im
 
 ### Optional challenge
 
-_This question is an optional challenge. You can still receive full credit on the lab assignment if you skip it, but if you are finished early, you should give it a try! Not worth extra credit._ 
+{: .note }
+This question is an optional challenge. You can still receive full credit on the lab assignment if you skip it, but if you are finished early, you should give it a try! Not worth extra credit.
 
 Open `Challenge.java` and implement the same logic, but you may only replace where it says `/*FIXME*/` in the starter code; you may not add additional `if` statements or clauses or any other lines of code. Ensure that the boolean conditions you fill-in do not perform any redundant checks. You will need to use compound boolean expressions.
 
