@@ -89,7 +89,7 @@ Initialize 4 more variables with values of your choice. However, there are some 
 The 4 variables should represent, respectively:
 1. The year that the song was released.
 2. The number of times the song has been played, according to Spotify.
-3. A hypothetical cost of a vinyl copy, which must cost a few dollars and a non-zero amount of cents.
+3. A hypothetical cost of a vinyl copy, which must cost a few dollars and a cents value that does not end in 0.
 4. Your overall tier rating for the artist's songs in general. A tier rating is one of the following: `S`, `A`, `B`, `C`, `D`, or `F`.
 
 Add a comment above each of the 4 lines where you initialized a variable, briefly justifying why you chose that variable type.
