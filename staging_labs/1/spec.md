@@ -39,9 +39,10 @@ Your submission will be scored based upon:
 
 {: .tip }
 As you go through these exercises, your should regularly perform this workflow:
-1. Save your file.
-2. In your terminal, use `javac MusicReview.java` to ensure your code compiles.
-3. Then run your code using `java MusicReview` to ensure the output matches what is required.
+
+    1. Save your file.
+    2. In your terminal, use `javac MusicReview.java` to ensure your code compiles.
+    3. Then run your code using `java MusicReview` to ensure the output matches what is required.
 
 ## Example: hello world 2.0
 
