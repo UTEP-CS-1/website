@@ -38,11 +38,11 @@ Your submission will be scored based upon:
 - Variables should be given descriptive names. Variable names should be written in camel case (all letters lowercase except the first letter of each word besides the first word), whichIsLikeThis.
 
 {: .tip }
-As you go through these exercises, your should regularly perform this workflow:
-
-    1. Save your file.
-    2. In your terminal, use `javac MusicReview.java` to ensure your code compiles.
-    3. Then run your code using `java MusicReview` to ensure the output matches what is required.
+> As you go through these exercises, your should regularly perform this workflow:
+>
+>    1. Save your file.
+>    2. In your terminal, use `javac MusicReview.java` to ensure your code compiles.
+>    3. Then run your code using `java MusicReview` to ensure the output matches what is required.
 
 ## Example: hello world 2.0
 
