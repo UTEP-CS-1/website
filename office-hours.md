@@ -9,7 +9,7 @@ description: The weekly office hours schedule.
 We offer 100 hours of office hours every week!
 
 - Dr. Mejia's office hours meet in his office located at CCSB 3.1018.
-- Matt's office hours location is TBA.
+- Matt's office hours will be held in the seating area near Starbucks!
 - TA office hours meet at CCSB 1.0706 (unless noted as virtual).
 - IA office hours meet at CCSB G.0512 (unless noted as virtual).
 - Googlers are available for help on course material as well as general career chats. Join via the Google Meet link in the calendar event description (use of Google Meet software for the purpose of meeting a Googler is permitted).
