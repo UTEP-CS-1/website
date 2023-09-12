@@ -5,7 +5,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Lab 3: `for` loops
+# Lab 3: for loops
 {:.no_toc}
 
 Today our time will be for `for` loops.
@@ -43,19 +43,29 @@ To take in input to be processed, you will need to use the `Scanner`, which you'
 
 Invoking one of the above if there were no next boolean, int, or word String will result in an error, as you may have seen when you previously entered an invalid response when prompted in the terminal. For `scanner.next()` which reads in the next String, it is not a matter of the input being the wrong type (since any characters can be represented in a String), but rather a matter of running out of words. If you knew how many words there would be, you could make sure to call it just the right amount of times to prevent running out of words and causing an error. However we do not have that information available, as that is in fact our goal here, to count the number of words in the input. Therefore, to check if there is another word remaining, use `scanner.hasNext()` which evalutes to a boolean value (either `true` or `false`).
 
-Once completed, test your answer using `poem.txt`. It should contain 13 words.
+Once completed, test your answer using `poem.txt`. It contains 13 words:
+```
+Balloons dance in sky,
+I give my dog a cookie,
+We walk together.
+```
 
 {: .note }
 Try using your word counter out in the wild! The [Project Gutenberg website](https://www.gutenberg.org/browse/scores/top) contains the full text of many classic books available in the public domain. Pick one, download the "Plain Text" format, then try feeding that into your program!
 
 ## Not your average joe!
 
+{: .note }
+You may only use `for` loops in your solution, not loops of any other kind.
+
 Create a program that repeatedly accepts another numerical value and prints out the updated running average, using the starter code in `RunningAverage.java`.
 
 Recall that to compute the average, take the sum of all the values and divide by how many values there are:
+
 $$ \frac{\texttt{input}_1 + \texttt{input}_2 + \cdots + \texttt{input}_{N}}{N}$$
 
 To add another number into the running average, add it to the numerator and update the denominator to be one greater than before:
+
 $$ \frac{\texttt{input}_1 + \texttt{input}_2 + \cdots + \texttt{input}_{N} + \texttt{input}_{N+1}}{N+1}$$
 
 The program should repeat the following infinitely:
