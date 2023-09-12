@@ -22,7 +22,7 @@ Learning objectives:
 
 ## Before you begin
 
-Download the starter code zip file, unzip it, and place the contents in `cs1` under a new `lab2` directory. Open it in Sublime.
+Download the starter code zip file, unzip it / extract all, and place the contents in `cs1` under a new `lab2` directory. Open it in Sublime.
 
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab02_starter.zip" class="btn btn-green">Download starter code</a>
 
@@ -40,17 +40,17 @@ Please start with the worksheet first. When you get to Q2 on the worksheet, a co
 
 Nothing keeps you going as a student better than some food, whether it is before, between, or after classes! But sometimes it can be hard to decide where to go for food. To solve this problem, today we will create a recommendation service to help our fellow Miners decide where to eat! All they have to do is answer a few questions, and our code will tell them which food option is the best for them!
 
-After extensive research, we have identified 4 popular food establishments that we would like to recommend and 4 key questions (labelled `A`/`B`/`C`/`D` shown in the red diamonds below) that should be asked. Below, we've organized our food establishments based upon what should be recommended according to the answers to these questions. 
+After extensive research, we have identified 4 popular food establishments that we would like to recommend and 4 key questions (labelled in the red diamonds below) that should be asked. Below, we've organized our food establishments based upon what should be recommended according to the answers to these questions. 
 
 ![](tree.png)
 
 For example:
 
 - Boba Mi Amor should be recommended when the user responds:
-    - To question `A` with a value that is `< 10` and to question `B` with the answer `true`. (questions `C` and `D` can have any answer.)
+    - To `pricePoint` with a value that is `< 10` and to `isInterestedInBoba` with the answer `true`. (`isAddictedToRolls` and `isFullMeal` can have any answer.)
 - Starbucks should be recommended when the user responds with EITHER of the following:
-    - `A < 10` and `B` is `false`. (`C` and `D` any answer.)
-    - `A >= 10`, `C` is `false`, and `D` is `false`. (`B` any answer.)
+    - `pricePoint < 10` and `isInterestedInBoba` is `false`. (`isAddictedToRolls` and `isFullMeal` any answer.)
+    - `pricePoint >= 10`, `isAddictedToRolls` is `false`, and `isFullMeal` is `false`. (`isInterestedInBoba` any answer.)
 
 Open `MinersFoodRecommendationService.java` and add nested `if` statements to implement this logic. Exactly one restaurant name should be outputted each time the program is run, based upon the answers received from the user input on the terminal. Do not use any compound boolean expressions (such as `X && Y` or `X || Y`).
 
