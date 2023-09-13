@@ -11,3 +11,8 @@ Sep 6/7
 : **Lab**{: .label .label-purple } 
 [Lab 1: Variables and data types](labs/1/spec)
 :  
+
+Sep 13/14
+: **Lab**{: .label .label-purple } 
+[Lab 2: Conditionals](labs/2/spec)
+:  
