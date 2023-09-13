@@ -44,11 +44,18 @@ To take in input to be processed, you will need to use the `Scanner`, which you'
 Invoking one of the above if there were no next boolean, int, or word String will result in an error, as you may have seen when you previously entered an invalid response when prompted in the terminal. For `scanner.next()` which reads in the next String, it is not a matter of the input being the wrong type (since any characters can be represented in a String), but rather a matter of running out of words. If you knew how many words there would be, you could make sure to call it just the right amount of times to prevent running out of words and causing an error. However we do not have that information available, as that is in fact our goal here, to count the number of words in the input. Therefore, to check if there is another word remaining, use `scanner.hasNext()` which evalutes to a boolean value (either `true` or `false`).
 
 Once completed, test your answer using `poem.txt`. It contains 13 words:
+
+	Balloons dance in sky,
+	I give my dog a cookie,
+	We walk together.
+
+Here is an example of the completed functionality:
 ```
-Balloons dance in sky,
-I give my dog a cookie,
-We walk together.
+Enter the name of the file to read: poem.txt
+13 words
 ```
+
+The output must be of the format "# words" as shown above.
 
 {: .note }
 Try using your word counter out in the wild! The [Project Gutenberg website](https://www.gutenberg.org/browse/scores/top) contains the full text of many classic books available in the public domain. Pick one, download the "Plain Text" format, then try feeding that into your program!
@@ -103,8 +110,8 @@ The autograder will run some simple checks to guide you towards the right track.
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
 | Worksheet                                |        40 |
-| Coding exercise correctness              |        55 |
-| Coding exercise code style and formatting|         5 |
+| Coding exercise correctness              |        50 |
+| Coding exercise code style and formatting|        10 |
 | **_Total_**                              | **_100_** |
 
 The deadline is as posted on Gradescope.
