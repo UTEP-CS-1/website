@@ -8,11 +8,12 @@ search_exclude: true
 # Lab 2: Conditionals
 {:.no_toc}
 
-Today we will be working with conditionals (`if` statements). For today's exercises, first you will start with a **worksheet** distributed by your TA (which you should submit by the end of the lab session) and then there will be a **coding exercise** as well.
+Today will be a successful learning day conditional on if we get some good practice with conditionals (`if` statements). For today's exercises, first you will start with a **worksheet** distributed at the start of your lab section (which you should submit by the end of the lab session) and then there will be a **coding exercise** as well.
 
 Learning objectives:
-- understand and practice propositional logic (boolean) and conditional statements.
-- testing and debugging.
+- Understand and practice propositional logic (boolean) and conditional statements.
+- Test driven development.
+- Debugging.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -74,7 +75,7 @@ if (x) {
 
 ## Submit
 
-Turn in your completed worksheet to your TA before the end of your lab session.
+Hand in your completed worksheet before the end of your lab session.
 
 Upload your code file(s) to the Lab 2 assignment on Gradescope.
 
