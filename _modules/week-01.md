@@ -19,5 +19,5 @@ Sep 13/14
 
 Sep 18/19
 : **Lab**{: .label .label-purple } 
-[Lab 3: `for` loops](labs/3/spec)
+[Lab 3: for loops](labs/3/spec)
 :  
