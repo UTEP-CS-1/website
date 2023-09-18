@@ -32,6 +32,27 @@ Your submission will be scored based upon:
 - Correctly following the instructions and completing the code accordingly.
 - Variables should be given descriptive names. Variable names should be written in camel case (all letters lowercase except the first letter of each word besides the first word), whichIsLikeThis.
 
+## Not your average joe!
+
+{: .note }
+You may only use `for` loops in your solution, not loops of any other kind.
+
+Create a program called `Average.java` that computes the average of the first `N` positive integers, based upon the input `N`.
+
+This would be the result of adding up the all the postive integers up to and including `N`, and then dividing that total by the number of items `N`.
+
+$$ \frac{1 + 2 + \cdots + N}{N}$$
+
+For example, for the input `N = 5`, the calculation would be:
+
+$$ \frac{1 + 2 + 3 + 4 + 5}{5} = \frac{15}{5} = 3$$
+
+Here is an example of the completed functionality:
+```
+Find the average of the first N positive integers, where N is: 5
+Result is: 3.0
+```
+
 ## Word.
 
 {: .note }
@@ -60,35 +81,14 @@ The output must be of the format "# words" as shown above.
 {: .note }
 Try using your word counter out in the wild! The [Project Gutenberg website](https://www.gutenberg.org/browse/scores/top) contains the full text of many classic books available in the public domain. Pick one, download the "Plain Text" format, then try feeding that into your program!
 
-## Not your average joe!
-
-{: .note }
-You may only use `for` loops in your solution, not loops of any other kind.
-
-Create a program called `Average.java` that computes the average of the first `N` positive integers, based upon the input `N`.
-
-This would be the result of adding up the all the postive integers up to and including `N`, and then dividing that total by the number of items `N`.
-
-$$ \frac{1 + 2 + \cdots + N}{N}$$
-
-For example, for the input `N = 5`, the calculation would be:
-
-$$ \frac{1 + 2 + 3 + 4 + 5}{5} = \frac{15}{5} = 3$$
-
-Here is an example of the completed functionality:
-```
-Find the average of the first N positive integers, where N is: 5
-Result is: 3.0
-```
-
 ## Submit
 
 Turn in your completed worksheet to your TA before the end of your lab session.
 
 Upload your code file to the Lab 3 assignment on Gradescope.
 
-- `WordCount.java`
 - `Average.java`
+- `WordCount.java`
 
 The autograder will run some simple checks to guide you towards the right track. However, these preliminary checks may not be comprehensive; making all the test cases turn green does not imply that your code is 100% correct. You may resubmit as many times as you like prior to the deadline posted on Gradescope to improve your submission. After the deadline, your active submission will be further graded by a course staff member and/or additional autograder test cases.
 
