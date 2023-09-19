@@ -81,7 +81,7 @@ Average chance of exiting west: 0.4839200000003432
 Average chance of exiting east: 0.5160799999996568
 ```
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d216928.65645804565!2d-106.52677312190086!3d31.838327517386993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x86de01037f5a74cf%3A0xc36ed21c2a165fb7!2sAnthony%2C%20NM!3m2!1d32.0039897!2d-106.6058257!4m5!1s0x86e7585e81dab135%3A0xe85330a35247d74!2sUTEP%2C%20Sun%20Bowl%20Parking%20Garage%2C%20IC-10%2C%20Sun%20Bowl%20Drive%2C%20El%20Paso%2C%20TX!3m2!1d31.7700201!2d-106.5083437!4m5!1s0x86e741950b09c8e5%3A0x65ac7af6f5fa7d8!2sEastlake%20Blvd%2C%20Texas%2079928!3m2!1d31.699131299999998!2d-106.22061169999999!5e0!3m2!1sen!2sus!4v1695145967305!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d216947.18623610077!2d-106.59016594342741!3d31.83044499019314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x86ddfe2a8e61e41b%3A0x1495d5caa039078d!2sGreat%20American%20Steakhouse!3m2!1d31.9750901!2d-106.58356789999999!4m5!1s0x86e7585e81dab135%3A0xe85330a35247d74!2sUTEP%2C%20Sun%20Bowl%20Parking%20Garage%2C%20IC-10%2C%20Sun%20Bowl%20Drive%2C%20El%20Paso%2C%20TX!3m2!1d31.7700201!2d-106.5083437!4m5!1s0x86e743d50acb2c01%3A0xd871e9467bb72aa3!2sCracker%20Barrel%20Old%20Country%20Store!3m2!1d31.6881292!2d-106.26747499999999!5e0!3m2!1sen!2sus!4v1695146346110!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
 ## Submit
 
