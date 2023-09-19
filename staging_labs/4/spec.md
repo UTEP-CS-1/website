@@ -13,6 +13,7 @@ While you're here today, let's talk about `while` loops.
 Learning objectives:
 - Students will understand and practice `while` loops.
 - Converting between `for` and `while` loops.
+- Gaining intuition on when to use `for` vs `while` loops.
 - Use the `Scanner` to read input.
 
 ## Table of contents
@@ -98,6 +99,9 @@ Open `reflection.txt`, which is a file you can type a plain-text answer. Briefly
 
 ## Collatz sequence
 
+{: .note }
+You may use `for` loops or `while` loops at your discretion for this exercise. Make the syntactical choices that are most appropriate for the solution you've written.
+
 We define the Collatz sequence for any positive integer `x` to be the following:
 - The first element in the sequence is `x`
 - The second element in the sequence is:
@@ -136,8 +140,6 @@ Number of steps: 8
 
 ## Submit
 
-Turn in your completed worksheet to your TA before the end of your lab session.
-
 Upload these files to the Lab 4 assignment on Gradescope.
 
 - `Average.java`
@@ -151,9 +153,8 @@ The autograder will run some simple checks to guide you towards the right track.
 
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
-| Worksheet                                |        40 |
-| Coding exercise correctness              |        50 |
-| Coding exercise code style and formatting|        10 |
+| Coding exercise correctness              |        85 |
+| Coding exercise code style and formatting|        15 |
 | **_Total_**                              | **_100_** |
 
 The deadline is as posted on Gradescope.
