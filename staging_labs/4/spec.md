@@ -39,7 +39,7 @@ Your submission will be scored based upon:
 This is the same question as in Lab 3, except requiring the use of a `while` loop instead of a `for` loop. Feel free to use your previous code as a starting point. Make sure to keep separate copies and properly submit the correct version of the code to each corresponding lab assignment on Gradescope.
 
 {: .note }
-You may only use `while` loops in your solution, not loops of any other kind.
+You must use a `while` loop in your solution, and no loops of any other kind.
 
 Create a program called `Average.java` that computes the average of the first `N` positive integers, based upon the input `N`.
 
@@ -63,7 +63,7 @@ Result is: 3.0
 This is the same question as in Lab 3, except requiring the use of a `while` loop instead of a `for` loop. Feel free to use your previous code as a starting point. Make sure to keep separate copies and properly submit the correct version of the code to each corresponding lab assignment on Gradescope.
 
 {: .note }
-You may only use `while` loops in your solution, not loops of any other kind.
+You must use a `while` loop in your solution, and no loops of any other kind.
 
 Create a program that can count the number of words in a specified file, using the starter code in `WordCount.java`. Here, a word is defined as characters delimited (separated) by whitespace characters.
 

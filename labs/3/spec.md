@@ -35,7 +35,7 @@ Your submission will be scored based upon:
 ## Not your average joe!
 
 {: .note }
-You may only use `for` loops in your solution, not loops of any other kind.
+You must use a `for` loop in your solution, and no loops of any other kind.
 
 Create a program called `Average.java` that computes the average of the first `N` positive integers, based upon the input `N`.
 
@@ -56,7 +56,7 @@ Result is: 3.0
 ## Word.
 
 {: .note }
-You may only use `for` loops in your solution, not loops of any other kind.
+You must use a `for` loop in your solution, and no loops of any other kind.
 
 Create a program that can count the number of words in a specified file, using the starter code in `WordCount.java`. Here, a word is defined as characters delimited (separated) by whitespace characters.
 
