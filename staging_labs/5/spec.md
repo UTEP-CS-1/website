@@ -58,12 +58,16 @@ If you're stuck with that, refer to section 5.14 in the lecture textbook.
 
 ## Explore El Paso
 
-The I-10 highway stretches west to east across El Paso, and the exits are numbered according to the mile markers.
-It starts with New Mexico to the west at exit 0, cuts through El Paso with UTEP at exit 18, and goes to Socorro to the east at exit 35.
+The Interstate-10 highway stretches west to east across El Paso, and the exits are numbered according to the mile markers.
+It starts with New Mexico to the west at mile 0, cuts through El Paso with UTEP at mile 18, and goes to Socorro to the east at mile 35.
 
-As a spontaneous traveler, I'd like to explore El Paso by starting at mile 18 (UTEP) of the I-10 highway. Every hour, I will choose to drive 1 mile on the highway either west or east. The direction of this step taken every hour will be decided randomly. My journey is completed when I ventured out of El Paso, arriving at either exit 0 or exit 35.
+As a spontaneous traveler, I'd like to explore El Paso by starting at mile 18 (UTEP) of the I-10 highway. Every hour, I will choose to drive 1 mile on the highway either west or east. The direction of this step taken every hour will be decided randomly (such as by flipping a coin). My journey is completed when I have ventured out of El Paso, arriving at the exit at either mile 0 or mile 35.
 
-In `ExploreElPaso.java`, create a program that will simulate this travel plan and repeat this simulation according to the number of trials inputted by the user on the terminal. The starting point, and west/east boundaries should also be configurable by the user input via the terminal. It should report the results of all those simulations, namely the number of steps taken on the average journey, the fraction of trials in which the journey was completed by ending up on the west boundary, and the same of the east boundary.
+In `ExploreElPaso.java`, create a program that will simulate this travel plan and repeat this simulation according to the number of trials inputted by the user on the terminal. The starting point, and west/east boundaries should also be configurable by the user input via the terminal. It should report the following summary results of all those simulations:
+
+- the number of steps taken on the average journey
+- the fraction of trials in which the journey was completed by ending up on the west boundary
+- the same fraction but for the east boundary
 
 Expected program usage:
 ```
