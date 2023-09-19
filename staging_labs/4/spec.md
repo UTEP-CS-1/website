@@ -105,8 +105,8 @@ You may use `for` loops or `while` loops at your discretion for this exercise. M
 We define the Collatz sequence for any positive integer `x` to be the following:
 - The first element in the sequence is `x`
 - The second element in the sequence is:
-	- $x/2$ if `x` is even.
-	- $3x+1$ if `x` is odd.
+	- $$x/2$$ if `x` is even.
+	- $$3x+1$$ if `x` is odd.
 - The third element in the sequence follows the same formula, but using the value of the second element instead of the value of the first element.
 - And so on, each time applying the formula on the previous element to generate the next element after it.
 
