@@ -36,7 +36,7 @@ Your submission will be scored based upon:
 
 ## Not your average joe!
 
-{: .note }
+{: .tip }
 This is the same question as in Lab 3, except requiring the use of a `while` loop instead of a `for` loop. Feel free to use your previous code as a starting point. Make sure to keep separate copies and properly submit the correct version of the code to each corresponding lab assignment on Gradescope.
 
 {: .note }
@@ -60,7 +60,7 @@ Result is: 3.0
 
 ## Word.
 
-{: .note }
+{: .tip }
 This is the same question as in Lab 3, except requiring the use of a `while` loop instead of a `for` loop. Feel free to use your previous code as a starting point. Make sure to keep separate copies and properly submit the correct version of the code to each corresponding lab assignment on Gradescope.
 
 {: .note }
@@ -99,7 +99,7 @@ Open `reflection.txt`, which is a file you can type a plain-text answer. Briefly
 
 ## Collatz sequence
 
-{: .note }
+{: .tip }
 You may use `for` loops or `while` loops at your discretion for this exercise. Make the syntactical choices that are most appropriate for the solution you've written.
 
 We define the Collatz sequence for any positive integer `x` to be the following:
