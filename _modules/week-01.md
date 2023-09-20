@@ -21,3 +21,8 @@ Sep 18/19
 : **Lab**{: .label .label-purple } 
 [Lab 3: for loops](labs/3/spec)
 :  
+
+Sep 20/21
+: **Lab**{: .label .label-purple } 
+[Lab 4: while loops](labs/4/spec)
+:  
