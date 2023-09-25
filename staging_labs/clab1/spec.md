@@ -171,7 +171,7 @@ If the playlist is empty, then output the following EXACTLY:
 Total play time: 0:00:00
 ```
 
-If there are videos in the playlist, output them following this format EXACTLY:
+If there are videos in the playlist, output them in the order they were added by the user, following this format EXACTLY:
 
 ```
 ------------- YOUR PLAYLIST ------------
