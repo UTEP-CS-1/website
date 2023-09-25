@@ -23,18 +23,18 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 > Generative AI use is prohibited. Plagiarism detection analysis will be performed on all submissions. Please review the course syllabus for the full standards of conduct. Below is an exerpt on the definition of collaboration.
 >
 > The following are not allowed:
->	- Posting any assignment (or any of its parts) online in any form
->	- Sharing assignments outside of the course (i.e., to other students)
->	- Copy/pasting any code from anywhere other than from Instructor/TA/IA. This includes copy/pasting code snippets (or entire assignments) from online resources such as, but not limited to: stackoverflow.com, Chegg, Course Hero, ChatGPT/Bard.
->	- Sharing your code with other students.
->	- Reading code from other students.
->	- Look at another student’s code
->	- Debug another student’s code
+> - Posting any assignment (or any of its parts) online in any form
+> - Sharing assignments outside of the course (i.e., to other students)
+> - Copy/pasting any code from anywhere other than from Instructor/TA/IA. This includes copy/pasting code snippets (or entire assignments) from online resources such as, but not limited to: stackoverflow.com, Chegg, Course Hero, ChatGPT/Bard.
+> - Sharing your code with other students.
+> - Reading code from other students.
+> - Look at another student’s code
+> - Debug another student’s code
 >
 > The following are allowed:
->	- Communicating with the instructors/TAs/IAs/Googlers
->	- Searching for basic syntax online
->	- Using examples from reference materials (slides, practice problems, etc.) distributed by your instructor/TA/IA
+> - Communicating with the instructors/TAs/IAs/Googlers
+> - Searching for basic syntax online
+> - Using examples from reference materials (slides, practice problems, etc.) distributed by your instructor/TA/IA
 >
 > When in doubt, ask. It is better to ask if something is permitted, rather than doing something that is not permitted and causing issues later.
 
@@ -120,7 +120,7 @@ The output must match the following format *EXACTLY*, including the dividers and
 ```
 
 {: .note }
-> If the video entries in `corpus.csv` were to change, your code should still be able to use it. However, you may assume that:
+> If the video entries in `corpus.csv` were to change, your code MUST still be able to work with it. However, you may assume that:
 > - The header and columns will not change.
 > - Video ids will always be 11 characters long.
 > - Video titles will always be <50 characters long.
@@ -143,14 +143,14 @@ emma chamberlain
 
 Upon selecting a video, we will also determine the ads to be shown. We have three different kinds of ads, each of which may either be shown or not shown for the video:
 
-	- **Pre-roll ads**: This would be a 30 sec long ad to be shown before the video plays. This ad will only be shown on a video if it is marked `true` for "pre-roll ad" in `corpus.csv`.
+- **Pre-roll ads**: This would be a 30 sec long ad to be shown before the video plays. This ad will only be shown on a video if it is marked `true` for "pre-roll ad" in `corpus.csv`.
 
-	- **Mid-roll ads**: This would be either a 2 min long ad, or a 10 sec ad if the user decides to skip after 10 sec. This ad will only be shown on a video if it is marked `true` for "mid-roll ad" in `corpus.csv`. If and only if a mid-roll ad is to be shown, prompt the user asking if they would like to skip the ad after 10 seconds.
-		- If the user enters `true`, they will have the 10 second mid-roll ad. 
-		- If the user enters `false`, they will have the 2 minute mid-roll ad. 
-		- If the user enters an invalid boolean, then prompt them again.
+- **Mid-roll ads**: This would be either a 2 min long ad, or a 10 sec ad if the user decides to skip after 10 sec. This ad will only be shown on a video if it is marked `true` for "mid-roll ad" in `corpus.csv`. If and only if a mid-roll ad is to be shown, prompt the user asking if they would like to skip the ad after 10 seconds.
+	- If the user enters `true`, they will have the 10 second mid-roll ad. 
+	- If the user enters `false`, they will have the 2 minute mid-roll ad. 
+	- If the user enters an invalid boolean, then prompt them again.
 
-	- **Post-roll ads**: This would be a 5 sec long ad to be shown after the video plays. This ad will only be shown on a video if it is marked `true` for "post-roll ad" in `corpus.csv`.
+- **Post-roll ads**: This would be a 5 sec long ad to be shown after the video plays. This ad will only be shown on a video if it is marked `true` for "post-roll ad" in `corpus.csv`.
 
 Finally return back to the main menu.
 
@@ -179,7 +179,11 @@ If there are videos in the playlist, output them following this format EXACTLY:
  4. https://youtu.be/ZAfAud_M_mg | 03:57 ( +30s preroll +10s midroll +5s postroll )
  5. https://youtu.be/ZAfAud_M_mg | 03:57 ( +30s preroll +2m midroll +5s postroll )
  6. https://youtu.be/GnJAqV3VMUE | 25:09 ( no ads )
-Total play time: 1:28:13
+ 7. https://youtu.be/GnJAqV3VMUE | 25:09 ( no ads )
+ 8. https://youtu.be/GnJAqV3VMUE | 25:09 ( no ads )
+ 9. https://youtu.be/GnJAqV3VMUE | 25:09 ( no ads )
+10. https://youtu.be/GnJAqV3VMUE | 25:09 ( no ads )
+Total play time: 3:08:49
 ```
 
 Notice that:
