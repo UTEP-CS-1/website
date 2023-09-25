@@ -98,6 +98,8 @@ user onto the terminal.
 
 To do this, you need to read the file `corpus.csv` and display each line of it.
 
+<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab1_corpus.zip" class="btn btn-green">Download corpus.csv file</a>
+
 {: .important }
 The output must match the following format *EXACTLY*, including the dividers and spacing.
 
