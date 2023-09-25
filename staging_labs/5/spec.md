@@ -33,66 +33,79 @@ Your submission will be scored based upon:
 - Correctly following the instructions and completing the code accordingly.
 - Variables should be given descriptive names. Variable names should be written in camel case (all letters lowercase except the first letter of each word besides the first word), whichIsLikeThis.
 
-## Prime Factorize
+## Overview
 
-In `PrimeFactorize.java`, implement a program that takes a positive integer as user input from the terminal and prints out the prime factorization of this number.
+In this lab, first we will be completing a worksheet in class. Afterwards, for the coding portion, we will be printing out patterns of star characters similar to the front page of the worksheet. 
 
-A prime number is a number that is not divisible by any other number besides 1 and itself (2, 3, 5, 7, ...).
+The exercises here build up to the last exercise (Black diamond), which is to create the following star pattern:
 
-The prime factorization of a number is writing it as the product of only prime numbers.
-
-For example, the prime factorization of $$126$$ is $$2*3*3*7$$ because all of those factors are prime, and their product is $$126$$.
-
-Expected program usage:
 ```
-Enter a positive integer to find its prime factorization: 126
-2
-3
-3
-7
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
 ```
 
-{: .tip }
-First try solving the simpler problem of checking whether a number is prime or not.
-If you're stuck with that, refer to section 5.14 in the lecture textbook.
+Shown above is a size 4 pattern, because from the center to a corner, there are 4 stars. The solutions in these exercises should generate patterns of the size specified by the user via console Scanner input.
 
-## Explore El Paso
+The exercises break down this problem into smaller subproblems that are more approachable to begin with, which is a good problem solving strategy in general. Specifically, the first exercise (Green) will deal with the top right quadrant of the diamond, and the second exercise (Blue) will deal with the top left quadrant.
 
-The Interstate-10 highway stretches west to east across El Paso, and the exits are numbered according to the mile markers.
-It starts with New Mexico to the west at mile 0, cuts through El Paso with UTEP at mile 18, and goes to Socorro to the east at mile 35.
+## Green
 
-As a spontaneous traveler, I'd like to explore El Paso by starting at mile 18 (UTEP) of the I-10 highway. Every hour, I will choose to drive 1 mile on the highway either west or east. The direction of this step taken every hour will be decided randomly (such as by flipping a coin). My journey is completed when I have ventured out of El Paso, arriving at the exit at either mile 0 or mile 35.
-
-In `ExploreElPaso.java`, create a program that will simulate this travel plan and repeat this simulation according to the number of trials inputted by the user on the terminal. The starting point, and west/east boundaries should also be configurable by the user input via the terminal. It should report the following summary results of all those simulations:
-
-- the number of steps taken on the average journey
-- the fraction of trials in which the journey was completed by ending up on the west boundary
-- the same fraction but for the east boundary
-
-Expected program usage:
-```
-Enter start (int): 18
-Enter west end (int): 0
-Enter east end (int): 35
-Enter number of trials (positive int): 100000
-
-Average steps: 305.7249800000103
-Average chance of exiting west: 0.4839200000003432
-Average chance of exiting east: 0.5160799999996568
+Green will be the top right quadrant, not including the center column. Shown below is this quadrant in size 4:
 ```
 
-<div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d216947.18623610077!2d-106.59016594342741!3d31.83044499019314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x86ddfe2a8e61e41b%3A0x1495d5caa039078d!2sGreat%20American%20Steakhouse!3m2!1d31.9750901!2d-106.58356789999999!4m5!1s0x86e7585e81dab135%3A0xe85330a35247d74!2sUTEP%2C%20Sun%20Bowl%20Parking%20Garage%2C%20IC-10%2C%20Sun%20Bowl%20Drive%2C%20El%20Paso%2C%20TX!3m2!1d31.7700201!2d-106.5083437!4m5!1s0x86e743d50acb2c01%3A0xd871e9467bb72aa3!2sCracker%20Barrel%20Old%20Country%20Store!3m2!1d31.6881292!2d-106.26747499999999!5e0!3m2!1sen!2sus!4v1695146346110!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+*
+**
+***
+```
 
-## Submit
+Notice that the first line is empty, and that a triangle with sides of length 3 is created.
 
-Turn in your completed worksheet to your TA before the end of your lab session.
+In `Green.java`, ask the user for the size through the console input using the Scanner. Then generate this pattern such that it is the specified size.
 
-Upload these files to the Lab 5 assignment on Gradescope.
+Make sure to add comments to label sections and keep your code organized.
 
-- `PrimeFactorize.java`
-- `ExploreElPaso.java`
+{ .tip }
+You will need to use both `System.out.println()` as well as `System.out.print()`. The difference is that the former prints the content and then moves to the next line, while the latter prints the content but remains on the next line so that the next print statement continues on that same line.
 
-The autograder will run some simple checks to guide you towards the right track. However, these preliminary checks may not be comprehensive; making all the test cases turn green does not imply that your code is 100% correct. You may resubmit as many times as you like prior to the deadline posted on Gradescope to improve your submission. After the deadline, your active submission will be further graded by a course staff member and/or additional autograder test cases.
+## Blue
+
+Blue will be the top left quadrant, including the center column. Shown below is this quadrant in size 4:
+```
+   *
+  **
+ ***
+****
+```
+
+Notice that in order to right align the stars, space characters are printed in the row before it.
+
+In `Blue.java`, ask the user for the size through the console input using the Scanner. Then generate this pattern such that it is the specified size.
+
+Make sure to add comments to label sections and keep your code organized.
+
+## Black diamond
+
+Now we will create the full diamond. Shown below is the pattern in size 4:
+```
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+```
+
+The top half will be very similar to the previous two exercises. The quadrants in the bottom half will need to be solved in a similar manner (but note that the largest middle row is not repeated).
+
+In `BlackDiamond.java`, ask the user for the size through the console input using the Scanner. Then generate this pattern such that it is the specified size.
+
+Make sure to add comments to label sections and keep your code organized.
 
 ## Grading criteria
 
