@@ -5,7 +5,7 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Lab 5: More conditionals and loops
+# Lab 5: Nested loops
 {:.no_toc}
 
 Its been awhile since we started! If you're ready, its time for some more practice!
