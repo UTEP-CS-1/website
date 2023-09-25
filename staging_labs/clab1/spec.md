@@ -11,7 +11,7 @@ search_exclude: true
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 {: .important }
@@ -20,9 +20,9 @@ hesitate to come to your instructor, TAs, IAs, and Googlers for help or clarific
 you. The office hours schedule is posted on the lab website and Blackboard.
 
 {: .warning }
->	Generative AI use is prohibited. Plagiarism detection analysis will be performed on all submissions. Please review the course syllabus for the full standards of conduct. Below is an exerpt on the definition of collaboration.
+> Generative AI use is prohibited. Plagiarism detection analysis will be performed on all submissions. Please review the course syllabus for the full standards of conduct. Below is an exerpt on the definition of collaboration.
 >
->	The following are not allowed:
+> The following are not allowed:
 >	- Posting any assignment (or any of its parts) online in any form
 >	- Sharing assignments outside of the course (i.e., to other students)
 >	- Copy/pasting any code from anywhere other than from Instructor/TA/IA. This includes copy/pasting code snippets (or entire assignments) from online resources such as, but not limited to: stackoverflow.com, Chegg, Course Hero, ChatGPT/Bard.
@@ -31,12 +31,12 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 >	- Look at another student’s code
 >	- Debug another student’s code
 >
->	The following are allowed:
+> The following are allowed:
 >	- Communicating with the instructors/TAs/IAs/Googlers
 >	- Searching for basic syntax online
 >	- Using examples from reference materials (slides, practice problems, etc.) distributed by your instructor/TA/IA
 >
->	When in doubt, ask. It is better to ask if something is permitted, rather than doing something that is not permitted and causing issues later.
+> When in doubt, ask. It is better to ask if something is permitted, rather than doing something that is not permitted and causing issues later.
 
 
 ## Deliverables
@@ -130,16 +130,9 @@ The output must match the following format *EXACTLY*, including the dividers and
 
 ## 2. Add video to playlist
 
-The user will be prompted and must enter the video id exactly (capitilization matters) to add the video to the playlist:
-```
-Please enter the video ID to add to the playlist:
-> 
-```
+Prompt the user to enter a video ID to add the video to the playlist.
 
-If the video ID is not found in the corpus, display a message and return to the main menu:
-```
-I'm sorry, that's not a valid video id.
-```
+If the video ID is not found in the corpus (must match EXACTLY, capitilization matters), display a message informing the user and return to the main menu.
 
 Otherwise, print out the video title and creator name by themselves on their own line. You may print out other text on other lines if you like. For example, if the user entered `GnJAqV3VMUE`:
 ```
@@ -217,13 +210,9 @@ Display a message asking the user to confirm if they wish to lose their progress
 If the user selects the exit option, all playlist items and progress done throughout the
 program is lost and will exit the user out of the program.
 
-First, display a message, such as:
+First display a goodbye message.
 
-```
-Thank you for watching UtepTube.
-```
-
-The program should then terminate without error. Do NOT use `System.exit()` to do this.
+Afer that, the program should then terminate without error. Do NOT use `System.exit()` to do this.
 
 ## FAQ
 
