@@ -28,13 +28,6 @@ Download the starter code zip file, unzip it / extract all, and place the conten
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab5_starter.zip" class="btn btn-green">Download starter code</a>
 
 
-Your submission will be scored based upon:
-- The code compiles and runs.
-- Correctly following the instructions and completing the code accordingly.
-- Variables should be given descriptive names. Variable names should be written in camel case (all letters lowercase except the first letter of each word besides the first word), whichIsLikeThis.
-
-## Overview
-
 In this lab, first we will be completing a worksheet in class. Afterwards, for the coding portion, we will be printing out patterns of star characters similar to the front page of the worksheet. 
 
 The exercises here build up to the last exercise (Black diamond), which is to create the following star pattern:
@@ -53,6 +46,12 @@ Shown above is a size 4 pattern, because from the center to a corner, there are 
 
 The exercises break down this problem into smaller subproblems that are more approachable to begin with, which is a good problem solving strategy in general. Specifically, the first exercise (Green) will deal with the top right quadrant of the diamond, and the second exercise (Blue) will deal with the top left quadrant.
 
+Your submission will be scored based upon:
+- The code compiles and runs.
+- Correctly following the instructions and completing the code accordingly.
+- Variables should be given descriptive names. Variable names should be written in camel case (all letters lowercase except the first letter of each word besides the first word), whichIsLikeThis.
+- Comments are used to label sections and keep your code organized.
+
 ## Green
 
 Green will be the top right quadrant, not including the center column. Shown below is this quadrant in size 4:
@@ -69,7 +68,7 @@ In `Green.java`, ask the user for the size through the console input using the S
 
 Make sure to add comments to label sections and keep your code organized.
 
-{ .tip }
+{: .tip }
 You will need to use both `System.out.println()` as well as `System.out.print()`. The difference is that the former prints the content and then moves to the next line, while the latter prints the content but remains on the next line so that the next print statement continues on that same line.
 
 ## Blue
