@@ -26,3 +26,9 @@ Sep 20/21
 : **Lab**{: .label .label-purple } 
 [Lab 4: while loops](labs/4/spec)
 :  
+
+Sep 27/28
+: **Lab**{: .label .label-purple } 
+[Lab 5: nested loops](labs/5/spec)
+:  
+
