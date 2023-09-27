@@ -29,6 +29,6 @@ Sep 20/21
 
 Sep 27/28
 : **Lab**{: .label .label-purple } 
-[Lab 5: nested loops](labs/5/spec)
+[Lab 5: Nested loops](labs/5/spec)
 :  
 
