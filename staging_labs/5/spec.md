@@ -71,6 +71,22 @@ Make sure to add comments to label sections and keep your code organized.
 {: .tip }
 You will need to use both `System.out.println()` as well as `System.out.print()`. The difference is that the former prints the content and then moves to the next line, while the latter prints the content but remains on the next line so that the next print statement continues on that same line.
 
+Additional example in size 3:
+```
+
+*
+**
+```
+
+Additional example in size 5:
+```
+
+*
+**
+***
+****
+```
+
 ## Blue
 
 Blue will be the top left quadrant, including the center column. Shown below is this quadrant in size 4:
@@ -86,6 +102,22 @@ Notice that in order to right align the stars, space characters are printed in t
 In `Blue.java`, ask the user for the size through the console input using the Scanner. Then generate this pattern such that it is the specified size.
 
 Make sure to add comments to label sections and keep your code organized.
+
+Additional example in size 3:
+```
+  *
+ **
+***
+```
+
+Additional example in size 5:
+```
+    *
+   **
+  ***
+ ****
+*****
+```
 
 ## Black diamond
 
@@ -105,6 +137,28 @@ The top half will be very similar to the previous two exercises. The quadrants i
 In `BlackDiamond.java`, ask the user for the size through the console input using the Scanner. Then generate this pattern such that it is the specified size.
 
 Make sure to add comments to label sections and keep your code organized.
+
+Additional example in size 3:
+```
+  *
+ ***
+*****
+ ***
+  *
+```
+
+Additional example in size 5:
+```
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+```
 
 ## Grading criteria
 
