@@ -101,33 +101,33 @@ To do this, you need to read the file `corpus.csv` and display each line of it.
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab1_corpus.zip" class="btn btn-green">Download corpus.csv file</a>
 
 {: .important }
-The output must match the following format *EXACTLY*, including the dividers and spacing.
+Match the following format as closely as possible. You can check whether your output will be accepted by submitting to Gradescope. The test case called "1 List videos) check formatting" should pass. Remember you can resubmit as many times as needed before the deadline to Gradescope to check this.
+
 
 ```
-+--------------------------------------------------------------------------------------------------+
-|                                         UtepTube corpus                                          |
-+-------------+---------------------------------------------------+---------------------+----------+
-| VIDEO ID    | VIDEO TITLE                                       |             CREATOR |  MIN:SEC |
-+-------------+---------------------------------------------------+---------------------+----------+
-| 5Fg9oZk-5uA | I Bought Everything In 5 Stores                   |             MrBeast |    14:14 |
-+-------------+---------------------------------------------------+---------------------+----------+
-| oNCs4C2SMjo | Apple Watch Series 9 & Ultra 2: What Are We Wa... |    Marques Brownlee |    10:29 |
-+-------------+---------------------------------------------------+---------------------+----------+
-| XKu_SEDAykw | How to: Work at Google — Example Coding/Engine... |      Life at Google |    24:02 |
-+-------------+---------------------------------------------------+---------------------+----------+
-| ZAfAud_M_mg | Halsey - Without Me                               |              Halsey |     3:57 |
-+-------------+---------------------------------------------------+---------------------+----------+
-| GnJAqV3VMUE | LA MORNING ROUTINE LOL                            |    emma chamberlain |    25:09 |
-+-------------+---------------------------------------------------+---------------------+----------+
++-----------------------------------------------------------------------------------------------+
+|                                        UtepTube corpus                                        |
++-------------+---------------------------------------------------+---------------------+-------+
+| VIDEO ID    | VIDEO TITLE                                       |             CREATOR | MM:SS |
++-------------+---------------------------------------------------+---------------------+-------+
+| 5Fg9oZk-5uA | I Bought Everything In 5 Stores                   |             MrBeast | 14:14 |
++-------------+---------------------------------------------------+---------------------+-------+
+| oNCs4C2SMjo | Apple Watch Series 9 & Ultra 2: What Are We Wa... |    Marques Brownlee | 10:29 |
++-------------+---------------------------------------------------+---------------------+-------+
+| XKu_SEDAykw | How to: Work at Google — Example Coding/Engine... |      Life at Google | 24:02 |
++-------------+---------------------------------------------------+---------------------+-------+
+| ZAfAud_M_mg | Halsey - Without Me                               |              Halsey | 03:57 |
++-------------+---------------------------------------------------+---------------------+-------+
+| GnJAqV3VMUE | LA MORNING ROUTINE LOL                            |    emma chamberlain | 25:09 |
++-------------+---------------------------------------------------+---------------------+-------+
 ```
 
 {: .note }
-> If the video entries in `corpus.csv` were to change, your code MUST still be able to work with it. However, you may assume that:
+> Open `corpus.csv` in Sublime to see what the given example looks like. However, note that if the video entries in `corpus.csv` were different, your code MUST still be able to work with it. You may assume that:
 > - The header and columns will not change.
-> - Video ids will always be 11 characters long.
-> - Video titles will always be <50 characters long.
-> - Creator names will always be <20 characters long.
+> - There will always be spaces added to the values in each row so that every column is of the same width (the alignment will be taken care of for you).
 > - A single video's duration will always be <1 hour long.
+> - When the minutes are <10, there will always be a leading 0 such as 04 to keep the width/alignment the same for you.
 > - Commas will never be used except for the purpose of separating columns.
 
 ## 2. Add video to playlist
