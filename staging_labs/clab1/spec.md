@@ -41,11 +41,8 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 
 ## Deliverables
 
-{: .important }
-TODO add due date or date range and policy on missing meetings
-
-- Check-in meeting: you will be emailed an assigned appointment time in which you will review the check-in milestone materials (described in separate section below) with a TA, IA, or Googler.
-- Final demo meeting: similarly, you will be emailed an assigned appointment time in which you will demonstrate the full functionality of your completed project to a TA, IA, or Googler, and answer questions about the code.
+- Check-in meeting: you will demonstrate progress towards milestones during an upcoming lab day. Details to be announced.
+- Final demo meeting: you will be emailed an assigned appointment time in which you will demonstrate the full functionality of your completed project to a TA, IA, or Googler, and answer questions about the code.
 - Code submission on Gradescope: a single file containing all your code, called `UtepTube.java`, with the class inside named as `UtepTube`.
 
 Code submission will be accepted up to three days late (72 hours) and will have scores reduced by 10% for each day (24 hours) of tardiness.

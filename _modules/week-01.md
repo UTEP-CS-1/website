@@ -32,3 +32,7 @@ Sep 27/28
 [Lab 5: Nested loops](labs/5/spec)
 :  
 
+Oct 2
+: **Comprehensive Lab**{: .label .label-green } 
+[Comprehensive Lab 1: ](labs/clab1/spec)
+:  
