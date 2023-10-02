@@ -34,5 +34,5 @@ Sep 27/28
 
 Oct 2
 : **Comprehensive Lab**{: .label .label-green } 
-[Comprehensive Lab 1: ](labs/clab1/spec)
+[Comprehensive Lab 1: UtepTube](clabs/1/spec)
 :  
