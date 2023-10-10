@@ -43,7 +43,7 @@ Your submission will be scored based upon:
 - Operations are computed correctly.
 
 {: .warning }
-The following are not allowed:
+> The following are not allowed:
 > - Other Java libraries aside from Scanner, Files and FileExceptions.
 > - The use of Java lists, arrays, linked-lists and other data structures.
 > - Use of generative AI (i.e., ChatGPT).
