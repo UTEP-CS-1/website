@@ -5,10 +5,10 @@ nav_exclude: true
 search_exclude: true
 ---
 
-# Lab 6: Methods
+# Lab 7: Methods
 {:.no_toc}
 
-Now that you're here, let's work with Java methods!
+Today we will methodically practice methods!
 
 Learning objectives:
 - Students will understand and practice methods.
