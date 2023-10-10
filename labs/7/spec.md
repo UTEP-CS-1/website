@@ -54,7 +54,33 @@ Your submission will be scored based upon:
 
 For this lab you won't be reading user input to do arithmetic operations, instead you will read from the file `operations.txt` to retrieve what operations your calculator will be doing.
 
-For this, you will **create a method for each of the arithmetic operators you see in `operations.txt`**.
+For this, you will create a method for each of the following arithmetic operations (make sure to name your methods exactly as specified below! Otherwise the autograder will fail and you will lose points!):
+
+**calculate**: takes in two **integer** values and a **String** operation symbol. The purpose of this method is to determine which operation should take place. It returns the result of that operation. Ex:
+```
+calculate(1,2,"+") means that an addition should be performed, so this method will call add(1,2) and return the result.
+
+Similarly, calculate(2,3,"*") means that a multiplication should be performed, so calculate will call multiply(3,2) and return the result.
+```
+
+**add**: takes in two **integer** values and returns the sum.
+
+**subtract**: takes in two **integer** values and returns the difference.
+
+**multiply**: takes in two **integer** values and returns the product.
+
+**divide**: takes in two **integer** values and returns the quotient. This division will be an integer division, no need to worry about decimals!
+
+**power**: takes in two **integer** values and returns the results of the first integer value to the power of the second integer value. Ex:
+```
+power(3,2): means 3^2, should return 9
+```
+**factorial**: takes in **one integer** value and returns the factorial of this integer. A factorial of an integer is the product of that integer and all the integers below it, up to 1. Ex:
+```
+factorial(5): means 5!, is computed: 5 * 4 * 3 * 2 * 1 = 120
+```
+
+File reading should be performed in the main method. Here you will read the file, passing in the values of each line to the calculate method as specified above. **You should then print the value returned by calculate.**
 
 `operations.txt` is set up such that each line contains an arithmetic operation of **integers**. The arithmetic operator is the last element of each line.
 
@@ -66,14 +92,31 @@ Some examples lines of the file are:
 
 This represents `4 * 9` and thus your multiplication method should print `36`.
 
+Factorials are a special case. Each row will contain two numbers.
+Only the first number should be passed into your factorial method, the second number should be ignored!
+
 ```
-5 !
+5 0 !
 ```
 
-This represents `5!` and thus your multiplication method should print `120`.
+This represents `5!` and thus your multiplication method should print `120`. Notice how the `0` should be ignored!
 
 Notice that the there is a single space in between each of the elements within a row. Also, there might be operations where a single integer is being computed so don't assume that your calculator will only compute operations with two integers.
 
+Here is an example run of what your output should look like given the following file:
+```
+1 2 +
+3 2 *
+4 2 ^
+5 0 !
+```
+Example expected output:
+```
+3
+6
+16
+120
+```
 
 ## Grading criteria
 
