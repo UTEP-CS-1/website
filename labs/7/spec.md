@@ -31,7 +31,7 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 
 Download the starter code zip file, unzip it / extract all, and place the contents in cs1 under a new lab6 directory. Open it in Sublime.
 
-<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab5_starter.zip" class="btn btn-green">Download starter code</a>
+<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab7_starter.zip" class="btn btn-green">Download starter code</a>
 
 In this lab, we will be creating a calculator!
 
