@@ -107,16 +107,21 @@ Notice that the there is a single space in between each of the elements within a
 Here is an example run of what your output should look like given the following file:
 ```
 1 2 +
-3 2 *
-4 2 ^
-5 0 !
+8 9 *
+6 3 /
+11 2 -
+3 2 ^
+8 0 !
 ```
+
 Example expected output:
 ```
 3
-6
-16
-120
+72
+2
+9
+9
+40320
 ```
 
 ## Grading criteria
