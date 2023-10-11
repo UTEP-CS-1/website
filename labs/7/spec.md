@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab 6
+title: Lab 7
 nav_exclude: true
 search_exclude: true
 ---
