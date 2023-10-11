@@ -36,3 +36,13 @@ Oct 2
 : **Comprehensive Lab**{: .label .label-green } 
 [Comprehensive Lab 1: UtepTube](clabs/1/spec)
 :  
+
+Oct 9/10
+: **Lab**{: .label .label-purple } 
+Lab 6: Methods (no coding assignment)
+:  
+
+Oct 11/12
+: **Lab**{: .label .label-purple } 
+[Lab 7: Methods](labs/7/spec)
+: 
