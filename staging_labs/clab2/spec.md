@@ -195,7 +195,7 @@ This is with a border of thickness 10 and RGB values 235, 64, 52:
 
 ![](dog.png) ![](dog_border1.png)
 
-This is with a border of thickness 30 and RGB values 0, 0, 0:
+This is with a border of thickness 30 and RGB values 255, 255, 255:
 
 ![](dog.png) ![](dog_border2.png)
 
