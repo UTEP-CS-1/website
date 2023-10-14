@@ -57,6 +57,8 @@ You will implement several methods, each of which applies a filter effect on an 
 
 There is also a `Utilities.java` file containing helpful methods that you will need to call upon in `Filters.java`. However, do not modify or submit `Utilities.java`. To call the methods from this other file, write `Utilities.getRGBArray(`...`)`, for example.
 
+<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab2_starter.zip" class="btn btn-green">Download corpus.csv file</a>
+
 ## Background
 
 **What is an image?** An image is made of square pixels.
