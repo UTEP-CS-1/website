@@ -132,23 +132,23 @@ You should receive these same before and after results:
 {: .tip }
 You'll need to use nested loops for this and most of the filters to traverse the image.
 
-{: .tip }
 To debug when your result image does not look right, you can print out pixel values to check the math carried out by your code. For example:
-	```java
-	System.out.println("Before:");
-    System.out.println(Utilities.getRGBArray(0, 0, img)[0]);
-    System.out.println(Utilities.getRGBArray(0, 0, img)[1]);
-    System.out.println(Utilities.getRGBArray(0, 0, img)[2]);
-    // 93 43 47
 
-    applyGrayscale(img);
+```java
+System.out.println("Before:");
+System.out.println(Utilities.getRGBArray(0, 0, img)[0]);
+System.out.println(Utilities.getRGBArray(0, 0, img)[1]);
+System.out.println(Utilities.getRGBArray(0, 0, img)[2]);
+// 93 43 47
 
-    System.out.println("After:");
-    System.out.println(Utilities.getRGBArray(0, 0, img)[0]);
-    System.out.println(Utilities.getRGBArray(0, 0, img)[1]);
-    System.out.println(Utilities.getRGBArray(0, 0, img)[2]);
-    // 58 58 58
-    ```
+applyGrayscale(img);
+
+System.out.println("After:");
+System.out.println(Utilities.getRGBArray(0, 0, img)[0]);
+System.out.println(Utilities.getRGBArray(0, 0, img)[1]);
+System.out.println(Utilities.getRGBArray(0, 0, img)[2]);
+// 58 58 58
+```
 
 ### Norak
 
@@ -181,15 +181,20 @@ Border color is a length 3 integer array, correspond to the RGB color value that
 Implement this in `Filters.java` inside of
 
 ```java
-public static void applyBorder(BufferedImage img, int borderThickness, int[] borderColor) {
+public static void applyBorder(
+	BufferedImage img, 
+	int borderThickness, 
+	int[] borderColor) {
 	...
 }
 ```
 
 This is with a border of thickness 10 and RGB values 235, 64, 52:
+
 ![](dog.png) ![](dog_border1.png)
 
 This is with a border of thickness 30 and RGB values 0, 0, 0:
+
 ![](dog.png) ![](dog_border2.png)
 
 ### Mirror
