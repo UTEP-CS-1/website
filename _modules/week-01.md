@@ -46,3 +46,9 @@ Oct 11/12
 : **Lab**{: .label .label-purple } 
 [Lab 7: Methods](labs/7/spec)
 : 
+
+Oct 16/17
+: **Lab**{: .label .label-purple } 
+[Lab 8: Arrays](labs/8/spec)
+: 
+
