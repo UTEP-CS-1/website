@@ -26,7 +26,7 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 ## Table of contents
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 ## Before you begin
@@ -52,23 +52,10 @@ Your submission will be scored based upon:
 > - Posting any assignment (or any of its parts) online in any form.
 > - Any type of plagiarism. 
 
-
-
-
-- **main**:
-1. Initialize an integer array called **intArray**that contains the values: -3, 72, 39, -94, 5
-2. Initialize a char array called **charArray** that contains the values: e,v,i,l,x,s,t,o,p,s,x,d,e,s,s,e,r,t,s
-3. Initialize a double array called **doubleArray** that contains the values: 100.50, 200.25, 333.33, 400.11, 200.37
-4. Print the results of Method #1 in the following format: Char array: (your output)
-5. Print the results of Method #2 in the following format: Reversed char array: (your output) *HINT* Method #2 will return an array, therefore to print its contents you can utilize a method you have already created.
-6. Print the results of Method #3 in the following format: Sum of Double array: (your output)
-7. Print the results of Method #4 using find = "min" in the following format: Minimum value in intArray: (your output)
-8. Print the results of Method #4 using find = "max" in the following format: Maximum value in intArray: (your output)
-
 ## 1) printCharArray
 
-- Input: a **char[]** array to be modified and printed.
-- Output: void
+- Input: a `char[]` array to be modified and printed.
+- Output: `void`
 
 The purpose of this method is to: 
 1. Modify the array to replace any `'x'` chars with `'_'` chars.
@@ -81,8 +68,8 @@ In your `main` method, initialize this character array and call upon `printCharA
 
 ## 2) reverseCharArray
 
-- Input: a **char[]** array
-- Output: a new char[] array containing the original array but in reverse order
+- Input: a `char[]` array
+- Output: a **new** `char[]` array containing the original array but in reverse order
 
 For example, with the modified char array after the previous example with the letters of `evil_stops_desserts`, the returned array when iterating over the modified array should be the characters in `stressed_spots_live`.
 
@@ -91,8 +78,8 @@ In your `main` method, pass in the character array after it was modified by `pri
 
 ## 3) sumDoubleArray
 
-- Input: a **double[]** array
-- Output: the sum of all the elements in the array, as a double.
+- Input: a `double[]` array
+- Output: the sum of all the elements in the array, as a `double`.
 
 Example:
 $$100.50, 200.25, 333.33, 400.11, 200.37 \implies 1234.56$$
@@ -102,15 +89,15 @@ In your `main` method, create this double array and call upon `sumDoubleArray` t
 
 ## 4) findMinMax
 
-- Input: a **int[]** array to search and a String that you can assume will either take on the value "min" or "max" only.
-- Output: the minimum or maximum value found in the given array, depending on which is specified by the String parameter.
+- Input: a `int[]` array to search and a `String` that you can assume will either take on the value `"min"` or `"max"` only.
+- Output: the minimum or maximum value found in the given array, depending on which is specified by the String parameter, as an `int`.
 
 {: .hint }
-First check if find is equal to "min" or "max" and then perform the needed operations.
+First check if find is equal to `"min"` or `"max"` and then perform the needed operations.
 
 Example for input array containing `-3, 72, 39, -94, 5`:
-- If "min": -94
-- If "max": 72
+- If `"min"`: -94
+- If `"max"`: 72
 
 In your `main` method, create this int array and call upon `findMinMax` each way to test your implementation by verifying the returned values are as expected.
 
