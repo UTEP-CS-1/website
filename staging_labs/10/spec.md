@@ -8,7 +8,7 @@ search_exclude: true
 # Lab 10: Recursion
 {:.no_toc}
 
-Today we will be raising our attention on arrays!
+Today's topic is recursion cursion ursion rsion ...
 
 Learning objectives:
 - Students will understand recursive methods with respect to repetition
@@ -62,13 +62,13 @@ We have already covered factorial in lecture and the worksheet. We will now re-i
 ## 1) power
 
 - Input: two ints `x` and `y`
-- Output: $x^y$
+- Output: $$x^y$$
 - You may assume that:
 	- `y` is non-negative (it can be 0 or positive).
 	- `x` and `y` will be small, so as not to expect an answer that causes `int` overflow.
 
 {: .hint }
-$x^y$ is equivalent to $x*x*...*x$ done $y$ times.
+$$x^y$$ is equivalent to $$x*x*...*x$$ done $$y$$ times.
 
 In `powerLoop`, implement this using any kind of loop (recursion may not be used).
 In `powerRecursive`, implement this using recursion (loops may not be used).
@@ -79,7 +79,7 @@ You must use multiplication to solve this. You may not use `Math.pow` or similar
 ## 2) multiply
 
 - Input: two ints `x` and `y`
-- Output: $x*y$
+- Output: $$x*y$$
 - You may assume that:
 	- Both `x` and `y` are non-negative (they can be 0 or positive).
 	- `x` and `y` will be not be too large, so as not to expect an answer that causes `int` overflow.
@@ -87,7 +87,7 @@ You must use multiplication to solve this. You may not use `Math.pow` or similar
 **You may NOT use multiplication `*` or division `/` operators to solve this.**
 
 {: .hint }
-$x*y$ is equivalent to $x+x+...+x$ done $y$ times.
+$$x*y$$ is equivalent to $$x+x+...+x$$ done $$y$$ times.
 
 In `multiplyLoop`, implement this using any kind of loop (recursion may not be used).
 In `multiplyRecursive`, implement this using recursion (loops may not be used).
@@ -98,7 +98,7 @@ In `multiplyRecursive`, implement this using recursion (loops may not be used).
 ## 3) divide
 
 - Input: two ints `x` and `y`
-- Output: $x/y$ (the result of integer division)
+- Output: $$x/y$$ (the result of integer division)
 - You may assume that:
 	- `x` is non-negative (it can be 0 or positive).
 	- `y` is positive (it will not be negative and it will not be 0).
@@ -106,7 +106,7 @@ In `multiplyRecursive`, implement this using recursion (loops may not be used).
 **You may NOT use multiplication `*` or division `/` operators to solve this.**
 
 {: .hint }
-$x/y$ is equivalent to the number of times $y$ can be taken away from $x$.
+$$x/y$$ is equivalent to the number of times $$y$$ can be taken away from $$x$$.
 
 In `divideLoop`, implement this using any kind of loop (recursion may not be used).
 In `divideRecursive`, implement this using recursion (loops may not be used).
