@@ -93,7 +93,7 @@ In `multiplyLoop`, implement this using any kind of loop (recursion may not be u
 In `multiplyRecursive`, implement this using recursion (loops may not be used).
 
 {: .note }
-**Challenge:** (not for extra credit) adapt your implementation to remove the assumption that `x` and `y` must be non-negative (`x` and `y` may be negative).
+**Challenge:** (not required, but not for extra credit either) adapt your implementation to remove the assumption that `x` and `y` must be non-negative (`x` and `y` may be negative).
 
 ## 3) divide
 
@@ -112,7 +112,7 @@ In `divideLoop`, implement this using any kind of loop (recursion may not be use
 In `divideRecursive`, implement this using recursion (loops may not be used).
 
 {: .note }
-**Challenge:** (not for extra credit) adapt your implementation to remove the assumption that `x` and `y` must be non-negative (`x` and `y` may be negative). You can still assume that `y` will not be 0.
+**Challenge:** (not required, but not for extra credit either) adapt your implementation to remove the assumption that `x` and `y` must be non-negative (`x` and `y` may be negative). You can still assume that `y` will not be 0.
 
 
 ## Grading criteria
