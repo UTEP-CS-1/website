@@ -59,59 +59,45 @@ Consider the example 2D array:
     {24, 7, 91, 0, 5}
 }
 
-## 1) rowSum
+### 1) rowSum
 
-- Input: a `int[][]` 2D array
-- Output: a **new** `int[]` array containing the sum of numbers in each row of the 2D array.
+Think of this method as adding up the values of coins in each row of a coin collection grid.
 
-Expected Output:
+- Input: a 2D array (`int[][]`).
+- Output: a **new** 1D array (`int[]`) where each value is the total sum of the corresponding row in the 2D array.
 
-{230, 282, 220, 286, 127}
+For instance, if the first row has `{15, 83, 52, 36, 44}`, its sum is `230`. Therefore, the first value in the returned array should be `230`.
 
 ### 2) columnSum
 
-- Input: a `int[][]` 2D array
-- Output: a **new** `int[]` array containing the sum of numbers in each column of the 2D array.
+Imagine dripping paint from the top of each column in the grid to the bottom. This method calculates how much paint is in each column.
 
-Expected output:
+- Input: a 2D array (`int[][]`).
+- Output: a **new** 1D array (`int[]`) where each value is the total sum of the corresponding column in the 2D array.
 
-{186, 276, 322, 238, 123}
+For example, for the first column `{15, 99, 45, 3, 24}`, the sum is `186`. Thus, the first value in the returned array should be `186`.
 
 ### 3) diagonalSums
 
-- Input: a `int[][]` 2D array
-- Output: a **new** `int[]` array containing the sums of the main and secondary diagonals of the 2D array.
+In this method, think about drawing two lines on your grid. One line goes from the top-left to the bottom-right, and the other from the top-right to the bottom-left.
 
-Expected output:
-
-{161, 270}
-
+- Input: a 2D array (`int[][]`).
+- Output: a **new** 1D array (`int[]`) with just two values. The first is the sum of the main diagonal (top-left to bottom-right) and the second is the sum of the secondary diagonal (top-right to bottom-left).
 
 ### 4) traverseBackwards
 
-- Input: a `int[][]` 2D array 
-- Output: a **new** `int[][]` 2D array that is a mirror image of the original. Rows and the elements within rows should both be in reverse order.
+Imagine you took a photo of your grid and then flipped it horizontally and vertically. This method should return your 2D array looking like that flipped photo.
 
-Expected output:
-
-{
-    {5, 0, 91, 7, 24},
-    {27, 71, 89, 96, 3},
-    {38, 67, 12, 58, 45},
-    {9, 64, 78, 32, 99},
-    {44, 36, 52, 83, 15}
-}
-
+- Input: a 2D array (`int[][]`).
+- Output: a **new** 2D array where both the rows and the values within each row are in reverse order compared to the original.
 
 ## Grading criteria
 
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
-| Coding exercise correctness              |        85 |
-| Coding exercise code style and formatting|        15 |
+| Correctness of the coding exercises      |        85 |
+| Coding style and use of comments         |        15 |
 | **_Total_**                              | **_100_** |
-
-
 
 
 
