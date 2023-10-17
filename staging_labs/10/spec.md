@@ -67,7 +67,7 @@ We have already covered factorial in lecture and the worksheet. We will now re-i
 	- `y` is non-negative (it can be 0 or positive).
 	- `x` and `y` will be small, so as not to expect an answer that causes `int` overflow.
 
-{: .hint }
+{: .tip }
 $$x^y$$ is equivalent to $$x*x*...*x$$ done $$y$$ times.
 
 In `powerLoop`, implement this using any kind of loop (recursion may not be used).
@@ -86,7 +86,7 @@ You must use multiplication to solve this. You may not use `Math.pow` or similar
 
 **You may NOT use multiplication `*` or division `/` operators to solve this.**
 
-{: .hint }
+{: .tip }
 $$x*y$$ is equivalent to $$x+x+...+x$$ done $$y$$ times.
 
 In `multiplyLoop`, implement this using any kind of loop (recursion may not be used).
@@ -105,7 +105,7 @@ In `multiplyRecursive`, implement this using recursion (loops may not be used).
 
 **You may NOT use multiplication `*` or division `/` operators to solve this.**
 
-{: .hint }
+{: .tip }
 $$x/y$$ is equivalent to the number of times $$y$$ can be taken away from $$x$$.
 
 In `divideLoop`, implement this using any kind of loop (recursion may not be used).
