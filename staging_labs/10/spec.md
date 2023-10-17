@@ -70,16 +70,17 @@ We have already covered factorial in lecture and the worksheet. We will now re-i
 {: .tip }
 $$x^y$$ is equivalent to $$x*x*...*x$$ done $$y$$ times.
 
-{: .tip }
-> For the recursive solution, let's break down an example. Can you draw a recursive tree to represent these equivalent breakdowns of a power?
->
-> $$\begin{align*}2^4 &= 2 * 2^3 \\ &= 2 * 2 * 2^2 \\ &= 2 * 2 * 2 * 2^1 \\ &= 2 * 2 * 2 * 2 * 2^0 \\ &= 2 * 2 * 2 * 2 * 1 \end{align*}$$
-
 In `powerLoop`, implement this using any kind of loop (recursion may not be used).
 In `powerRecursive`, implement this using recursion (loops may not be used).
 
 {: .note }
 You must use multiplication to solve this. You may not use `Math.pow` or similar pre-existing solutions. If you have already solved this using iteration/loops in lab 8, you may re-use your own solution here for that part.
+
+{: .tip }
+> For the recursive solution, let's break down an example. Can you draw a recursive tree to represent these equivalent breakdowns of a power?
+>
+> $$\begin{align*}2^4 &= 2 * 2^3 \\ &= 2 * 2 * 2^2 \\ &= 2 * 2 * 2 * 2^1 \\ &= 2 * 2 * 2 * 2 * 2^0 \\ &= 2 * 2 * 2 * 2 * 1 \\ &= 16\end{align*}$$
+
 
 ## 2) multiply
 
@@ -96,6 +97,11 @@ $$x*y$$ is equivalent to $$x+x+...+x$$ done $$y$$ times.
 
 In `multiplyLoop`, implement this using any kind of loop (recursion may not be used).
 In `multiplyRecursive`, implement this using recursion (loops may not be used).
+
+{: .tip }
+> For the recursive solution, let's break down an example. Can you draw a recursive tree to represent these equivalent breakdowns of a multiplication?
+>
+> $$\begin{align*}5 * 3 &= 5 + (5 * 2) \\ &= 5 + 5 + (5 * 1) \\ &= 5 + 5 + 5 + (5 * 0) \\ &= 5 + 5 + 5 + 0 \\ &= 15 \end{align*}$$
 
 {: .note }
 **Challenge:** (not required, but not for extra credit either) adapt your implementation to remove the assumption that `x` and `y` must be non-negative (`x` and `y` may be negative).
@@ -115,6 +121,11 @@ $$x/y$$ is equivalent to the number of times $$y$$ can be taken away from $$x$$.
 
 In `divideLoop`, implement this using any kind of loop (recursion may not be used).
 In `divideRecursive`, implement this using recursion (loops may not be used).
+
+{: .tip }
+> For the recursive solution, let's break down an example. Can you draw a recursive tree to represent these equivalent breakdowns of a division?
+>
+> $$\begin{align*}10/3 &= 1 + (10-3)/3 \\ &= 1 + 7/3 \\ &= 1 + 1 + (7-3)/3 \\ &= 1 + 1 + 4/3 \\ &= 1 + 1 + 1 + (4-3)/3 \\ &= 1 + 1 + 1 + 1/3 \\ &= 1 + 1 + 1 + 0 \\ &= 3 \end{align*}$$
 
 {: .note }
 **Challenge:** (not required, but not for extra credit either) adapt your implementation to remove the assumption that `x` and `y` must be non-negative (`x` and `y` may be negative). You can still assume that `y` will not be 0.
