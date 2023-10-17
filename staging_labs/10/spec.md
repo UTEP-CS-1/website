@@ -73,7 +73,7 @@ $$x^y$$ is equivalent to $$x*x*...*x$$ done $$y$$ times.
 {: .tip }
 > For the recursive solution, let's break down an example. Can you draw a recursive tree to represent these equivalent breakdowns of a power?
 >
-> $$\begin{align*}2^4 &= 2 * 2^3 &= 2 * 2 * 2^2 &= 2 * 2 * 2 * 2^1 &= 2 * 2 * 2 * 2 * 2^0 &= 2 * 2 * 2 * 2 * 1 \end{align*}$$
+> $$\begin{align*}2^4 &= 2 * 2^3 \\ &= 2 * 2 * 2^2 \\ &= 2 * 2 * 2 * 2^1 \\ &= 2 * 2 * 2 * 2 * 2^0 \\ &= 2 * 2 * 2 * 2 * 1 \end{align*}$$
 
 In `powerLoop`, implement this using any kind of loop (recursion may not be used).
 In `powerRecursive`, implement this using recursion (loops may not be used).
