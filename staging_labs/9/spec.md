@@ -64,6 +64,8 @@ Consider the example 2D array (This is given to you in the starter code):
 ### 1) rowSum
 
 Think of this method as adding up the values in a scorecard. Every row is a player/team and every column is an event.
+This method will go through each row and add up all the elements as it traverses. When it's at the end of the row, add the sum
+to an array. This array should be created at the beginning of the method.
 
 - Input: a 2D array (`int[][]`).
 - Output: a **new** 1D array (`int[]`) where each value is the total sum of the corresponding row in the 2D array.
