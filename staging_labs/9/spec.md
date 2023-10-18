@@ -52,7 +52,7 @@ Before you start, remember not to hard code your answers! Another array will be 
 ## Exercises
 
 Consider the example 2D array (This is given to you in the starter code):
-
+<pre>
 {
     {15, 83, 52, 36, 44},
     {99, 32, 78, 64, 9},
@@ -60,7 +60,7 @@ Consider the example 2D array (This is given to you in the starter code):
     {3, 96, 89, 71, 27},
     {24, 7, 91, 0, 5}
 }
-
+</pre>
 ### 1) print1dArray
 
 For this method, you'll print a 1D array in a single line. Each element should be separated by a tab. You will use this method to print the 
@@ -70,7 +70,9 @@ results of your answers in other methods.
 - Action: Display each element of the array separated by a tab.
 
 For instance, if the input array is {15, 83, 52, 36, 44}, the output on the console should look like:
+<pre>
 15	83	52	36	44
+</pre>
 
 ### 2) print2dArray
 
@@ -80,14 +82,13 @@ Your task here is to print the entire 2D array such that it appears in a matrix-
 - Action: Display each row of the array on a new line with its elements separated by a tab.
 
 For the example 2D array that was given should print out:
----
+<pre>
 15	83	52	36	44
 99	32	78	64	9
 45	58	12	67	38
 3	96	89	71	27
 24	7	91	0	5
----
-
+</pre>
 
 ### 3) rowSum
 
