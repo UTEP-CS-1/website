@@ -51,7 +51,7 @@ Before you start, remember not to hard code your answers! Another array will be 
 
 ## Exercises
 
-Consider the example 2D array:
+Consider the example 2D array (This is given to you in the starter code):
 
 {
     {15, 83, 52, 36, 44},
