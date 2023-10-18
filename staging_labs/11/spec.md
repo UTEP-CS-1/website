@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Lab 10
+title: Lab 11
 nav_exclude: true
 search_exclude: true
 ---
 
-# Lab 10: Recursion
+# Lab 11: Recursion
 {:.no_toc}
 
 Today's topic is recursion cursion ursion rsion ...
@@ -29,7 +29,7 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 
 Download the starter code zip file, unzip it / extract all, and place the contents in cs1 under a new lab8 directory. Open it in Sublime.
 
-<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab10_starter.zip" class="btn btn-green">Download starter code</a>
+<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab11_starter.zip" class="btn btn-green">Download starter code</a>
 
 Your starter code will already have every method signature needed. Each section below will describe the requirements for each method.
 
