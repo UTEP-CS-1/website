@@ -52,3 +52,7 @@ Oct 16/17
 [Lab 8: Arrays](labs/8/spec)
 : 
 
+Oct 18/19
+: **Lab**{: .label .label-purple } 
+[Lab 9: 2D Arrays](labs/9/spec)
+: 
