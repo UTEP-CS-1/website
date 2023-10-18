@@ -122,8 +122,16 @@ The main diagonal is {15, 32, 12, 71, 5} with a sum of 135. The secondary diagon
 Create a new 2D array that represents the original array but in reverse order. Both the rows and the elements within those rows should be in reverse order.
 
 - Input: a 2D array (`int[][]`).
-- Output: a **new** 2D array where both the rows and the values within each row are in reverse order compared to the original.
-
+- Output: a **new** 2D array where both the rows and the values within each row are in reverse order compared to the original. Your output should look like:
+<pre>
+{
+    {5, 0, 91, 7, 24},
+    {27, 71, 89, 96, 3},
+    {38, 67, 12, 58, 45},
+    {9, 64, 78, 32, 99},
+    {44, 36, 52, 83, 15}
+}
+</pre>
 ## Grading criteria
 
 | **Criteria**                             |   **Pts** |
