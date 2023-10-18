@@ -78,15 +78,15 @@ Your task here is to print the entire 2D array such that it appears in a matrix-
 
 - Input: a 2D array (int[][]).
 - Action: Display each row of the array on a new line with its elements separated by a tab.
-'''
-For the example 2D array that was given should print out:
 
+For the example 2D array that was given should print out:
+---
 15	83	52	36	44
 99	32	78	64	9
 45	58	12	67	38
 3	96	89	71	27
 24	7	91	0	5
-'''
+---
 
 
 ### 3) rowSum
