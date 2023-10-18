@@ -47,6 +47,8 @@ Your submission will be graded based on:
 > - Posting the assignment or parts of it online.
 > - Any form of plagiarism.
 
+Before you start, remember not to hard code your answers! Another array will be used when grading your assignment so your solutions should work with any array.
+
 ## Exercises
 
 Consider the example 2D array:
@@ -79,10 +81,12 @@ For example, for the first column `{15, 99, 45, 3, 24}`, the sum is `186`. Thus,
 
 ### 3) diagonalSums
 
-In this method, think about drawing two lines on your grid. One line goes from the top-left to the bottom-right, and the other from the top-right to the bottom-left.
+In this method, think about drawing two lines on your grid. One line goes from the top-left to the bottom-right, and the other from the top-right to the bottom-left. 
 
 - Input: a 2D array (`int[][]`).
 - Output: a **new** 1D array (`int[]`) with just two values. The first is the sum of the main diagonal (top-left to bottom-right) and the second is the sum of the secondary diagonal (top-right to bottom-left).
+
+The main diagonal is {15, 32, 12, 71, 5} with a sum of 135. The secondary diagonal is {44, 64, 12, 96, 24} with a sum of 240. Therefore, the returned array should be {135, 240}.
 
 ### 4) traverseBackwards
 
