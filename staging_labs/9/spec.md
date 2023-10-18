@@ -61,38 +61,63 @@ Consider the example 2D array (This is given to you in the starter code):
     {24, 7, 91, 0, 5}
 }
 
-### 1) rowSum
+### 1) print1dArray
 
-Think of this method as adding up the values in a scorecard. Every row is a player/team and every column is an event.
-This method will go through each row and add up all the elements as it traverses. When it's at the end of the row, add the sum
-to an array. This array should be created at the beginning of the method.
+For this method, you'll print a 1D array in a single line. Each element should be separated by a tab. You will use this method to print the 
+results of your answers in other methods.
+
+- Input: a 1D array (int[]).
+- Action: Display each element of the array separated by a tab.
+
+For instance, if the input array is {15, 83, 52, 36, 44}, the output on the console should look like:
+15	83	52	36	44
+
+### 2) print2dArray
+
+Your task here is to print the entire 2D array such that it appears in a matrix-like format. Each element should be separated by a tab, and each row should start on a new line. This will provide a clear visual representation of your 2D array.
+
+- Input: a 2D array (int[][]).
+- Action: Display each row of the array on a new line with its elements separated by a tab.
+
+For the example 2D array that was given should print out:
+
+15	83	52	36	44
+99	32	78	64	9
+45	58	12	67	38
+3	96	89	71	27
+24	7	91	0	5
+
+
+### 3) rowSum
+
+Compute the sum of elements in each row. Your method should return a 1D array where each element represents the sum of a particular row from the input 2D array.
 
 - Input: a 2D array (`int[][]`).
 - Output: a **new** 1D array (`int[]`) where each value is the total sum of the corresponding row in the 2D array.
 
 For instance, if the first row has `{15, 83, 52, 36, 44}`, its sum is `230`. Therefore, the first value in the returned array should be `230`.
 
-### 2) columnSum
+### 4) columnSum
 
-Imagine dripping paint from the top of each column in the grid to the bottom. This method calculates how much paint is in each column.
+This time, compute the sum of elements in each column. Return a 1D array where each element denotes the sum of a specific column from the input 2D array.
 
 - Input: a 2D array (`int[][]`).
 - Output: a **new** 1D array (`int[]`) where each value is the total sum of the corresponding column in the 2D array.
 
 For example, for the first column `{15, 99, 45, 3, 24}`, the sum is `186`. Thus, the first value in the returned array should be `186`.
 
-### 3) diagonalSums
+### 5) diagonalSums
 
-In this method, think about drawing two lines on your grid. One line goes from the top-left to the bottom-right, and the other from the top-right to the bottom-left. 
+For a square 2D array, there are two main diagonals. Calculate the sum for each diagonal and return the results in a 1D array. The first element should represent the sum of the main diagonal (top-left to bottom-right), and the second element should represent the sum of the secondary diagonal (top-right to bottom-left).
 
 - Input: a 2D array (`int[][]`).
 - Output: a **new** 1D array (`int[]`) with just two values. The first is the sum of the main diagonal (top-left to bottom-right) and the second is the sum of the secondary diagonal (top-right to bottom-left).
 
 The main diagonal is {15, 32, 12, 71, 5} with a sum of 135. The secondary diagonal is {44, 64, 12, 96, 24} with a sum of 240. Therefore, the returned array should be {135, 240}.
 
-### 4) traverseBackwards
+### 6) traverseBackwards
 
-Imagine you took a photo of your grid and then flipped it horizontally and vertically. This method should return your 2D array looking like that flipped photo.
+Create a new 2D array that represents the original array but in reverse order. Both the rows and the elements within those rows should be in reverse order.
 
 - Input: a 2D array (`int[][]`).
 - Output: a **new** 2D array where both the rows and the values within each row are in reverse order compared to the original.
