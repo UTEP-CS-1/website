@@ -103,5 +103,5 @@ Imagine you took a photo of your grid and then flipped it horizontally and verti
 | Coding style and use of comments         |        15 |
 | **_Total_**                              | **_100_** |
 
-
+The deadline is as posted on Gradescope. Assignments will be accepted up to three days late (72 hours) and will have scores reduced by 10% for each day (24 hours) of tardiness.
 
