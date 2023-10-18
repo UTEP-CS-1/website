@@ -63,8 +63,7 @@ Consider the example 2D array (This is given to you in the starter code):
 </pre>
 ### 1) print1dArray
 
-For this method, you'll print a 1D array in a single line. Each element should be separated by a tab. You will use this method to print the 
-results of your answers in other methods.
+For this method, you'll print a 1D array in a single line. Each element should be separated by a tab using \t. You will use this method to print the results of your answers in other methods.
 
 - Input: a 1D array (int[]).
 - Action: Display each element of the array separated by a tab.
@@ -117,7 +116,7 @@ For a square 2D array, there are two main diagonals. Calculate the sum for each 
 
 The main diagonal is {15, 32, 12, 71, 5} with a sum of 135. The secondary diagonal is {44, 64, 12, 96, 24} with a sum of 240. Therefore, the returned array should be {135, 240}.
 
-### 6) traverseBackwards
+### 6) traverseReverse
 
 Create a new 2D array that represents the original array but in reverse order. Both the rows and the elements within those rows should be in reverse order.
 
