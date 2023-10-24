@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Office Hours
+title: Office hours
 description: The weekly office hours schedule.
 ---
 
