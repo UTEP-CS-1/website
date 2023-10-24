@@ -59,7 +59,7 @@ We have already covered factorial in lecture and the worksheet. We will now re-i
 
 ## main method
 
-In the `main` method, you will need to call upon each of your methods using test cases you create as demonstrated on the worksheet. In total, you will have 12 tests that look like `System.out.println(foo(3));`. They should cover these functions that you will implement in the sections below (add these tests as you work through each corresponding part):
+In the `main` method, you will need to call upon each of your methods using test cases you create as demonstrated on the worksheet. In total, you will have 12 tests that look like `System.out.println(foo(1, 2));`. They should cover these functions that you will implement in the sections below (add these tests as you work through each corresponding part):
 
 1. `powerLoop` with a base case input.
 2. `powerLoop` with a non-base case input (to test the recursive call).
