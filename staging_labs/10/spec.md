@@ -27,6 +27,8 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 
 ## Before you begin
 
+There is a worksheet to be completed during class today. Please submit it by the end of lab section.
+
 Download the starter code zip file, unzip it / extract all, and place the contents in cs1 under a new lab8 directory. Open it in Sublime.
 
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../lab10_starter.zip" class="btn btn-green">Download starter code</a>
@@ -135,7 +137,8 @@ In `divideRecursive`, implement this using recursion (loops may not be used).
 
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
-| Coding exercise correctness              |        84 |
+| Worksheet				  	               |        21 |
+| Coding exercise correctness              |        63 |
 | Coding exercise code style and formatting|        16 |
 | **_Total_**                              | **_100_** |
 
