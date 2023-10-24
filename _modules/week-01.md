@@ -56,3 +56,9 @@ Oct 18/19
 : **Lab**{: .label .label-purple } 
 [Lab 9: 2D Arrays](labs/9/spec)
 : 
+
+Oct 25/26
+: **Lab**{: .label .label-purple } 
+[Lab 10: Recursion](labs/10/spec)
+: 
+
