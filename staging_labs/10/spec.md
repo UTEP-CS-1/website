@@ -54,12 +54,26 @@ Your submission will be scored based upon:
 
 Today we will be revisiting the implementations of some of the Calculator methods you implemented in lab 8. You will be asked to implement them using iteration and again using recursion.
 
-The Scanner portions are not necessary to be replicated in this lab. You are free to format your `main` method however you like. You are recommended to call upon each method with various inputs in the `main` method to check their correctness.
-
-{: .tip }
-Don't forget to check base cases for correctness as well!
-
 We have already covered factorial in lecture and the worksheet. We will now re-implement some of the other operations.
+
+## main method
+
+In the `main` method, you will need to call upon each of your methods using test cases you create as demonstrated on the worksheet. In total, you will have 12 tests that look like `System.out.println(foo(3));`. They should cover these functions that you will implement in the sections below (add these tests as you work through each corresponding part):
+
+1. `powerLoop` with a base case input.
+2. `powerLoop` with a non-base case input (to test the recursive call).
+3. `powerRecursive` with a base case input.
+4. `powerRecursive` with a non-base case input.
+5. `multiplyLoop` with a base case input.
+6. `multiplyLoop` with a non-base case input.
+7. `multiplyRecursive`, base case input.
+8. `multiplyRecursive`, non-base case input.
+9. `divideLoop`, base case.
+10. `divideLoop`, non-base case.
+11. `divideRecursive`, base case.
+12. `divideRecursive`, non-base case.
+
+The Scanner portions from the previous Calculator lab are not necessary to be replicated in this lab.
 
 ## 1) power
 
