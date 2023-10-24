@@ -41,6 +41,7 @@ Your submission will be scored based upon:
 - Correctly following the instructions and completing the code accordingly.
 - Variables should be given descriptive names. Variable names should be written in camel case (all letters lowercase except the first letter of each word besides the first word), whichIsLikeThis.
 - Comments are used to label sections and keep your code organized.
+- The required test cases are added to the main method.
 
 {: .warning }
 > The following are not allowed:
