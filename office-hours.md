@@ -2,6 +2,7 @@
 layout: page
 title: Office hours
 description: The weekly office hours schedule.
+nav_order: 2
 ---
 
 # Office Hours

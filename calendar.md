@@ -3,6 +3,7 @@ layout: page
 title: Lab calendar
 permalink: /:path/
 description: Listing of lab course modules and topics.
+nav_order: 1
 ---
 
 # Lab calendar
