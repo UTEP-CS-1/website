@@ -2,6 +2,7 @@
 layout: page
 title: Gradescope debug guide
 description: A guide on how to debug Gradescope autograder issues.
+nav_order: 3
 ---
 
 # Gradescope debug guide
