@@ -6,6 +6,7 @@ nav_order: 3
 ---
 
 # Gradescope debug guide
+{:.no_toc}
 
 - TOC
 {:toc}
