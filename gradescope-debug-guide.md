@@ -7,6 +7,7 @@ nav_order: 3
 
 # Gradescope debug guide
 
+- TOC
 {:toc}
 
 Along the way as you work on an assignment (such as after each question or part), it is recommended to submit what you have on Gradescope to check your progress. Especially for Comprehensive Labs, this lets you check that you are on the right track early on, and also serves as a backup of your work in case your computer has issues later on just before the deadline.
