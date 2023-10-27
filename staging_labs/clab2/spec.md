@@ -41,11 +41,14 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 
 ## Deliverables
 
-- Check-in meeting: you will demonstrate progress towards milestones during an upcoming lab day. Details to be announced.
-- Final demo meeting: you will be emailed an assigned appointment time in which you will demonstrate the full functionality of your completed project to a TA, IA, or Googler, and answer questions about the code.
-- Code submission on Gradescope: a single file containing all your code, called `Filters.java`, with the class inside named as `Filters`.
+{: .important }
+Please review the check-in process in particular, as it has been improved and is a bit different from Comprehensive Lab 1.
 
-Code submission will be accepted up to three days late (72 hours) and will have scores reduced by 10% for each day (24 hours) of tardiness.
+- Check-in **submission**: By the check-in deadline posted on Gradescope, submit your progress on the project so far (`Filters.java`) to the designated "Comprehensive Lab 2 CHECK-IN" assignment. To receive full credit, you will need to complete and pass the automated test case for the **Grayscale filter**. If you believe you have completed it but the automated test case does not pass, you must raise the issue with your TA in advance so that you are able to get the test case to pass before the deadline. See the [Gradescope debugging guide](../../gradescope-debug-guide) for tips.
+- Final demo meeting: this will be the same as for Comprehensive Lab 1. There will be an announcement posted with a Calendly link where you will need to sign up for an appointment time in which you will demonstrate the full functionality of your completed project to a Googler and answer questions about the code.
+- Final code submission on Gradescope: a single file containing all your code: `Filters.java`.
+
+Check-in code submission and the final code submission will be accepted up to three days late (72 hours) and will have scores reduced by 10% for each day (24 hours) of tardiness.
 
 ## Objective
 
@@ -96,6 +99,10 @@ You are also provided with two methods in `Utilities.java`:
 
 
 ### Grayscale
+
+{: .important }
+This grayscale filter is due by the check-in deadline. No additional credit will be awarded for this filter in the final code submisson.
+
 Converting a color image into grayscale image involves repeating 3 steps for each pixel of the image.
 
 1. Get the RGB value of the pixel.
@@ -218,10 +225,31 @@ public static void applyMirror(BufferedImage img) {
 {: .tip }
 You will need to use an additional variable to temporarily store a pixel value to help you "swap" two pixels.
 
+### Custom
+
+{: .note }
+The custom filter is required for credit.
+
+Design and implement your own image filter!
+
+Implement this in `Filters.java` inside of
+
+```java
+public static void applyCustom(BufferedImage img) {
+	...
+}
+```
+
+After the project deadline, each lab section will vote on the custom filters created. The best custom filter for each category will receive **5 extra credit points**:
+
+- Most creative
+- Most technically complex
+- Most professional / realistic filter (like one that you may find on social media or in professional photo editing)
+
 ### Blur
 
 {: .note }
-The blur filter is extra credit and not required otherwise.
+The blur filter is for **5 extra credit points** and is not required otherwise.
 
 We will now create a filter to blur an image. For each color channel (Red, Green, and Blue) and for each pixel in the image:
 
@@ -244,17 +272,6 @@ public static void applyBlur(BufferedImage img) {
 
 ![](dog.png) ![](dog_blur.png)
 
-
-### Custom
-Design and implement your own image filter!
-
-Implement this in `Filters.java` inside of
-
-```java
-public static void applyCustom(BufferedImage img) {
-	...
-}
-```
 
 ## FAQ
 
