@@ -57,7 +57,7 @@ You will implement several methods, each of which applies a filter effect on an 
 
 There is also a `Utilities.java` file containing helpful methods that you will need to call upon in `Filters.java`. However, do not modify or submit `Utilities.java`. To call the methods from this other file, write `Utilities.getRGBArray(`...`)`, for example.
 
-<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab2_starter.zip" class="btn btn-green">Download corpus.csv file</a>
+<a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab2_starter.zip" class="btn btn-green">Download starter code</a>
 
 ## Background
 
@@ -69,7 +69,7 @@ For example, here's a close-up of the pixels that make up a scene from the Pixar
 
 ![](pixels.png)
 
-In an image each pixel has x and y coordinates in the image. The origin (0,0) is at the upper-left corner. y increases going down, x increases going right. This coordinate system in the following code we'll be using to work with images using java will be read an image into a 2D array. 
+In an image, each pixel has x and y coordinates. The origin (0,0) is at the upper-left corner. y increases going down, x increases going right. By establishing this coordinate system, we can now work with images in Java using 2D arrays.
 
 ![](coord.png)
 
@@ -100,9 +100,11 @@ Converting a color image into grayscale image involves repeating 3 steps for eac
 
 1. Get the RGB value of the pixel.
 
-2. Find the average of the R, G, and B values: $\frac{R+G+B}{3}$
+2. Find the average of the R, G, and B values: $$\frac{R+G+B}{3}$$
 
 3. Replace the R, G, and B value of the pixel with the average calculated in step 2.
+
+![](grayscale_explain.png)
 
 Implement this in `Filters.java` inside of
 
@@ -217,6 +219,9 @@ public static void applyMirror(BufferedImage img) {
 You will need to use an additional variable to temporarily store a pixel value to help you "swap" two pixels.
 
 ### Blur
+
+{: .note }
+The blur filter is extra credit and not required otherwise.
 
 We will now create a filter to blur an image. For each color channel (Red, Green, and Blue) and for each pixel in the image:
 
