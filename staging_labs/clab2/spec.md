@@ -230,7 +230,7 @@ You will need to use an additional variable to temporarily store a pixel value t
 {: .note }
 The custom filter is required for credit.
 
-Design and implement your own image filter!
+Design and implement your own image filter! Note that the filtered image should remain the same dimension measurements as the original image.
 
 Implement this in `Filters.java` inside of
 
