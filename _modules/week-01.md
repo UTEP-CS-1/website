@@ -62,3 +62,7 @@ Oct 25/26
 [Lab 10: Recursion](labs/10/spec)
 : 
 
+Oct 30/31
+: **Comprehensive Lab**{: .label .label-green } 
+[Comprehensive Lab 2: Image filters](clabs/2/spec)
+:  
