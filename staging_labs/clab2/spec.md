@@ -72,7 +72,7 @@ For example, here's a close-up of the pixels that make up a scene from the Pixar
 
 ![](pixels.png)
 
-In an image, each pixel has x and y coordinates. The origin (0,0) is at the upper-left corner. y increases going down, x increases going right. By establishing this coordinate system, we can now work with images in Java using 2D arrays.
+In an image, each pixel has a row and column coordinate. The origin (0,0) is at the upper-left corner. As usuao, rows increase going down, columns increase going right. By establishing this coordinate system, we can now work with images in Java using 2D arrays.
 
 ![](coord.png)
 
@@ -86,16 +86,16 @@ We'll be reading our images into a BufferedImage class. Once we the image stored
 
 You are also provided with two methods in `Utilities.java`:
 
-1. getRGBArray when provided with the x and y coordinates of the pixel that you want and the image you want to pull the pixel from will return an array of length 3 [R, G, B]. This array will have the RGB values for that pixel. 
+1. getRGBArray when provided with the `row` and `col` coordinates of the pixel that you want and the image you want to pull the pixel from will return an array of length 3 [R, G, B]. This array will have the RGB values for that pixel. 
 
-	`getRGBArray(int x, int y, BufferedImage img)`
+	`getRGBArray(int row, int col, BufferedImage img)`
 
 	Call it in `Filters.java` like this: `Utilities.getRGBArray(x, y, img);`
 
 
-2. setRGB when provided with an array of length 3 [R, G, B] , the x and y coordinates of the pixel that you want to set and the image you want to set the pixel of will update that pixel in that image with the [R, G, B] color you provided.
+2. setRGB when provided with an array of length 3 [R, G, B] , the `row` and `col` coordinates of the pixel that you want to set and the image you want to set the pixel of will update that pixel in that image with the [R, G, B] color you provided.
 
-	`setRGB(int[] rgb, int x, int y, BufferedImage img)`
+	`setRGB(int[] rgb, int row, int col, BufferedImage img)`
 
 
 ### Grayscale
