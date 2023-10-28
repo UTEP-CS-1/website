@@ -72,7 +72,7 @@ For example, here's a close-up of the pixels that make up a scene from the Pixar
 
 ![](pixels.png)
 
-In an image, each pixel has a row and column coordinate. The origin (0,0) is at the upper-left corner. As usuao, rows increase going down, columns increase going right. By establishing this coordinate system, we can now work with images in Java using 2D arrays.
+In an image, each pixel has a row and column coordinate. The origin (0,0) is at the upper-left corner. As usual, rows increase going down, columns increase going right. By establishing this coordinate system, we can now work with images in Java using 2D arrays.
 
 ![](coord.png)
 
