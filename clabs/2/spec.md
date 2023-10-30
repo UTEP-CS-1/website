@@ -150,7 +150,7 @@ System.out.println("Before:");
 System.out.println(Utilities.getRGBArray(0, 0, img)[0]);
 System.out.println(Utilities.getRGBArray(0, 0, img)[1]);
 System.out.println(Utilities.getRGBArray(0, 0, img)[2]);
-// 93 43 47
+// 92 40 27
 
 applyGrayscale(img);
 
@@ -158,7 +158,7 @@ System.out.println("After:");
 System.out.println(Utilities.getRGBArray(0, 0, img)[0]);
 System.out.println(Utilities.getRGBArray(0, 0, img)[1]);
 System.out.println(Utilities.getRGBArray(0, 0, img)[2]);
-// 58 58 58
+// 53 53 53
 ```
 
 ### Norak
