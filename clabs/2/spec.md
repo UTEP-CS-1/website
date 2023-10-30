@@ -82,7 +82,7 @@ Implement each of the filters described below in the corresponding "apply" metho
 
 We will use Java's File, ImageIO, BufferedImage libraries to help us read in an image. This section of the code is already done for you as an example in the `main` method, but it's good for you to look through and understand what is going on. You should modify this `main` method code to help you test your filters.
 
-We'll be reading our images into a BufferedImage class. Once we the image stored in the img variable, it's time for us to find the dimensions of the image. For this we will create two integer variable width and height and use the getWidth() and getHeight() method to get the width and height of the image respectively. You'll need the width and height of the image to help you iterate over each pixel.
+We'll be reading our images into a BufferedImage class. Once we the image stored in the `img` variable, it's time for us to find the dimensions of the image. For this we will create two integer variable width and height and use the `img.getWidth()` and `img.getHeight()` method to get the width and height of the image respectively. You'll need the width and height of the image to help you iterate over each pixel.
 
 You are also provided with two methods in `Utilities.java`:
 
