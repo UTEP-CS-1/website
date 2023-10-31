@@ -81,7 +81,7 @@ First try and make sense of the result. In most cases, the input will be shown o
 
 2. That the **actual** output is what is produced by the current version of your code. Compile and run your code to reproduce the scenario; are you able to? Do you know why your code is producing this incorrect output? Trace your code to find out.
 
-![](gradescope_fail.png)
+![](assets/images/gradescope_fail.png)
 
 ### Do not hardcode
 
