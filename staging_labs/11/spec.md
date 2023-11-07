@@ -27,7 +27,9 @@ Before you begin, make sure to read this entire document thoroughly. If any inst
 
 ## Before you begin
 
+In this lab, you will be implementing everything from scratch. There is no starter code provided. Create a new Java project in your IDE (such as Eclipse or IntelliJ) and create a new Java class named `Car`. All the exercises will build upon this class. Make sure to create a separate `Main` class for testing your `Car` class.
 
+Ensure that your working directory is organized and that your Java files are correctly named and saved in the appropriate project folder.
 
 ## Exercises
 
