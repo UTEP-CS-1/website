@@ -27,16 +27,22 @@ Before you begin, make sure to read this entire document thoroughly. If any inst
 
 ## Before you begin
 
-In this lab, you will be implementing everything from scratch. There is no starter code provided. Create a new Java project in your IDE (such as Eclipse or IntelliJ) and create a new Java class named `Car`. All the exercises will build upon this class. Make sure to create a separate `Main` class for testing your `Car` class.
+In this lab, you will be implementing everything from scratch. There is no starter code provided. You shall create a Main.java and Car.java file in the same directory.
 
 Ensure that your working directory is organized and that your Java files are correctly named and saved in the appropriate project folder.
+
+{: .warning }
+> The following are not allowed:
+> - Java libraries, except the standard ones.
+> - External Java frameworks or libraries.
+> - Use of generative AI (e.g., ChatGPT).
 
 ## Exercises
 
 ### 1) Completing the Car Class
 Complete the `Car` class by adding the following:
 - Private attributes: `make`, `model`, `year`, `color`, `isElectric`, `cost`.
-- A default constructor that initializes all attributes to default values.
+- A default constructor.
 - A constructor that accepts `make`, `model`, and `year`.
 - Public getter methods for each attribute.
 - Public setter methods for each attribute.
@@ -51,7 +57,7 @@ In your `Main` class:
 
 ### 4) Modifying Car Attributes
 For one of the `Car` objects you created:
-- Use the private setter methods to change at least two attributes.
+- Use the public setter methods to change at least two attributes.
 - Display the updated information.
 
 ### 5) User-Input Car Creation
@@ -66,11 +72,7 @@ Your submission will be graded based on:
 - Use of descriptive variable names and adherence to Java naming conventions.
 - Clear organization and use of comments.
 
-{: .warning }
-> The following are not allowed:
-> - Java libraries, except the standard ones.
-> - External Java frameworks or libraries.
-> - Use of generative AI (e.g., ChatGPT).
+
 
 ## Grading criteria
 
