@@ -57,7 +57,7 @@ In your `Main` class:
 
 ### 4) Modifying Car Attributes
 For one of the `Car` objects you created:
-- Use the public setter methods to change at least two attributes.
+- Use the public setter methods to change at least two attributes in the main class.
 - Display the updated information.
 
 ### 5) User-Input Car Creation
