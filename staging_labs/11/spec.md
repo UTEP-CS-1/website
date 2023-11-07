@@ -39,7 +39,7 @@ Complete the `Car` class by adding the following:
 - A default constructor that initializes all attributes to default values.
 - A constructor that accepts `make`, `model`, and `year`.
 - Public getter methods for each attribute.
-- Private setter methods for each attribute.
+- Public setter methods for each attribute.
 
 ### 2) Display Method
 Implement a `displayInfo` method in the `Car` class that prints all the car's details in a readable format.
