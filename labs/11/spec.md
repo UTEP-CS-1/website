@@ -53,6 +53,7 @@ Implement a `displayInfo` method in the `Car` class that prints all the car's de
 ### 3) Creating Cars Using Constructors
 In your `Main` class:
 - Create at least two `Car` objects using different constructors.
+- Use setters to set the rest of the attributes.
 - Display their information using the `displayInfo` method.
 
 ### 4) Modifying Car Attributes
