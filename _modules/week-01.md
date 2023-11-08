@@ -66,3 +66,8 @@ Oct 30/31
 : **Comprehensive Lab**{: .label .label-green } 
 [Comprehensive Lab 2: Image filters](clabs/2/spec)
 :  
+
+Nov 8/9
+: **Lab**{: .label .label-purple } 
+[Lab 11: Classes & Objects](labs/11/spec)
+: 
