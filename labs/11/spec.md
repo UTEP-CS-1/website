@@ -61,7 +61,7 @@ For one of the `Car` objects you created:
 - Display the updated information.
 
 ### 5) User-Input Car Creation
-Implement a method in the `Main` class that:
+Implement a method in the `Main` class called `userCar` that:
 - Asks the user to input car details, including make, model, year, color, electric status, and cost.
 - Creates a `Car` object using this input.
 - Displays the new car's information.
