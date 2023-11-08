@@ -42,7 +42,7 @@ Ensure that your working directory is organized and that your Java files are cor
 ### 1) Completing the Car Class
 Complete the `Car` class by adding the following:
 - Private attributes: `make`, `model`, `year`, `color`, `isElectric`, `cost`.
-- A default constructor.
+- A no-args constructor (This is a constructor that takes in no parameters).
 - A constructor that accepts `make`, `model`, and `year`.
 - Public getter methods for each attribute.
 - Public setter methods for each attribute.
