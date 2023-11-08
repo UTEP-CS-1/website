@@ -44,8 +44,8 @@ Complete the `Car` class by adding the following:
 - Private attributes: `make`, `model`, `year`, `color`, `isElectric`, `cost`.
 - A no-args constructor (This is a constructor that takes in no parameters).
 - A constructor that accepts `make`, `model`, and `year`.
-- Public getter methods for each attribute.
-- Public setter methods for each attribute.
+- Public getter methods for each attribute. Make sure the naming convention follows `getMake`, `getModel` etc...
+- Public setter methods for each attribute. Make sure the naming convention follows `setMake`, `setModel` etc...
 
 ### 2) Display Method
 Implement a `displayInfo` method in the `Car` class that prints all the car's details in a readable format.
