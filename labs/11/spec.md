@@ -64,7 +64,9 @@ For one of the `Car` objects you created:
 Implement a method in the `Main` class called `createUserCar` that:
 - Asks the user to input car details, including make, model, year, color, electric status, and cost.
 - Creates a `Car` object using this input.
+- Return the Car object you create.
 - Displays the new car's information.
+
 
 This method should prompt the user for each attribute, create a new `Car` instance with these attributes, and then display the car's details using the `displayInfo` method.
 
