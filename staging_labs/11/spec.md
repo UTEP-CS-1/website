@@ -68,15 +68,14 @@ Implement a method in the `Main` class that:
 
 This method should prompt the user for each attribute, create a new `Car` instance with these attributes, and then display the car's details using the `displayInfo` method.
 
+
+## Grading criteria
+
 Your submission will be graded based on:
 - Whether the code compiles and runs.
 - Adherence to the instructions and correct completion of the tasks.
 - Use of descriptive variable names and adherence to Java naming conventions.
 - Clear organization and use of comments.
-
-
-
-## Grading criteria
 
 | **Criteria**                             |   **Pts** |
 |:-----------------------------------------|----------:|
