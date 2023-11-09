@@ -277,5 +277,9 @@ public static void applyBlur(BufferedImage img) {
 
 This section will be updated with answers to Frequently Asked Questions as they arise.
 
-(none yet)
+### I'm getting the wrong calculation on blur
+
+![](blur_error.png)
+
+For the blur filter, a common mistake is not computing the average of the original pixel values. The pixel value should not be updated inside of the same double for loop where the averages are computed, as subsequent iterations will take the average using already clobbered values.
 
