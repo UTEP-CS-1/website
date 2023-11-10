@@ -160,7 +160,7 @@ A getter method called `getAnswer` that takes no arguments and returns the answe
 
 ### guess
 
-A method called `guess` that takes in a single `String guessWord` representing the guess that the player would like to make.
+A method called `guess` that takes in a single `String guessWord` representing the guess that the player would like to make and updates the `WordleGame` instance attributes accordingly (nothing will be returned--void return type).
 
 Assume that `guessWord` is valid:
 
@@ -187,6 +187,20 @@ For example, if the secret answer is "towel" and the user guesses "lower", the c
 - w - "green" (correct letter and position)
 - e - "green" (correct letter and position)
 - r - "red" (not in the answer)
+
+You will need to use the `charAt` method of the String class. Here is the [documentation for this method](https://docs.oracle.com/javase%2F7%2Fdocs%2Fapi%2F%2F/java/lang/String.html#charAt(int)). Example of how to use it:
+
+```java
+String s = "argon";
+
+System.out.println(s.charAt(0));  // 'a'
+System.out.println(s.charAt(1));  // 'r'
+System.out.println(s.charAt(2));  // 'g'
+System.out.println(s.charAt(3));  // 'o'
+System.out.println(s.charAt(4));  // 'n'
+
+char c = s.charAt(0);  // c receives the value 'a'
+```
 
 {: .note }
 **Extra credit:** For **TBA** points of extra credit, disregard the above simplifying assumption that duplicate letters can be disallowed in both the answer and in guesses. Read [this blog article](https://nerdschalk.com/wordle-same-letter-twice-rules-explained-how-does-it-work/) explaining the details of how duplicate letters should be handled and implement it.
