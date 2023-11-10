@@ -70,7 +70,7 @@ Do not change the names or method signatures given by the starter code, as the a
 Do not hardcode items from the word lists into your code (i.e. do not copy+paste words from the txt files into your Java file). Your code should function properly even if new words are added or words are removed from the txt files.
 
 {: .tip }
-Test these functions by calling them with some sample arguments and `System.out.println` the results. You can do this either temporarily in the main method of `Main.java`, or you can create a `Tester.java` file with a main method that you can modify and keep as needed, but won't submit.
+Test these functions by calling them with some sample arguments and `System.out.println` the results. We have provided `Tester.java`  with a main method that you can modify to add print statements to test your code.
 
 ### checkInDictionary
 
@@ -89,6 +89,9 @@ Examples:
 
 {: .note }
 This method will be used to only allow Wordle guesses that are real words.
+
+{: .tip }
+Before moving on, check your implementation using `Tester.java`.
 
 ### getAnswerForPuzzleNumber
 
@@ -112,7 +115,7 @@ You may assume that $$0 \le$$ `puzzleNumber` $$<$$ the number of lines (words) i
 This method will be used to select the answer word that the player will try to guess. At the start of each game, the player will pick which puzzle number they want to play.
 
 {: .tip }
-Before moving on, test what your wrote locally and then submit to Gradescope and verify that all WordBank test cases pass.
+Before moving on, check your implementation using `Tester.java` and then submit to Gradescope and verify that all WordBank test cases pass.
 
 ## WordleLetter
 
@@ -141,7 +144,7 @@ In `WordleLetter.java` make additions so that it has all of the following:
 Make sure to follow the above instructions carefully! For any names written in `code font`, you must use the same name (including spelling and capitilization; do not abbreviate or use similar names). The autograder will not be able to grade your submission otherwise.
 
 {: .tip }
-Before moving on, test what your wrote locally and then submit to Gradescope and verify that all WordleLetter test cases pass.
+Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleLetter test cases pass.
 
 ## WordleGame
 
@@ -215,6 +218,9 @@ Specifically, for each guess made so far, if for example the `WordleLetter` inst
 Example output:
 
 ![](toString.png)
+
+{: .tip }
+Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleGame test cases pass.
 
 ## Main
 
