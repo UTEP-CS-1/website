@@ -60,6 +60,9 @@ This lab aims to strengthen your understanding of game logic, user input handlin
 ### 1) Game Logic
 - Implement the logic for players to take turns to make moves.
 - Ensure moves are `valid` and within the board.
+{: .note }
+An invalid move would be one that is a. outside of the board or b. a space that is already taken
+
 - Determine and announce the game's outcome `win`, `draw`, or `ongoing`.
 
 ### 2) Creating the TicTacToe Class:
@@ -73,9 +76,9 @@ Complete the `TicTacToe` class by adding the following:
 Moves are made using coordinates given from the user. If user X inputs `[2,3]` then an X should be placed in our array at `[1,2]`. 
 
 ### 3) Enhancing the Game
-- Implement a method `changePlayer()` to alternate turns between players.
+- Implement a method `changePlayer()` to alternate turns between players. Player should alternate after a move is performed. 
 - Add logic to handle invalid moves and prevent overwriting existing moves.
-- Optional: Implement a score tracker to keep count of wins for each player.
+
 
 ### 4) User Experience Improvements
 - Provide clear instructions for inputting moves.
