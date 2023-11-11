@@ -60,7 +60,7 @@ This lab aims to strengthen your understanding of game logic, user input handlin
 ### 1) Game Logic
 - Implement the logic for players to take turns to make moves.
 - Ensure moves are `valid` and within the board.
-- Determine and announce the game's outcome `win`, `draw`, or `ongoing`).
+- Determine and announce the game's outcome `win`, `draw`, or `ongoing`.
 
 ### 2) Creating the TicTacToe Class:
 Complete the `TicTacToe` class by adding the following:
@@ -68,8 +68,9 @@ Complete the `TicTacToe` class by adding the following:
 - Method for intiializing the board
 - Displaying the board
 - Making a move
+
 {: .tip }
-Moves are made using coordinates given from the user. If user X inputs 2,3 then an X should be placed in our array at [1,2]. 
+Moves are made using coordinates given from the user. If user X inputs `[2,3]` then an X should be placed in our array at `[1,2]`. 
 
 ### 3) Enhancing the Game
 - Implement a method `changePlayer()` to alternate turns between players.
