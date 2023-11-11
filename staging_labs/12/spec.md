@@ -60,7 +60,7 @@ This lab aims to strengthen your understanding of game logic, user input handlin
 ### 1) Game Logic
 - Implement the logic for players to take turns to make moves.
 - Ensure moves are `valid` and within the board.
-{: .note }
+{: .tip }
 An invalid move would be one that is a. outside of the board or b. a space that is already taken
 
 - Determine and announce the game's outcome `win`, `draw`, or `ongoing`.
