@@ -59,6 +59,9 @@ The starter code contains several Java files you will need to modify, as well as
 
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab3_starter.zip" class="btn btn-green">Download starter code</a>
 
+{: .tip }
+Throughout this project, you are free to add additional helper methods, constructors, or attributes to help you achieve the requirements. This can be an effective strategy to help you stay organized, to prevent redundant calculations, or to avoid repeating logic. Make sure though, that (1) the required method and constructor signatures are still present and left unchanged, and that (2) your program works as required when these required methods/constructors are invoked. The idea is that the required methods and constructors are known as the interface of your class; these are what code using your class should know about and use. Any additional methods or constructors are the behind-the-scenes inner workings of your class, that may be called by the body of your required ones as part of your implementation, but users typically should not be expected to interact with them. Thus, you may make these additional methods and constructors `private` to signify this.
+
 ## WordBank
 
 The `WordBank` class will provide utilities that take care of scanning our word lists to provide any necessary information our word-based game will need. In `WordBank.java`, implement the following methods as described below.
