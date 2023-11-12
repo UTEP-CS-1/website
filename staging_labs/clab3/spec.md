@@ -212,9 +212,9 @@ char c = s.charAt(0);  // c receives the value 'a'
 
 A method called `isGameOver` that takes no arguments and returns a `boolean` indicating whether the game has ended.
 
-The game is over if either:
+The game is over if EITHER (at least one of these conditions is met):
 
-- the player has successfully guessed the correct answer
+- the player has successfully guessed the correct answer OR
 - 6 guesses have already been made and the player did not win
 
 ### isGameWin
