@@ -118,7 +118,7 @@ You may assume that $$0 \le$$ `puzzleNumber` $$<$$ the number of lines (words) i
 This method will be used to select the answer word that the player will try to guess. At the start of each game, the player will pick which puzzle number they want to play.
 
 {: .tip }
-Before moving on, check your implementation using `Tester.java` and then submit to Gradescope and verify that all WordBank test cases pass. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
+Before moving on, check your implementation using `Tester.java` and then submit to Gradescope and verify that all "0 - Word Bank" test cases pass. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
 
 ## WordleLetter
 
@@ -146,8 +146,12 @@ In `WordleLetter.java` make additions so that it has all of the following:
 {: .important }
 Make sure to follow the above instructions carefully! For any names written in `code font`, you must use the same name (including spelling and capitilization; do not abbreviate or use similar names). The autograder will not be able to grade your submission otherwise.
 
+### Tester.java
+
+Check your implementation by adding print statements to test your `WordleLetter` code in `Tester.java`. Clearly label with comments this section of the `Tester.java` file as tests for `WordleLetter`; make sure all methods you wrote are exercised by these tests. These tests will be manually reviewed and graded.
+
 {: .tip }
-Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleLetter test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
+In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all "1 - Wordle Letter" test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## WordleGame
 
@@ -239,8 +243,12 @@ Example output:
 
 ![](toString.png)
 
+### Tester.java
+
+Check your implementation by adding print statements to test your `WordleGame` code in `Tester.java`. Clearly label with comments this section of the `Tester.java` file as tests for `WordleGame`; make sure all methods you wrote are exercised by these tests. These tests will be manually reviewed and graded.
+
 {: .tip }
-Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleGame test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
+In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all "2 - Wordle Game" (and "4 - Extra credit", if applicable) test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## Main
 
@@ -303,6 +311,13 @@ The method should:
 
 - Print exactly the phrase `"You won!"` if the game was won.
 - Print exactly the phrase `"The answer was "` followed by the answer if the game was not won.
+
+### Tester.java
+
+Check your implementation by adding print statements to test your `Main` code in `Tester.java`. Clearly label with comments this section of the `Tester.java` file as tests for `Main`; make sure all methods you wrote are exercised by these tests. These tests will be manually reviewed and graded.
+
+{: .tip }
+In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all "3 - Main" test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## FAQ
 
