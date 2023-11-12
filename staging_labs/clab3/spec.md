@@ -144,7 +144,7 @@ In `WordleLetter.java` make additions so that it has all of the following:
 Make sure to follow the above instructions carefully! For any names written in `code font`, you must use the same name (including spelling and capitilization; do not abbreviate or use similar names). The autograder will not be able to grade your submission otherwise.
 
 {: .tip }
-Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleLetter test cases pass.
+Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleLetter test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## WordleGame
 
@@ -234,7 +234,7 @@ Example output:
 ![](toString.png)
 
 {: .tip }
-Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleGame test cases pass.
+Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleGame test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## Main
 
