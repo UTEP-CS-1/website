@@ -151,7 +151,10 @@ Before moving on, check your implementation by adding print statements to test y
 
 ## WordleGame
 
-The `WordleGame` class will represent a single game. In `WordleGame.java` make additions so that it has all of the following (you may add attributes or more methods to help you implement these if you like).
+The `WordleGame` class will represent a single game. In `WordleGame.java` make additions so that it has all of the following (you will need to add attributes or more methods to help you implement these).
+
+{: .tip }
+Consider introducing an attribute that is a 2D array (6 rows, 5 cols) of `WordleLetter`s, to track and represent the guesses made so far in the game.
 
 ### Constructor
 
