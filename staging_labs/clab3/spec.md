@@ -70,7 +70,7 @@ Do not change the names or method signatures given by the starter code, as the a
 Do not hardcode items from the word lists into your code (i.e. do not copy+paste words from the txt files into your Java file). Your code should function properly even if new words are added or words are removed from the txt files.
 
 {: .tip }
-Test these functions by calling them with some sample arguments and `System.out.println` the results. We have provided `Tester.java`  with a main method that you can modify to add print statements to test your code.
+Test these functions by calling them with some sample arguments and `System.out.println` the results. We have provided `Tester.java`  with a main method that you can modify to add print statements to test your code. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
 
 ### checkInDictionary
 
@@ -91,7 +91,7 @@ Examples:
 This method will be used to only allow Wordle guesses that are real words.
 
 {: .tip }
-Before moving on, check your implementation using `Tester.java`.
+Before moving on, check your implementation using `Tester.java`. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
 
 ### getAnswerForPuzzleNumber
 
@@ -115,7 +115,7 @@ You may assume that $$0 \le$$ `puzzleNumber` $$<$$ the number of lines (words) i
 This method will be used to select the answer word that the player will try to guess. At the start of each game, the player will pick which puzzle number they want to play.
 
 {: .tip }
-Before moving on, check your implementation using `Tester.java` and then submit to Gradescope and verify that all WordBank test cases pass.
+Before moving on, check your implementation using `Tester.java` and then submit to Gradescope and verify that all WordBank test cases pass. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
 
 ## WordleLetter
 
@@ -144,7 +144,7 @@ In `WordleLetter.java` make additions so that it has all of the following:
 Make sure to follow the above instructions carefully! For any names written in `code font`, you must use the same name (including spelling and capitilization; do not abbreviate or use similar names). The autograder will not be able to grade your submission otherwise.
 
 {: .tip }
-Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleLetter test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
+Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleLetter test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## WordleGame
 
@@ -234,7 +234,7 @@ Example output:
 ![](toString.png)
 
 {: .tip }
-Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleGame test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
+Before moving on, check your implementation by adding print statements to test your code in `Tester.java`. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all WordleGame test cases pass. If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
 ## Main
 
@@ -245,6 +245,9 @@ Prompt for user input only when directed, no more, no less! If your code request
 
 {: .important }
 Do not instantiate any more scanners via `new Scanner(System.in)`. Use the single scanner that has already been created and is available through the method argument.
+
+{: .tip}
+In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Main` to execute the program starting from the `main()` method in `Main.java`.
 
 ### startGame
 
