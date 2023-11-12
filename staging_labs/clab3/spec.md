@@ -162,7 +162,7 @@ A getter method called `getAnswer` that takes no arguments and returns the answe
 
 A method called `guess` that takes in a single `String guessWord` representing the guess that the player would like to make and updates the `WordleGame` instance attributes accordingly (nothing will be returned--void return type).
 
-Assume that `guessWord` is valid:
+You may assume that when this method is called, that `guessWord` will be valid. This means that you may assume here that `guessWord` obeys all of the following:
 
 - it is an allowed word in the dictionary
 - it is of length 5
