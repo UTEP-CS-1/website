@@ -219,7 +219,7 @@ char c = s.charAt(0);  // c receives the value 'a'
 ```
 
 {: .note }
-**Extra credit:** For **TBA** points of extra credit, disregard the above simplifying assumption that duplicate letters can be disallowed in both the answer and in guesses. Read [this blog article](https://nerdschalk.com/wordle-same-letter-twice-rules-explained-how-does-it-work/) explaining the details of how duplicate letters should be handled and implement it.
+**Extra credit:** For 5 points of extra credit, disregard the above simplifying assumption that duplicate letters can be disallowed in both the answer and in guesses. Read [this blog article](https://nerdschalk.com/wordle-same-letter-twice-rules-explained-how-does-it-work/) explaining the details of how duplicate letters should be handled and implement it.
 
 ### isGameOver
 
