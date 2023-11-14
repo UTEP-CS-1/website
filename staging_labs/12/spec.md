@@ -91,7 +91,7 @@ After a valid move is made, call the method changePlayer() to allow the other pl
 - Implement a feature in the `TicTacToe` class to keep track of the number of wins for each player ('X' and 'O').
 - Add methods to retrieve and display the current win counts after each game.
 
-### 5) Extra Credit:
+### 6) Extra Credit:
 - Implement a feature to give personalized message to user when winning (ie. "Congrats Dr. Mejia on your 3rd win!")
 
 ## TicTacToe.java
