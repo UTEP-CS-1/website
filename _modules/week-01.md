@@ -72,3 +72,8 @@ Nov 8/9
 [Lab 11: Classes & Objects](labs/11/spec)
 : 
 
+Nov 15/16
+: **Lab**{: .label .label-purple } 
+[Lab 12: Application of Knowledge](labs/12/spec)
+: 
+
