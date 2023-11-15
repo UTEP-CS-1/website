@@ -99,11 +99,11 @@ After a valid move is made, call the method changePlayer() to allow the other pl
 - public void displayBoard() -> prints the gameboard (2D array)
 - public boolean makeMove(int row,int col) 
     - given the CORRECT row and col, print into your board the player piece (X or O)
-    - return true if valid movement was made, or false if it cannot be made 
-    - ie. if player x has piece on 2,2, and player o tries 2,2 return false
-- public boolean checkWin() -> checks rows, columns, & diagonals returns true if win found, false if not
+    - return `true` if valid movement was made, or `false` if it cannot be made 
+    - ie. if player x has piece on 2,2, and player o tries 2,2 return `False`
+- public boolean checkWin() -> checks rows, columns, & diagonals returns `True` if win found, false if not
 - public void changePlayer() ->  method used to change from player X to 0
-- public boolean isBoardFull() -> returns true if -'s left in array 
+- public boolean isBoardFull() -> returns `False` if -'s left in array 
 - public char getCurrentPlayer() -> Method to distinguish which player is making the move
 ## Main.java
 - Scanner for user input on moves
