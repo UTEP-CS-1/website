@@ -66,7 +66,7 @@ The starter code contains several Java files you will need to modify, as well as
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../clab3_starter.zip" class="btn btn-green">Download starter code</a>
 
 {: .tip }
-Throughout this project, you are free to add additional helper methods, constructors, or attributes to help you achieve the requirements. This can be an effective strategy to help you stay organized, to prevent redundant calculations, or to avoid repeating logic. Make sure though, that (1) the required method and constructor signatures are still present and left unchanged, and that (2) your program works as required when these required methods/constructors are invoked. The idea is that the required methods and constructors are known as the interface of your class; these are what code using your class should know about and use. Any additional methods or constructors are the behind-the-scenes inner workings of your class, that may be called by the body of your required ones as part of your implementation, but users typically should not be expected to interact with them. Thus, you may make these additional methods and constructors `private` to signify this.
+Throughout this project, you are free to add additional helper methods, constructors, or attributes to help you achieve the requirements. This can be an effective strategy to help you stay organized, to prevent redundant calculations, or to avoid repeating logic. Make sure though, that (1) the required method and constructor signatures are still present and left unchanged, and that (2) your program works as required when these required methods/constructors are invoked. The idea is that the required methods and constructors are known as the interface of your class; these methods and constructors are the ones that other code that uses your class should know about and use. Any additional methods or constructors are the behind-the-scenes inner workings of your class, that may be called by the body of your required ones as part of your implementation, but users typically should not be expected to interact with them. You can make these additional methods and constructors `private` to signify this.
 
 ## WordBank
 
@@ -130,12 +130,24 @@ Before moving on, check your implementation using `Tester.java` and then submit 
 
 The `WordleLetter` class will represent a single letter placed on our Wordle game board. Each of up to 6 turns, the player will guess another 5-letter word, and each of these letters will be represented as instances of  `WordleLetter`.
 
-The `toString()` method is already provided to you in the starter code. Do not modify this method. This method specifies the formatting and allows `WordleLetter` instances to be printed:
+### toString (provided)
+
+The `toString()` method for the `WordleLetter` class is already provided to you in the starter code. Do not modify this method. This method specifies our intended formatted String representation of our class. Here the provided code's String representation of a `WordleLetter` is the letter, surrounded by a single space before and after it, and with special characters surrounding it that change the color of the letter to be either green, yellow, or red based upon what the `color` attribute value is. By including this method called `toString()` in our class, it allows `WordleLetter` instances to be printed via `System.out.println`:
 
 ```java
 WordleLetter w = ...;
 System.out.println(w);
 ```
+
+Examples:
+
+![](r.png)
+
+![](o.png)
+
+![](e.png)
+
+### (to implement)
 
 In `WordleLetter.java` make additions so that it has all of the following:
 
@@ -241,13 +253,16 @@ If the player has guessed the correct word, it must be the latest guess. It cann
 
 ### toString
 
-A method called `toString` that takes no arguments and returns a `String` representing the current game board state exactly as described. This will be each guess made so far, each ending with a newline.
+A method called `toString` in the `WordleGame` class that takes no arguments and returns a `String` representing the current game board state exactly as described. This will be each guess made so far, each ending with a newline.
 
 Specifically, for each guess made so far, if for example the `WordleLetter` instances were called `l1`, `l2`, `l3`, `l4`, `l5`, then we should add to the result String: `l1 + l2 + l3 + l4 + l5 + "\n"`. Notice how no additional spaces are added between the letters, and it ends with a newline character. Also note that the `toString()` of each `WordleLetter` is automatically invoked to add formatted letters to the combined String here.
 
 Example output:
 
 ![](toString.png)
+
+{: .note }
+There are two `toString` methods: this `toString` method in the `WordleGame` class and the provided `toString` in the `WordleLetter` class. As mentioned above, since in `WordleGame`'s `toString` we will be concatenating together `WordleLetter` instances into a String, when we do this it automatically calls `WordleLetter`'s `toString` method in order to add it into the String.
 
 ### Tester.java
 
