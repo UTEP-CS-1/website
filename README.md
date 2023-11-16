@@ -2,6 +2,7 @@
 layout: home
 title: Just the Class
 nav_exclude: true
+search_exclude: true
 seo:
   type: Course
   name: Just the Class
