@@ -85,7 +85,7 @@ callouts:
     color: green
   recall:
     title: Recall
-    color: blue
+    color: pink
 callouts_level: loud
 callouts_opacity: 0.7
 
