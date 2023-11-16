@@ -81,6 +81,10 @@ Do not hardcode items from the word lists into your code (i.e. do not copy+paste
 {: .tip }
 Test these functions by calling them with some sample arguments and `System.out.println` the results. We have provided `Tester.java`  with a main method that you can modify to add print statements to test your code. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
 
+{: .recall }
+> - Scanner file reading from [Lab 3 - word count](../../../labs/3/spec/#word).
+> - String equality checking from [CLab 1](../../../clabs/1/spec).
+
 ### checkInDictionary
 
 The provided method signature is:
@@ -164,6 +168,10 @@ In `WordleLetter.java` make additions so that it has all of the following:
 {: .important }
 Make sure to follow the above instructions carefully! For any names written in `code font`, you must use the same name (including spelling and capitilization; do not abbreviate or use similar names). The autograder will not be able to grade your submission otherwise.
 
+{: .recall }
+> - String equality checking from [CLab 1](../../../clabs/1/spec).
+> - Classes, constructors, getters, and setters from [Lab 11](../../../labs/11/spec).
+
 ### Tester.java
 
 Check your implementation by adding print statements to test your `WordleLetter` code in `Tester.java`. Clearly label with comments this section of the `Tester.java` file as tests for `WordleLetter`; make sure all methods you wrote are exercised by these tests. These tests will be manually reviewed and graded.
@@ -171,12 +179,20 @@ Check your implementation by adding print statements to test your `WordleLetter`
 {: .tip }
 In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all "1 - Wordle Letter" test cases pass (on the "Comprehensive Lab 3 CHECK-IN" assignment submission). If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
+{: .recall }
+> - Testing and debugging techniques from [Lab 2](../../../labs/2/spec), [Lab 10 - main method](../../../labs/10/spec/#main-method), [Clab 2](../../../clabs/2/spec).
+
 ## WordleGame
 
 The `WordleGame` class will represent a single game. In `WordleGame.java` make additions so that it has all of the following (you will need to add attributes or more methods to help you implement these).
 
 {: .tip }
 Consider introducing an attribute that is a 2D array (6 rows, 5 cols) of `WordleLetter`s, to track and represent the guesses made so far in the game.
+
+{: .recall }
+> - Classes, constructors, getters, and setters from [Lab 11](../../../labs/11/spec).
+> - 2D arrays from [Lab 9](../../../labs/9/spec).
+> - Loops from [Lab 3](../../../labs/3/spec), [Lab 4](../../../labs/4/spec), [Lab 5](../../../labs/5/spec).
 
 ### Constructor
 
@@ -188,7 +204,7 @@ A getter method called `getAnswer` that takes no arguments and returns the answe
 
 ### guess
 
-A method called `guess` that takes in a single `String guessWord` representing the guess that the player would like to make and updates the `WordleGame` instance attributes accordingly (nothing will be returned--void return type).
+A method called `guess` that takes in a single `String guessWord` representing the guess that the player would like to make and updates the `WordleGame` instance attributes accordingly (nothing will be returned; the return type is `void`).
 
 You may assume that when this method is called, that `guessWord` will be valid. This means that you may assume here that `guessWord` obeys all of the following:
 
@@ -231,13 +247,13 @@ char c = s.charAt(0);  // c receives the value 'a'
 ```
 
 {: .note }
-**Extra credit:** For 5 points of extra credit, disregard the above simplifying assumption that duplicate letters can be disallowed in both the answer and in guesses. Read [this blog article](https://nerdschalk.com/wordle-same-letter-twice-rules-explained-how-does-it-work/) explaining the details of how duplicate letters should be handled and implement it.
+**Extra credit:** For 5 points of extra credit, disregard the above simplifying assumption that duplicate letters can be disallowed in both the answer and in guesses. Read [this blog article](https://nerdschalk.com/wordle-same-letter-twice-rules-explained-how-does-it-work/) explaining the details of how duplicate letters should be handled. Incorporate these additional requirements into your `guess` method implementation.
 
 ### isGameOver
 
 A method called `isGameOver` that takes no arguments and returns a `boolean` indicating whether the game has ended.
 
-The game is over if EITHER (at least one of these conditions is met):
+The game is over if **at least one** of these conditions is met:
 
 - the player has successfully guessed the correct answer OR
 - 6 guesses have already been made and the player did not win
@@ -271,6 +287,9 @@ Check your implementation by adding print statements to test your `WordleGame` c
 {: .tip }
 In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all "2 - Wordle Game" (and "4 - Extra credit", if applicable) test cases pass (on the "Comprehensive Lab 3" assignment submission). If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
 
+{: .recall }
+> - Testing and debugging techniques from [Lab 2](../../../labs/2/spec), [Lab 10 - main method](../../../labs/10/spec/#main-method), [Clab 2](../../../clabs/2/spec).
+
 ## Main
 
 `Main.java` serves as the entry-point into our code and facilitates user interaction with the game. The `main()` method is completed already and should not be modified. Implement the remaining methods as described below.
@@ -283,6 +302,10 @@ Do not instantiate any more scanners via `new Scanner(System.in)`. Use the singl
 
 {: .tip}
 In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Main` to execute the program starting from the `main()` method in `Main.java`.
+
+{: .recall }
+> - Static methods from [Lab 7](../../../labs/7/spec).
+> - Scanner user input from [Lab 1](../../../labs/1/spec).
 
 ### startGame
 
@@ -339,6 +362,9 @@ Check your implementation by adding print statements to test your `Main` code in
 
 {: .tip }
 In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`. Once you have tested it throughly locally, submit to Gradescope and verify that all "3 - Main" test cases pass (on the "Comprehensive Lab 3 CHECK-IN" assignment submission). If the autograder crashes, it is likely due to the method signatures described above not being defined correctly.
+
+{: .recall }
+> - Testing and debugging techniques from [Lab 2](../../../labs/2/spec), [Lab 10 - main method](../../../labs/10/spec/#main-method), [Clab 2](../../../clabs/2/spec).
 
 ## FAQ
 

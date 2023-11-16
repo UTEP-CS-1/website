@@ -83,6 +83,9 @@ callouts:
   tip:
     title: Tip
     color: green
+  recall:
+    title: Recall
+    color: blue
 callouts_level: loud
 callouts_opacity: 0.7
 
