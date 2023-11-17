@@ -85,7 +85,7 @@ Test these functions by calling them with some sample arguments and `System.out.
 > - Scanner file reading from [Lab 3 - word count](../../../labs/3/spec/#word).
 > - String equality checking from [CLab 1](../../../clabs/1/spec).
 
-### getAnswerForPuzzleNumber
+### getAnswerForPuzzleNumber (provided)
 
 {: .note }
 This first method is already implemented for you in the starter code. Read this description and the code, as you will need to use it in later parts. You should not modify it.
@@ -129,7 +129,9 @@ The `WordleLetter` class will represent a single letter placed on our Wordle gam
 
 ### toString (provided)
 
-The `toString()` method for the `WordleLetter` class is already provided to you in the starter code. Do not modify this method. This method specifies our intended formatted String representation of our class. Here the provided code's String representation of a `WordleLetter` is the letter, surrounded by a single space before and after it, and with special characters surrounding it that change the color of the letter to be either green, yellow, or red based upon what the `color` attribute value is. By including this method called `toString()` in our class, it allows `WordleLetter` instances to be printed via `System.out.println`:
+The `toString()` method for the `WordleLetter` class is already provided to you in the starter code. **Remove the comment markers to add this code in.** Besides that, do not modify this method. 
+
+This method specifies our intended formatted String representation of our class. Here the provided code's String representation of a `WordleLetter` is the letter, surrounded by a single space before and after it, and with special characters surrounding it that change the color of the letter to be either green, yellow, or red based upon what the `color` attribute value is. By including this method called `toString()` in our class, it allows `WordleLetter` instances to be printed via `System.out.println`:
 
 ```java
 WordleLetter w = ...;
@@ -242,6 +244,25 @@ char c = s.charAt(0);  // c receives the value 'a'
 {: .note }
 **Extra credit:** For 5 points of extra credit, disregard the above simplifying assumption that duplicate letters can be disallowed in both the answer and in guesses. Read [this blog article](https://nerdschalk.com/wordle-same-letter-twice-rules-explained-how-does-it-work/) explaining the details of how duplicate letters should be handled. Incorporate these additional requirements into your `guess` method implementation.
 
+### getNumberGuessesSoFar
+
+A getter method called `getNumberGuessesSoFar` that takes no arguments and returns an `int` indicating how many guesses have been made in the game so far.
+
+Examples:
+
+- When the game has just started and no guesses have been made, `getNumberGuessesSoFar()` should return `0`.
+- After the first guess has been made, `getNumberGuessesSoFar()` should return `1`.
+
+### getGuess
+
+A getter method called `getGuess` that takes a single `int guessNumber` argument and returns an ARRAY of the 5 `WordleLetter`s that represent the spelled out word that was made in the specified `guessNumber`. The `guessNumber` should count starting from `0`.
+
+Examples:
+
+- After the first guess has been made, `guessNumber(0)` should return the `WordleLetters` spelling out that first word guessed.
+- After the second guess has been made, `guessNumber(1)` should return the `WordleLetters` spelling out that second word guessed.
+- After the last (sixth) guess has been made, `guessNumber(5)` should return the `WordleLetters` spelling out that last word guessed.
+
 ### isGameOver
 
 A method called `isGameOver` that takes no arguments and returns a `boolean` indicating whether the game has ended.
@@ -260,18 +281,25 @@ The player has won the game if the latest guess was the answer word. If the game
 {: .note }
 If the player has guessed the correct word, it must be the latest guess. It cannot be the case that the correct word was guessed but there were more guesses that were wrong, because the game should have ended immediately after the correct answer was successfully guessed.
 
-### toString
+### toString (provided)
 
-A method called `toString` in the `WordleGame` class that takes no arguments and returns a `String` representing the current game board state exactly as described. This will be each guess made so far, each ending with a newline.
+The `toString()` method for the `WordleGame` class is also already provided to you in the starter code. **Remove the comment markers to add this code in.** Besides that, do not modify this method.
 
-Specifically, for each guess made so far, if for example the `WordleLetter` instances were called `l1`, `l2`, `l3`, `l4`, `l5`, then we should add to the result String: `l1 + l2 + l3 + l4 + l5 + "\n"`. Notice how no additional spaces are added between the letters, and it ends with a newline character. Also note that the `toString()` of each `WordleLetter` is automatically invoked to add formatted letters to the combined String here.
+Note that there are two `toString` methods provided to you: this `toString` method in the `WordleGame` class and the `toString` in the `WordleLetter` class.
+
+This `toString` method in the `WordleGame` class provides the String representation of the current game board state. This will be each guess made so far, each on a new line. Read the code and the comments to understand how it works.
+
+By including this method called `toString()` in our class, it allows `WordleGame` instances to be printed via `System.out.println`:
+
+```java
+WordleGame g = ...;
+System.out.println(g);
+```
 
 Example output:
 
 ![](toString.png)
 
-{: .note }
-There are two `toString` methods: this `toString` method in the `WordleGame` class and the provided `toString` in the `WordleLetter` class. As mentioned above, since in `WordleGame`'s `toString` we will be concatenating together `WordleLetter` instances into a String, when we do this it automatically calls `WordleLetter`'s `toString` method in order to add it into the String.
 
 ### Tester.java
 
