@@ -85,6 +85,23 @@ Test these functions by calling them with some sample arguments and `System.out.
 > - Scanner file reading from [Lab 3 - word count](../../../labs/3/spec/#word).
 > - String equality checking from [CLab 1](../../../clabs/1/spec).
 
+### getAnswerForPuzzleNumber
+
+{: .note }
+This first method is already implemented for you in the starter code. Read this description and the code, as you will need to use it in later parts. You should not modify it.
+
+This method returns the `puzzleNumber`-eth word in the file `answers.txt`.
+
+Examples:
+
+- `WordBank.getAnswerForPuzzleNumber(0)` returns `bused` since that is the 0th word in the file.
+- `WordBank.getAnswerForPuzzleNumber(0)` again still returns `bused`.
+- `WordBank.getAnswerForPuzzleNumber(1)` returns `plumb` since that is the 1st word in the file (counting the lines using 0-indexing).
+
+It assumes that the input is limited to $$0 \le$$ `puzzleNumber` $$<$$ the number of lines (words) in `answers.txt`.
+
+This method will be used to select the answer word that the player will try to guess. At the start of each game, the player will pick which puzzle number they want to play.
+
 ### checkInDictionary
 
 The provided method signature is:
@@ -102,30 +119,6 @@ Examples:
 
 {: .note }
 This method will be used to only allow Wordle guesses that are real words.
-
-{: .tip }
-Before moving on, check your implementation using `Tester.java`. In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
-
-### getAnswerForPuzzleNumber
-
-The provided method signature is:
-
-```java
-public static String getAnswerForPuzzleNumber(int puzzleNumber) throws FileNotFoundException {
-```
-
-Implement the method such that it returns the `puzzleNumber`th word in the file `answers.txt`.
-
-Examples:
-
-- `WordBank.getAnswerForPuzzleNumber(0)` returns `bused`.
-- `WordBank.getAnswerForPuzzleNumber(0)` again still returns `bused`.
-- `WordBank.getAnswerForPuzzleNumber(1)` returns `plumb`.
-
-You may assume that $$0 \le$$ `puzzleNumber` $$<$$ the number of lines (words) in `answers.txt`.
-
-{: .note }
-This method will be used to select the answer word that the player will try to guess. At the start of each game, the player will pick which puzzle number they want to play.
 
 {: .tip }
 Before moving on, check your implementation using `Tester.java` and then submit to Gradescope and verify that all "0 - Word Bank" test cases pass (on the "Comprehensive Lab 3 CHECK-IN" assignment submission). In your terminal, run `javac *.java` to compile all the Java files at once, and then run `java Tester` to execute the program starting from the `main()` method in `Tester.java`.
