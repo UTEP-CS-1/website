@@ -77,3 +77,7 @@ Nov 15/16
 [Lab 12: Application of Knowledge](labs/12/spec)
 : 
 
+Nov 20/21
+: **Comprehensive Lab**{: .label .label-green } 
+[Comprehensive Lab 3: Wordle](clabs/3/spec)
+:  
