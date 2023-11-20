@@ -42,7 +42,6 @@ you. The office hours schedule is posted on the lab website and Blackboard.
 ## Deliverables
 
 - Check-in **submission**: By the check-in deadline posted on Gradescope, submit your progress on the project so far to the designated "Comprehensive Lab 3 CHECK-IN" assignment. To receive full credit, you will need to complete and pass ALL the automated test cases for **"Word Bank"** (`WordBank.java`) and **"Wordle Letter"** (`WordleLetter.java`). Also submit `Tester.java` completed with tests for these parts. If you believe you have completed it but the automated test case does not pass, you must raise the issue with your TA in advance so that you are able to get the test case to pass before the deadline. See the [Gradescope debugging guide](../../../gradescope-debug-guide) for tips.
-- Final demo meeting: this will be the same as for the previous Comprehensive Labs. There will be an announcement posted with a Calendly link where you will need to sign up for an appointment time in which you will demonstrate the full functionality of your completed project to a Googler and answer questions about the code.
 - Final code submission on Gradescope. You should submit the following files:
 	- `WordBank.java`
 	- `WordleLetter.java`
