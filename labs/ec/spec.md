@@ -127,7 +127,7 @@ Your program should do the following:
 - The program will display a menu with 3 options to the users
 
 
-## MENU OPTIONS:
+### MENU OPTIONS:
 
 ### View Movies
 - This menu option will print all movie attributes, excluding concessions information
