@@ -126,15 +126,18 @@ Your program should do the following:
 - Initialize an array of Movie objects by reading a csv file. This file is provided as movie-info.csv
 - The program will display a menu with 3 options to the users
 
-	### View Movies
- 	- This menu option will print all movie attributes, excluding concessions information
-     
-	### View Concessions
-	- This menu option will print all movie names and concessions information
 
-	### Purchase tickets and concessions
-	- This menu option will allow users to select a movie and then purchase tickets for that movie
-   		- If the user attempts to buy more tickets than are available at the movie it will print an error message and ask them to try again
+## MENU:
+
+### View Movies
+- This menu option will print all movie attributes, excluding concessions information
+     
+### View Concessions
+- This menu option will print all movie names and concessions information
+
+### Purchase tickets and concessions
+- This menu option will allow users to select a movie and then purchase tickets for that movie
+  	- If the user attempts to buy more tickets than are available at the movie it will print an error message and ask them to try again
     
 	- CineMejia also allows users to reserve concession items before the movie starts. Once the system knows the ticket purchase is valid, 			it will then ask the user if they would like to buy concessions
 		- If the user selects yes, it will prompt them with another menu that shows the price of the concessions and the associated 			item. This menu will loop until the user tells the system they no longer want any concession items
