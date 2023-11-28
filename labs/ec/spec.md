@@ -81,21 +81,21 @@ The Movie class should also have the following methods:
 
 - Default constructor and other constructors you believe you need
 
-### - ticketsAreAvailable:
-	- This method takes in the number of tickets the user requested to purchase
-	- This method should return true if there are enough tickets available for purchase at this movie, and false otherwise.
+### ticketsAreAvailable:
+- This method takes in the number of tickets the user requested to purchase
+- This method should return true if there are enough tickets available for purchase at this movie, and false otherwise.
     
-### - purchaseTickets:
+### purchaseTickets:
   - This method should take in the number of tickets that will be purchased.
   - This method should adjust the number of tickets available after purchase.
-  - 	For example, if there are 40 tickets available and the user purchases 5 tickets, there should be 35 tickets available. The user should not be allowed to purchase more tickets than there are available.
+  	- For example, if there are 40 tickets available and the user purchases 5 tickets, there should be 35 tickets available. The user should 	not be allowed to purchase more tickets than there are available.
   - This method should return the amount spent. Otherwise, return 0.0.
-  - 	For example, if I buy 5 tickets at $20.0 each, the method should return 100.0.
+  	- For example, if I buy 5 tickets at $20.0 each, the method should return 100.0.
         
-### - printMovieDetails:
+### printMovieDetails:
   - This method should print the main attributes of a movie (movieName, genre, ticketPrice, and numTicketsAvailable) in a nicely formatted way.
 
-### - printConcessionDetails:
+### printConcessionDetails:
   - This method should print the remaining attributes of a movie (popcornPrice, sodaPrice, and candyPrice) in a nicely formatted way
 
 
@@ -112,12 +112,12 @@ The FileReader class should also have the following methods:
 
 - public Setter and Getter for the file name attribtue
     
-- countNumMovies:
+### countNumMovies:
   -This method should return the number of movies in the file. (In other words it should count the number of rows in the provided file. Do not count the column name row in the csv.)
     
-- readMovies:
+### readMovies:
   - readMovies should read the file given to the class by filename and then it should return an array of type Movie that holds all movies from the file.
-  - 	HINT: The size of your array should be the output you get from countNumMovies 
+  - HINT: The size of your array should be the output you get from countNumMovies 
 
 
 ## Main.java
@@ -127,15 +127,15 @@ Your program should do the following:
 - Initialize an array of Movie objects by reading a csv file. This file is provided as movie-info.csv
 - The program will display a menu with 3 options to the users
 
-	- View Movies
- 		- This menu option will print all movie attributes, excluding concessions information
+	### View Movies
+ 	- This menu option will print all movie attributes, excluding concessions information
      
-	- View Concessions
-		- This menu option will print all movie names and concessions information
+	### View Concessions
+	- This menu option will print all movie names and concessions information
 
-	- Purchase tickets and concessions
-		- This menu option will allow users to select a movie and then purchase tickets for that movie
-            	If the user attempts to buy more tickets than are available at the movie it will print an error message and ask them to try again
+	### Purchase tickets and concessions
+	- This menu option will allow users to select a movie and then purchase tickets for that movie
+   		- If the user attempts to buy more tickets than are available at the movie it will print an error message and ask them to try again
     
 	- CineMejia also allows users to reserve concession items before the movie starts. Once the system knows the ticket purchase is valid, 			it will then ask the user if they would like to buy concessions
 		- If the user selects yes, it will prompt them with another menu that shows the price of the concessions and the associated 			item. This menu will loop until the user tells the system they no longer want any concession items
@@ -146,18 +146,18 @@ Your program should do the following:
        
 	- If the user enters a valid credit card number, it will take them back to the starting menu
 
-- public static void main(String[] args)
+### public static void main(String[] args)
   - Your main method.
     
-- isCreditCardNumberValid:
+### isCreditCardNumberValid:
   - This method takes a String as a credit card number and it will return true if the credit card number is valid (is 16 digits long and contains only numbers) and false otherwise
-  - 	HINT: Use the built in Character.isDigit() method when determining if a credit card number is valid. Feel free to research this built-in method 
+  - HINT: Use the built in Character.isDigit() method when determining if a credit card number is valid. Feel free to research this built-in method 
         
-- viewAllMovieNames:
+### viewAllMovieNames:
   - This method will take an array of movies as a parameter and will iterate through each movie and print all of their info using the printMovieDetails() method in the Movie class.
 
 
-- viewAllConcessions:
+### viewAllConcessions:
   - This method will take an array of movies as a parameter and will iterate through each movie and print all of the info of their concessions using the printConcessionDetails() method in the Movie class.
 
 
