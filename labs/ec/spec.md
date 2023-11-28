@@ -126,19 +126,19 @@ Your program should do the following:
 
 1. Initialize an array of Movie objects by reading a csv file. This file is provided as movie-info.csv
 2. The program will display a menu with 3 options to the users
-    a. View Movies
-        i. This menu option will print all movie attributes, excluding concessions information
-    b. View Concessions
-        i. This menu option will print all movie names and concessions information
-    c. Purchase tickets and concessions
-        i. This menu option will allow users to select a movie and then purchase tickets for that movie
-            If the user attempts to buy more tickets than are available at the movie it will print an error message and ask them to try again
-        ii. CineMejia also allows users to reserve concession items before the movie starts. Once the system knows the ticket purchase is valid, it will then ask the user if they would like to buy concessions
-            If the user selects yes, it will prompt them with another menu that shows the price of the concessions and the associated item. This menu will loop until the user tells the system they no longer want any concession items
-            If the user enters an incorrect name, the system will ask them to enter it again
-        iii. Once the user is done selecting concession items, the system will ask the user to enter a credit card
-            If the user enters an invalid credit card number, then the program will also print an error message and ask the user to try again
-            If the user enters a valid credit card number, it will take them back to the starting menu
+	- View Movies
+ 		- This menu option will print all movie attributes, excluding concessions information
+     	-View Concessions
+		-This menu option will print all movie names and concessions information
+	- Purchase tickets and concessions
+		- This menu option will allow users to select a movie and then purchase tickets for that movie
+            	If the user attempts to buy more tickets than are available at the movie it will print an error message and ask them to try again
+	- CineMejia also allows users to reserve concession items before the movie starts. Once the system knows the ticket purchase is valid, 		it will then ask the user if they would like to buy concessions
+		- If the user selects yes, it will prompt them with another menu that shows the price of the concessions and the associated 			item. This menu will loop until the user tells the system they no longer want any concession items
+		- If the user enters an incorrect name, the system will ask them to enter it again
+	- Once the user is done selecting concession items, the system will ask the user to enter a credit card
+   		- If the user enters an invalid credit card number, then the program will also print an error message and ask the user to try 			again
+	- If the user enters a valid credit card number, it will take them back to the starting menu
 
 - public static void main(String[] args)
   - Your main method.
