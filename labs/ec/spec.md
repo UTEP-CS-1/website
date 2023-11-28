@@ -59,7 +59,7 @@ Your program will allow a user to purchase tickets for movies. For each movie, t
 Throughout this project, you are free to add additional helper methods, constructors, or attributes to help you achieve the requirements. This can be an effective strategy to help you stay organized, to prevent redundant calculations, or to avoid repeating logic. Make sure though, that (1) the required method and constructor signatures are still present and left unchanged, and that (2) your program works as required when these required methods/constructors are invoked. The idea is that the required methods and constructors are known as the interface of your class; these methods and constructors are the ones that other code that uses your class should know about and use. Any additional methods or constructors are the behind-the-scenes inner workings of your class, that may be called by the body of your required ones as part of your implementation, but users typically should not be expected to interact with them. You can make these additional methods and constructors `private` to signify this.
 
 
-Download the starter code zip file, unzip it / extract all, and place the contents in the `cs1` directory under a new `lab9` folder. Open it in Sublime.
+Download the starter code zip file, unzip it / extract all, and place the contents in the `cs1` directory under a new `ec` folder. Open it in Sublime.
 
 <a href="https://github.com/UTEP-CS-1/website/raw/main{{page.url|relative_url}}../ecLab_starter.zip" class="btn btn-green">Download starter code</a>
 
