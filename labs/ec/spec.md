@@ -160,7 +160,6 @@ Your program should do the following:
 ### viewAllMovieNames:
   - This method will take an array of movies as a parameter and will iterate through each movie and print all of their info using the printMovieDetails() method in the Movie class.
 
-
 ### viewAllConcessions:
   - This method will take an array of movies as a parameter and will iterate through each movie and print all of the info of their concessions using the printConcessionDetails() method in the Movie class.
 
