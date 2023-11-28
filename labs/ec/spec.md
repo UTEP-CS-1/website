@@ -130,8 +130,8 @@ Your program should do the following:
 	- View Movies
  		- This menu option will print all movie attributes, excluding concessions information
      
-     	- View Concessions
-		-This menu option will print all movie names and concessions information
+	- View Concessions
+		- This menu option will print all movie names and concessions information
 
 	- Purchase tickets and concessions
 		- This menu option will allow users to select a movie and then purchase tickets for that movie
