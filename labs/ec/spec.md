@@ -82,21 +82,21 @@ The Movie class should also have the following methods:
 - Default constructor and other constructors you believe you need
 
 - ticketsAreAvailable:
-    o This method takes in the number of tickets the user requested to purchase
-    o This method should return true if there are enough tickets available for purchase at this movie, and false otherwise.
+  - This method takes in the number of tickets the user requested to purchase
+  - This method should return true if there are enough tickets available for purchase at this movie, and false otherwise.
     
 - purchaseTickets:
-    o This method should take in the number of tickets that will be purchased.
-    o This method should adjust the number of tickets available after purchase. 
-        ▪ For example, if there are 40 tickets available and the user purchases 5 tickets, there should be 35 tickets available. The user should not be allowed to purchase more tickets than there are available.
-    o This method should return the amount spent. Otherwise, return 0.0.
-        ▪ For example, if I buy 5 tickets at $20.0 each, the method should return 100.0.
+  - This method should take in the number of tickets that will be purchased.
+  - This method should adjust the number of tickets available after purchase.
+  - 	For example, if there are 40 tickets available and the user purchases 5 tickets, there should be 35 tickets available. The user should not be allowed to purchase more tickets than there are available.
+  - This method should return the amount spent. Otherwise, return 0.0.
+  - 	For example, if I buy 5 tickets at $20.0 each, the method should return 100.0.
         
 - printMovieDetails:
-    o This method should print the main attributes of a movie (movieName, genre, ticketPrice, and numTicketsAvailable) in a nicely formatted way.
+  - This method should print the main attributes of a movie (movieName, genre, ticketPrice, and numTicketsAvailable) in a nicely formatted way.
 
 - printConcessionDetails:
-    o This method should print the remaining attributes of a movie (popcornPrice, sodaPrice, and candyPrice) in a nicely formatted way
+  - This method should print the remaining attributes of a movie (popcornPrice, sodaPrice, and candyPrice) in a nicely formatted way
 
 
 ## FileReader.java
@@ -113,11 +113,11 @@ The FileReader class should also have the following methods:
 - public Setter and Getter for the file name attribtue
     
 - countNumMovies:
-    o This method should return the number of movies in the file. (In other words it should count the number of rows in the provided file. Do not count the column name row in the csv.)
+  -This method should return the number of movies in the file. (In other words it should count the number of rows in the provided file. Do not count the column name row in the csv.)
     
 - readMovies:
-    o readMovies should read the file given to the class by filename and then it should return an array of type Movie that holds all movies from the file.
-    ▪ HINT: The size of your array should be the output you get from countNumMovies 
+  - readMovies should read the file given to the class by filename and then it should return an array of type Movie that holds all movies from the file.
+  - 	HINT: The size of your array should be the output you get from countNumMovies 
 
 
 ## Main
@@ -141,17 +141,17 @@ Your program should do the following:
             If the user enters a valid credit card number, it will take them back to the starting menu
 
 - public static void main(String[] args)
-    o Your main method.
+  - Your main method.
     
 - isCreditCardNumberValid:
-    o This method takes a String as a credit card number and it will return true if the credit card number is valid (is 16 digits long and contains only numbers) and false otherwise o 
-    ▪ HINT: Use the built in Character.isDigit() method when determining if a credit card number is valid. Feel free to research this built-in method 
+  - This method takes a String as a credit card number and it will return true if the credit card number is valid (is 16 digits long and contains only numbers) and false otherwise
+  - 	HINT: Use the built in Character.isDigit() method when determining if a credit card number is valid. Feel free to research this built-in method 
         
 - viewAllMovieNames:
-    o This method will take an array of movies as a parameter and will iterate through each movie and print all of their info using the printMovieDetails() method in the Movie class.
+  - This method will take an array of movies as a parameter and will iterate through each movie and print all of their info using the printMovieDetails() method in the Movie class.
 
 
 - viewAllConcessions:
-    o This method will take an array of movies as a parameter and will iterate through each movie and print all of the info of their concessions using the printConcessionDetails() method in the Movie class.
+  - This method will take an array of movies as a parameter and will iterate through each movie and print all of the info of their concessions using the printConcessionDetails() method in the Movie class.
 
 
