@@ -125,7 +125,7 @@ Your program should do the following:
 
 - Initialize a fileReader object of type FileReader that will take in the movie-info file.
 - Initialize an array of Movie objects by reading a csv file. This file is provided as movie-info.csv
-    - HINT: Utilize the readMovies() method on yout fileReader object to initialize your array.
+- HINT: Utilize the readMovies() method on yout fileReader object to initialize your array.
 - The program will display a menu with 3 options to the users
 
 
