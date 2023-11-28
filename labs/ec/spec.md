@@ -85,17 +85,17 @@ The Movie class should also have the following methods:
 	- This method takes in the number of tickets the user requested to purchase
 	- This method should return true if there are enough tickets available for purchase at this movie, and false otherwise.
     
-- purchaseTickets:
+### - purchaseTickets:
   - This method should take in the number of tickets that will be purchased.
   - This method should adjust the number of tickets available after purchase.
   - 	For example, if there are 40 tickets available and the user purchases 5 tickets, there should be 35 tickets available. The user should not be allowed to purchase more tickets than there are available.
   - This method should return the amount spent. Otherwise, return 0.0.
   - 	For example, if I buy 5 tickets at $20.0 each, the method should return 100.0.
         
-- printMovieDetails:
+### - printMovieDetails:
   - This method should print the main attributes of a movie (movieName, genre, ticketPrice, and numTicketsAvailable) in a nicely formatted way.
 
-- printConcessionDetails:
+### - printConcessionDetails:
   - This method should print the remaining attributes of a movie (popcornPrice, sodaPrice, and candyPrice) in a nicely formatted way
 
 
