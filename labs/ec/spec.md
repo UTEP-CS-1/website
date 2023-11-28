@@ -81,7 +81,7 @@ The Movie class should also have the following methods:
 
 - Default constructor and other constructors you believe you need
 
-- ticketsAreAvailable:
+### - ticketsAreAvailable:
 	- This method takes in the number of tickets the user requested to purchase
 	- This method should return true if there are enough tickets available for purchase at this movie, and false otherwise.
     
