@@ -81,3 +81,8 @@ Nov 20/21
 : **Comprehensive Lab**{: .label .label-green } 
 [Comprehensive Lab 3: Wordle](clabs/3/spec)
 :  
+
+Nov 28
+: **Extra Credit Lab**{: .label .label-purple } 
+[Extra Credit Lab](labs/ec/spec)
+:  
