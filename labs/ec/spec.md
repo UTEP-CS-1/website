@@ -124,8 +124,9 @@ The FileReader class should also have the following methods:
 
 Your program should do the following:
 
-1. Initialize an array of Movie objects by reading a csv file. This file is provided as movie-info.csv
-2. The program will display a menu with 3 options to the users
+- Initialize an array of Movie objects by reading a csv file. This file is provided as movie-info.csv
+- The program will display a menu with 3 options to the users
+
 	- View Movies
  		- This menu option will print all movie attributes, excluding concessions information
      	-View Concessions
