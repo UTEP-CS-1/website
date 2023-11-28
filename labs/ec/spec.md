@@ -120,7 +120,7 @@ The FileReader class should also have the following methods:
   - 	HINT: The size of your array should be the output you get from countNumMovies 
 
 
-## Main
+## Main.java
 
 Your program should do the following:
 
