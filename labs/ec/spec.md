@@ -75,7 +75,6 @@ The Movie class has the following private attributes:
 - sodaPrice
 - candyPrice
 
-
 The Movie class should also have the following methods:
 - Setters and Getters for each attribute
 
