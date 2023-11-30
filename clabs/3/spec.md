@@ -149,7 +149,7 @@ Examples:
 
 In `WordleLetter.java` make additions so that it has all of the following:
 
-1. Private attributes for a single `letter` and a `color` represented as a String.
+1. Private attributes for a single `letter` represented as a char and a `color` represented as a String.
 
 2. Exactly one constructor, which takes in a `letter` and sets it.
 
