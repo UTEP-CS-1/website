@@ -390,4 +390,10 @@ In your terminal, run `javac *.java` to compile all the Java files at once, and 
 
 This section will be updated with answers to Frequently Asked Questions as they arise.
 
-(none yet)
+- If the autograder results are not showing up or as you expect, please reach out to your lab TA or visit office hours in advance of the deadline. Getting the autograder working for your code is an important step as it offers a lot of guidance to help you with the project requirements. Also see the debugging guide: https://utepcs1.org/gradescope-debug-guide/
+
+- In WordleLetter, the letter attribute should be a character type, not a String.
+
+- Methods that involve file reading need to announce the possibility of a FileNotFoundException, which can happen if the file path specified does not exist. If you see an error that says `error: unreported exception FileNotFoundException; must be caught or declared to be thrown`, that means that method involves a file reading operation or calls upon another method that does. Add `throws FileNotFoundException` to the end of the method signature to fix this. See the examples in WordBank. Don't forget to import it if needed.
+
+- If you see a NullPointerException from calling WordleLetter methods (such as an autograder result), this means that the code is attempting to call a method on null, which is not allowed since non-static methods must be called on an object instance. Notably, this can happen with `color.equals(...)` if `color` is null when the method is called. Add code to either prevent this expression from being called in the null case, or rewrite the expression such that the String to the left of the `.equals` is guaranteed not to be null.
